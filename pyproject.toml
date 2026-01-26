@@ -1,0 +1,25 @@
+[project]
+name = "captcha-project"
+version = "0.1.0"
+description = "Webscraping robuste aux CAPTCHAs + API + modèle"
+requires-python = ">=3.12"
+dependencies = [
+  "playwright>=1.40",
+  "beautifulsoup4>=4.12",
+  "lxml>=5.0",
+  "pydantic>=2.6",
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "python-dotenv>=1.0",
+  "tenacity>=8.2",
+  "easyocr>=1.7.2",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.4",
+  "mypy>=1.8",
+  "ipykernel>=6.29",
+  "rich>=13.7",
+]
