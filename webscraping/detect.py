@@ -1,3 +1,13 @@
+"""
+detect.py – Detection automatique de CAPTCHAs sur une page web
+
+Analyse le DOM (iframes, selecteurs, mots-cles, URLs) pour identifier
+la presence et le type de CAPTCHA : reCAPTCHA, hCaptcha, Turnstile,
+CAPTCHA texte (image + input), ou page de challenge.
+Retourne un CaptchaDetectionResult avec le score, le provider,
+les localisations (widget, iframe, image, input) et les preuves.
+"""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, asdict

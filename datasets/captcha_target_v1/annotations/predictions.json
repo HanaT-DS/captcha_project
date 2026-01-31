@@ -1,0 +1,10022 @@
+[
+  {
+    "image": "captcha_0001.png",
+    "predicted_text": "lTTe",
+    "verified_text": "",
+    "confidence_avg": 0.4945,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          48.3,
+          15.4,
+          59.5,
+          51.9
+        ],
+        "conf": 0.3688
+      },
+      {
+        "char": "T",
+        "box": [
+          39.6,
+          13.2,
+          69.3,
+          51.7
+        ],
+        "conf": 0.9514
+      },
+      {
+        "char": "T",
+        "box": [
+          66.2,
+          5.9,
+          90.8,
+          45.1
+        ],
+        "conf": 0.2896
+      },
+      {
+        "char": "e",
+        "box": [
+          144.0,
+          19.1,
+          170.7,
+          47.4
+        ],
+        "conf": 0.3682
+      }
+    ]
+  },
+  {
+    "image": "captcha_0002.png",
+    "predicted_text": "Adl",
+    "verified_text": "",
+    "confidence_avg": 0.4244,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          67.3,
+          14.3,
+          105.5,
+          53.6
+        ],
+        "conf": 0.3161
+      },
+      {
+        "char": "d",
+        "box": [
+          149.5,
+          17.4,
+          178.2,
+          57.6
+        ],
+        "conf": 0.6791
+      },
+      {
+        "char": "l",
+        "box": [
+          162.7,
+          21.1,
+          176.7,
+          58.3
+        ],
+        "conf": 0.2779
+      }
+    ]
+  },
+  {
+    "image": "captcha_0003.png",
+    "predicted_text": "GTl",
+    "verified_text": "",
+    "confidence_avg": 0.4707,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          37.6,
+          20.9,
+          62.0,
+          48.6
+        ],
+        "conf": 0.6606
+      },
+      {
+        "char": "T",
+        "box": [
+          102.0,
+          7.7,
+          133.2,
+          46.8
+        ],
+        "conf": 0.4127
+      },
+      {
+        "char": "l",
+        "box": [
+          113.3,
+          10.7,
+          127.8,
+          46.1
+        ],
+        "conf": 0.3387
+      }
+    ]
+  },
+  {
+    "image": "captcha_0004.png",
+    "predicted_text": "I2T",
+    "verified_text": "",
+    "confidence_avg": 0.53,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          4.3,
+          18.4,
+          19.2,
+          58.6
+        ],
+        "conf": 0.3707
+      },
+      {
+        "char": "2",
+        "box": [
+          75.8,
+          17.3,
+          107.3,
+          56.3
+        ],
+        "conf": 0.8924
+      },
+      {
+        "char": "T",
+        "box": [
+          108.9,
+          15.2,
+          145.0,
+          56.2
+        ],
+        "conf": 0.3269
+      }
+    ]
+  },
+  {
+    "image": "captcha_0005.png",
+    "predicted_text": "i",
+    "verified_text": "",
+    "confidence_avg": 0.8654,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          136.5,
+          13.8,
+          154.8,
+          50.3
+        ],
+        "conf": 0.8654
+      }
+    ]
+  },
+  {
+    "image": "captcha_0006.png",
+    "predicted_text": "GllG",
+    "verified_text": "",
+    "confidence_avg": 0.378,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          0.0,
+          17.8,
+          36.6,
+          55.6
+        ],
+        "conf": 0.3341
+      },
+      {
+        "char": "l",
+        "box": [
+          78.2,
+          4.8,
+          89.1,
+          40.1
+        ],
+        "conf": 0.2694
+      },
+      {
+        "char": "l",
+        "box": [
+          95.2,
+          5.7,
+          107.2,
+          42.7
+        ],
+        "conf": 0.4455
+      },
+      {
+        "char": "G",
+        "box": [
+          119.3,
+          0.1,
+          145.4,
+          26.4
+        ],
+        "conf": 0.4631
+      }
+    ]
+  },
+  {
+    "image": "captcha_0007.png",
+    "predicted_text": "lGt",
+    "verified_text": "",
+    "confidence_avg": 0.4389,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          33.7,
+          0.0,
+          47.5,
+          35.1
+        ],
+        "conf": 0.6777
+      },
+      {
+        "char": "G",
+        "box": [
+          111.8,
+          14.7,
+          146.2,
+          53.4
+        ],
+        "conf": 0.2866
+      },
+      {
+        "char": "t",
+        "box": [
+          149.4,
+          22.4,
+          168.9,
+          56.7
+        ],
+        "conf": 0.3525
+      }
+    ]
+  },
+  {
+    "image": "captcha_0008.png",
+    "predicted_text": "rf",
+    "verified_text": "",
+    "confidence_avg": 0.5511,
+    "boxes": [
+      {
+        "char": "r",
+        "box": [
+          11.4,
+          15.3,
+          33.8,
+          36.9
+        ],
+        "conf": 0.7624
+      },
+      {
+        "char": "f",
+        "box": [
+          31.7,
+          13.3,
+          51.9,
+          49.2
+        ],
+        "conf": 0.3398
+      }
+    ]
+  },
+  {
+    "image": "captcha_0009.png",
+    "predicted_text": "J",
+    "verified_text": "",
+    "confidence_avg": 0.3081,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          85.5,
+          10.5,
+          114.2,
+          44.2
+        ],
+        "conf": 0.3081
+      }
+    ]
+  },
+  {
+    "image": "captcha_0010.png",
+    "predicted_text": "Tfmi",
+    "verified_text": "",
+    "confidence_avg": 0.3831,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.7,
+          0.0,
+          40.1,
+          32.7
+        ],
+        "conf": 0.3828
+      },
+      {
+        "char": "f",
+        "box": [
+          47.0,
+          5.2,
+          67.2,
+          51.9
+        ],
+        "conf": 0.5117
+      },
+      {
+        "char": "m",
+        "box": [
+          67.8,
+          19.0,
+          110.6,
+          51.9
+        ],
+        "conf": 0.2525
+      },
+      {
+        "char": "i",
+        "box": [
+          109.7,
+          9.8,
+          124.1,
+          44.7
+        ],
+        "conf": 0.3853
+      }
+    ]
+  },
+  {
+    "image": "captcha_0011.png",
+    "predicted_text": "lTGf",
+    "verified_text": "",
+    "confidence_avg": 0.7913,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          9.1,
+          13.7,
+          22.0,
+          51.0
+        ],
+        "conf": 0.8192
+      },
+      {
+        "char": "T",
+        "box": [
+          73.2,
+          19.1,
+          109.4,
+          60.0
+        ],
+        "conf": 0.8891
+      },
+      {
+        "char": "G",
+        "box": [
+          108.9,
+          8.4,
+          141.8,
+          42.8
+        ],
+        "conf": 0.836
+      },
+      {
+        "char": "f",
+        "box": [
+          147.0,
+          0.0,
+          165.9,
+          33.5
+        ],
+        "conf": 0.6207
+      }
+    ]
+  },
+  {
+    "image": "captcha_0012.png",
+    "predicted_text": "G",
+    "verified_text": "",
+    "confidence_avg": 0.8623,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          108.8,
+          16.8,
+          145.4,
+          54.3
+        ],
+        "conf": 0.8623
+      }
+    ]
+  },
+  {
+    "image": "captcha_0013.png",
+    "predicted_text": "ijB",
+    "verified_text": "",
+    "confidence_avg": 0.471,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          48.6,
+          23.4,
+          64.7,
+          59.0
+        ],
+        "conf": 0.5387
+      },
+      {
+        "char": "j",
+        "box": [
+          82.7,
+          0.0,
+          113.1,
+          41.0
+        ],
+        "conf": 0.546
+      },
+      {
+        "char": "B",
+        "box": [
+          151.6,
+          15.3,
+          180.0,
+          59.9
+        ],
+        "conf": 0.3284
+      }
+    ]
+  },
+  {
+    "image": "captcha_0014.png",
+    "predicted_text": "YI",
+    "verified_text": "",
+    "confidence_avg": 0.5038,
+    "boxes": [
+      {
+        "char": "Y",
+        "box": [
+          0.3,
+          13.6,
+          39.9,
+          57.3
+        ],
+        "conf": 0.7411
+      },
+      {
+        "char": "I",
+        "box": [
+          73.9,
+          16.6,
+          85.2,
+          47.3
+        ],
+        "conf": 0.2665
+      }
+    ]
+  },
+  {
+    "image": "captcha_0015.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0016.png",
+    "predicted_text": "IIfd",
+    "verified_text": "",
+    "confidence_avg": 0.4366,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          34.5,
+          2.8,
+          46.8,
+          39.7
+        ],
+        "conf": 0.4552
+      },
+      {
+        "char": "I",
+        "box": [
+          51.3,
+          1.0,
+          64.7,
+          37.2
+        ],
+        "conf": 0.5295
+      },
+      {
+        "char": "f",
+        "box": [
+          85.0,
+          23.0,
+          106.5,
+          54.4
+        ],
+        "conf": 0.2895
+      },
+      {
+        "char": "d",
+        "box": [
+          146.7,
+          18.7,
+          169.8,
+          48.6
+        ],
+        "conf": 0.4723
+      }
+    ]
+  },
+  {
+    "image": "captcha_0017.png",
+    "predicted_text": "Gd",
+    "verified_text": "",
+    "confidence_avg": 0.5815,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          0.0,
+          15.5,
+          37.4,
+          52.1
+        ],
+        "conf": 0.8475
+      },
+      {
+        "char": "d",
+        "box": [
+          154.6,
+          7.0,
+          176.3,
+          35.0
+        ],
+        "conf": 0.3154
+      }
+    ]
+  },
+  {
+    "image": "captcha_0018.png",
+    "predicted_text": "llr",
+    "verified_text": "",
+    "confidence_avg": 0.3278,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          0.0,
+          6.3,
+          13.3,
+          45.8
+        ],
+        "conf": 0.2957
+      },
+      {
+        "char": "l",
+        "box": [
+          157.6,
+          23.0,
+          168.7,
+          53.2
+        ],
+        "conf": 0.2776
+      },
+      {
+        "char": "r",
+        "box": [
+          155.7,
+          22.9,
+          178.1,
+          52.4
+        ],
+        "conf": 0.4101
+      }
+    ]
+  },
+  {
+    "image": "captcha_0019.png",
+    "predicted_text": "f2Z",
+    "verified_text": "",
+    "confidence_avg": 0.4432,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          44.4,
+          7.6,
+          60.8,
+          40.1
+        ],
+        "conf": 0.359
+      },
+      {
+        "char": "2",
+        "box": [
+          72.6,
+          12.0,
+          104.5,
+          50.3
+        ],
+        "conf": 0.2983
+      },
+      {
+        "char": "Z",
+        "box": [
+          144.0,
+          7.1,
+          177.1,
+          46.4
+        ],
+        "conf": 0.6722
+      }
+    ]
+  },
+  {
+    "image": "captcha_0020.png",
+    "predicted_text": "t2",
+    "verified_text": "",
+    "confidence_avg": 0.3962,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          49.9,
+          13.0,
+          67.7,
+          45.4
+        ],
+        "conf": 0.4176
+      },
+      {
+        "char": "2",
+        "box": [
+          69.0,
+          10.2,
+          100.5,
+          42.4
+        ],
+        "conf": 0.3748
+      }
+    ]
+  },
+  {
+    "image": "captcha_0021.png",
+    "predicted_text": "PtIl",
+    "verified_text": "",
+    "confidence_avg": 0.508,
+    "boxes": [
+      {
+        "char": "P",
+        "box": [
+          37.5,
+          7.1,
+          67.0,
+          42.7
+        ],
+        "conf": 0.5437
+      },
+      {
+        "char": "t",
+        "box": [
+          75.3,
+          20.6,
+          100.5,
+          52.0
+        ],
+        "conf": 0.4748
+      },
+      {
+        "char": "I",
+        "box": [
+          106.1,
+          11.7,
+          127.2,
+          46.4
+        ],
+        "conf": 0.4202
+      },
+      {
+        "char": "l",
+        "box": [
+          140.1,
+          16.0,
+          152.0,
+          52.9
+        ],
+        "conf": 0.5934
+      }
+    ]
+  },
+  {
+    "image": "captcha_0022.png",
+    "predicted_text": "tlG",
+    "verified_text": "",
+    "confidence_avg": 0.3811,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          0.5,
+          16.4,
+          20.3,
+          49.5
+        ],
+        "conf": 0.3926
+      },
+      {
+        "char": "l",
+        "box": [
+          116.3,
+          14.2,
+          130.2,
+          51.5
+        ],
+        "conf": 0.3843
+      },
+      {
+        "char": "G",
+        "box": [
+          145.4,
+          4.8,
+          178.4,
+          41.0
+        ],
+        "conf": 0.3664
+      }
+    ]
+  },
+  {
+    "image": "captcha_0023.png",
+    "predicted_text": "iTB",
+    "verified_text": "",
+    "confidence_avg": 0.6252,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          44.8,
+          0.3,
+          57.4,
+          35.6
+        ],
+        "conf": 0.5395
+      },
+      {
+        "char": "T",
+        "box": [
+          72.0,
+          14.4,
+          104.4,
+          55.0
+        ],
+        "conf": 0.67
+      },
+      {
+        "char": "B",
+        "box": [
+          151.9,
+          6.0,
+          180.0,
+          48.5
+        ],
+        "conf": 0.6661
+      }
+    ]
+  },
+  {
+    "image": "captcha_0024.png",
+    "predicted_text": "ffII",
+    "verified_text": "",
+    "confidence_avg": 0.5051,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          38.4,
+          11.7,
+          70.0,
+          51.8
+        ],
+        "conf": 0.2528
+      },
+      {
+        "char": "f",
+        "box": [
+          78.1,
+          24.1,
+          97.7,
+          59.5
+        ],
+        "conf": 0.481
+      },
+      {
+        "char": "I",
+        "box": [
+          146.1,
+          22.7,
+          162.3,
+          60.0
+        ],
+        "conf": 0.6344
+      },
+      {
+        "char": "I",
+        "box": [
+          163.5,
+          21.4,
+          177.4,
+          58.9
+        ],
+        "conf": 0.6523
+      }
+    ]
+  },
+  {
+    "image": "captcha_0025.png",
+    "predicted_text": "cBj",
+    "verified_text": "",
+    "confidence_avg": 0.5233,
+    "boxes": [
+      {
+        "char": "c",
+        "box": [
+          7.0,
+          35.4,
+          30.0,
+          56.2
+        ],
+        "conf": 0.5312
+      },
+      {
+        "char": "B",
+        "box": [
+          111.1,
+          20.0,
+          143.5,
+          56.3
+        ],
+        "conf": 0.6105
+      },
+      {
+        "char": "j",
+        "box": [
+          155.4,
+          17.2,
+          179.9,
+          58.4
+        ],
+        "conf": 0.4281
+      }
+    ]
+  },
+  {
+    "image": "captcha_0026.png",
+    "predicted_text": "lef",
+    "verified_text": "",
+    "confidence_avg": 0.3036,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          70.9,
+          11.5,
+          85.5,
+          50.8
+        ],
+        "conf": 0.2577
+      },
+      {
+        "char": "e",
+        "box": [
+          143.1,
+          24.3,
+          168.1,
+          46.9
+        ],
+        "conf": 0.3453
+      },
+      {
+        "char": "f",
+        "box": [
+          148.0,
+          10.9,
+          175.7,
+          44.7
+        ],
+        "conf": 0.3079
+      }
+    ]
+  },
+  {
+    "image": "captcha_0027.png",
+    "predicted_text": "RTr",
+    "verified_text": "",
+    "confidence_avg": 0.4753,
+    "boxes": [
+      {
+        "char": "R",
+        "box": [
+          0.0,
+          4.1,
+          31.7,
+          39.7
+        ],
+        "conf": 0.3945
+      },
+      {
+        "char": "T",
+        "box": [
+          34.9,
+          7.4,
+          72.6,
+          48.0
+        ],
+        "conf": 0.773
+      },
+      {
+        "char": "r",
+        "box": [
+          87.5,
+          5.3,
+          108.1,
+          25.0
+        ],
+        "conf": 0.2583
+      }
+    ]
+  },
+  {
+    "image": "captcha_0028.png",
+    "predicted_text": "dlG",
+    "verified_text": "",
+    "confidence_avg": 0.4043,
+    "boxes": [
+      {
+        "char": "d",
+        "box": [
+          7.3,
+          11.2,
+          32.7,
+          51.7
+        ],
+        "conf": 0.2972
+      },
+      {
+        "char": "l",
+        "box": [
+          19.7,
+          12.8,
+          33.4,
+          50.8
+        ],
+        "conf": 0.6465
+      },
+      {
+        "char": "G",
+        "box": [
+          41.1,
+          18.7,
+          72.9,
+          57.3
+        ],
+        "conf": 0.2691
+      }
+    ]
+  },
+  {
+    "image": "captcha_0029.png",
+    "predicted_text": "fj",
+    "verified_text": "",
+    "confidence_avg": 0.5679,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          48.1,
+          4.0,
+          66.4,
+          37.4
+        ],
+        "conf": 0.7442
+      },
+      {
+        "char": "j",
+        "box": [
+          155.0,
+          9.8,
+          179.9,
+          54.0
+        ],
+        "conf": 0.3917
+      }
+    ]
+  },
+  {
+    "image": "captcha_0030.png",
+    "predicted_text": "lh",
+    "verified_text": "",
+    "confidence_avg": 0.5943,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          119.9,
+          14.7,
+          132.3,
+          48.1
+        ],
+        "conf": 0.5196
+      },
+      {
+        "char": "h",
+        "box": [
+          118.8,
+          14.0,
+          141.4,
+          48.0
+        ],
+        "conf": 0.6691
+      }
+    ]
+  },
+  {
+    "image": "captcha_0031.png",
+    "predicted_text": "j",
+    "verified_text": "",
+    "confidence_avg": 0.9497,
+    "boxes": [
+      {
+        "char": "j",
+        "box": [
+          1.6,
+          3.6,
+          24.4,
+          49.5
+        ],
+        "conf": 0.9497
+      }
+    ]
+  },
+  {
+    "image": "captcha_0032.png",
+    "predicted_text": "5lllt",
+    "verified_text": "",
+    "confidence_avg": 0.4121,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          0.1,
+          0.4,
+          30.6,
+          39.2
+        ],
+        "conf": 0.298
+      },
+      {
+        "char": "l",
+        "box": [
+          105.8,
+          20.8,
+          119.7,
+          55.9
+        ],
+        "conf": 0.6445
+      },
+      {
+        "char": "l",
+        "box": [
+          128.2,
+          16.3,
+          144.0,
+          54.4
+        ],
+        "conf": 0.2747
+      },
+      {
+        "char": "l",
+        "box": [
+          144.2,
+          21.7,
+          154.6,
+          53.0
+        ],
+        "conf": 0.5133
+      },
+      {
+        "char": "t",
+        "box": [
+          142.8,
+          21.7,
+          163.8,
+          52.9
+        ],
+        "conf": 0.3301
+      }
+    ]
+  },
+  {
+    "image": "captcha_0033.png",
+    "predicted_text": "JX5",
+    "verified_text": "",
+    "confidence_avg": 0.4995,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          38.6,
+          21.0,
+          52.1,
+          45.2
+        ],
+        "conf": 0.5215
+      },
+      {
+        "char": "X",
+        "box": [
+          107.2,
+          1.3,
+          148.2,
+          43.8
+        ],
+        "conf": 0.7062
+      },
+      {
+        "char": "5",
+        "box": [
+          143.1,
+          7.0,
+          180.0,
+          46.2
+        ],
+        "conf": 0.2709
+      }
+    ]
+  },
+  {
+    "image": "captcha_0034.png",
+    "predicted_text": "liG",
+    "verified_text": "",
+    "confidence_avg": 0.5681,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          0.9,
+          21.1,
+          14.6,
+          59.8
+        ],
+        "conf": 0.45
+      },
+      {
+        "char": "i",
+        "box": [
+          91.9,
+          19.0,
+          106.4,
+          51.8
+        ],
+        "conf": 0.4201
+      },
+      {
+        "char": "G",
+        "box": [
+          142.4,
+          11.7,
+          169.9,
+          49.6
+        ],
+        "conf": 0.8342
+      }
+    ]
+  },
+  {
+    "image": "captcha_0035.png",
+    "predicted_text": "I25",
+    "verified_text": "",
+    "confidence_avg": 0.6154,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          2.3,
+          14.1,
+          22.0,
+          54.3
+        ],
+        "conf": 0.6021
+      },
+      {
+        "char": "2",
+        "box": [
+          30.6,
+          15.5,
+          62.1,
+          54.2
+        ],
+        "conf": 0.7941
+      },
+      {
+        "char": "5",
+        "box": [
+          74.2,
+          12.0,
+          107.0,
+          49.7
+        ],
+        "conf": 0.4501
+      }
+    ]
+  },
+  {
+    "image": "captcha_0036.png",
+    "predicted_text": "lJE",
+    "verified_text": "",
+    "confidence_avg": 0.553,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          8.5,
+          12.1,
+          23.3,
+          51.3
+        ],
+        "conf": 0.7007
+      },
+      {
+        "char": "J",
+        "box": [
+          10.1,
+          11.6,
+          36.9,
+          51.5
+        ],
+        "conf": 0.4116
+      },
+      {
+        "char": "E",
+        "box": [
+          77.4,
+          0.5,
+          109.4,
+          39.4
+        ],
+        "conf": 0.5466
+      }
+    ]
+  },
+  {
+    "image": "captcha_0037.png",
+    "predicted_text": "tlj",
+    "verified_text": "",
+    "confidence_avg": 0.6663,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          5.6,
+          22.6,
+          26.6,
+          54.2
+        ],
+        "conf": 0.4581
+      },
+      {
+        "char": "l",
+        "box": [
+          104.0,
+          11.7,
+          114.8,
+          46.9
+        ],
+        "conf": 0.8172
+      },
+      {
+        "char": "j",
+        "box": [
+          152.1,
+          1.9,
+          177.4,
+          48.3
+        ],
+        "conf": 0.7236
+      }
+    ]
+  },
+  {
+    "image": "captcha_0038.png",
+    "predicted_text": "El",
+    "verified_text": "",
+    "confidence_avg": 0.4785,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          35.5,
+          19.3,
+          75.0,
+          60.0
+        ],
+        "conf": 0.6019
+      },
+      {
+        "char": "l",
+        "box": [
+          87.4,
+          13.7,
+          100.4,
+          53.1
+        ],
+        "conf": 0.3551
+      }
+    ]
+  },
+  {
+    "image": "captcha_0039.png",
+    "predicted_text": "lef",
+    "verified_text": "",
+    "confidence_avg": 0.6087,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          0.0,
+          12.1,
+          11.8,
+          48.8
+        ],
+        "conf": 0.7752
+      },
+      {
+        "char": "e",
+        "box": [
+          118.0,
+          22.7,
+          144.2,
+          50.9
+        ],
+        "conf": 0.2785
+      },
+      {
+        "char": "f",
+        "box": [
+          146.1,
+          1.4,
+          168.0,
+          34.1
+        ],
+        "conf": 0.7724
+      }
+    ]
+  },
+  {
+    "image": "captcha_0040.png",
+    "predicted_text": "JIlXi",
+    "verified_text": "",
+    "confidence_avg": 0.5184,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          30.9,
+          13.3,
+          56.9,
+          49.2
+        ],
+        "conf": 0.2761
+      },
+      {
+        "char": "I",
+        "box": [
+          122.5,
+          1.2,
+          137.8,
+          38.8
+        ],
+        "conf": 0.4146
+      },
+      {
+        "char": "l",
+        "box": [
+          145.8,
+          23.6,
+          160.1,
+          60.0
+        ],
+        "conf": 0.6423
+      },
+      {
+        "char": "X",
+        "box": [
+          146.5,
+          19.2,
+          179.9,
+          60.0
+        ],
+        "conf": 0.4109
+      },
+      {
+        "char": "i",
+        "box": [
+          167.6,
+          31.0,
+          180.0,
+          60.0
+        ],
+        "conf": 0.8482
+      }
+    ]
+  },
+  {
+    "image": "captcha_0041.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0042.png",
+    "predicted_text": "lTyGI",
+    "verified_text": "",
+    "confidence_avg": 0.4626,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          11.3,
+          25.6,
+          21.6,
+          57.3
+        ],
+        "conf": 0.4433
+      },
+      {
+        "char": "T",
+        "box": [
+          0.8,
+          15.4,
+          34.9,
+          59.6
+        ],
+        "conf": 0.8726
+      },
+      {
+        "char": "y",
+        "box": [
+          19.1,
+          23.6,
+          45.3,
+          60.0
+        ],
+        "conf": 0.2887
+      },
+      {
+        "char": "G",
+        "box": [
+          37.5,
+          16.2,
+          65.6,
+          54.6
+        ],
+        "conf": 0.3747
+      },
+      {
+        "char": "I",
+        "box": [
+          82.0,
+          11.9,
+          97.9,
+          51.3
+        ],
+        "conf": 0.3336
+      }
+    ]
+  },
+  {
+    "image": "captcha_0043.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0044.png",
+    "predicted_text": "llif",
+    "verified_text": "",
+    "confidence_avg": 0.3687,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          39.3,
+          9.4,
+          51.4,
+          44.7
+        ],
+        "conf": 0.5787
+      },
+      {
+        "char": "l",
+        "box": [
+          107.6,
+          25.8,
+          124.6,
+          60.0
+        ],
+        "conf": 0.3248
+      },
+      {
+        "char": "i",
+        "box": [
+          123.1,
+          23.7,
+          142.0,
+          60.0
+        ],
+        "conf": 0.2567
+      },
+      {
+        "char": "f",
+        "box": [
+          145.1,
+          22.3,
+          163.0,
+          55.4
+        ],
+        "conf": 0.3147
+      }
+    ]
+  },
+  {
+    "image": "captcha_0045.png",
+    "predicted_text": "It5f",
+    "verified_text": "",
+    "confidence_avg": 0.5458,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          32.3,
+          11.4,
+          46.3,
+          51.9
+        ],
+        "conf": 0.7188
+      },
+      {
+        "char": "t",
+        "box": [
+          44.2,
+          22.5,
+          58.7,
+          50.5
+        ],
+        "conf": 0.252
+      },
+      {
+        "char": "5",
+        "box": [
+          74.5,
+          6.6,
+          108.0,
+          42.9
+        ],
+        "conf": 0.402
+      },
+      {
+        "char": "f",
+        "box": [
+          103.5,
+          12.6,
+          138.1,
+          53.1
+        ],
+        "conf": 0.8105
+      }
+    ]
+  },
+  {
+    "image": "captcha_0046.png",
+    "predicted_text": "lJlXTI",
+    "verified_text": "",
+    "confidence_avg": 0.5817,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          4.0,
+          12.1,
+          16.6,
+          50.5
+        ],
+        "conf": 0.6101
+      },
+      {
+        "char": "J",
+        "box": [
+          10.0,
+          11.4,
+          39.4,
+          51.5
+        ],
+        "conf": 0.2507
+      },
+      {
+        "char": "l",
+        "box": [
+          19.9,
+          12.9,
+          34.7,
+          51.8
+        ],
+        "conf": 0.6843
+      },
+      {
+        "char": "X",
+        "box": [
+          72.7,
+          7.3,
+          107.5,
+          47.3
+        ],
+        "conf": 0.6306
+      },
+      {
+        "char": "T",
+        "box": [
+          143.3,
+          6.4,
+          179.6,
+          50.1
+        ],
+        "conf": 0.9379
+      },
+      {
+        "char": "I",
+        "box": [
+          156.5,
+          10.2,
+          172.0,
+          50.9
+        ],
+        "conf": 0.3767
+      }
+    ]
+  },
+  {
+    "image": "captcha_0047.png",
+    "predicted_text": "GTlI",
+    "verified_text": "",
+    "confidence_avg": 0.3912,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          2.2,
+          5.2,
+          28.8,
+          33.6
+        ],
+        "conf": 0.324
+      },
+      {
+        "char": "T",
+        "box": [
+          85.6,
+          14.0,
+          113.4,
+          50.4
+        ],
+        "conf": 0.2837
+      },
+      {
+        "char": "l",
+        "box": [
+          141.0,
+          17.8,
+          152.5,
+          55.2
+        ],
+        "conf": 0.3024
+      },
+      {
+        "char": "I",
+        "box": [
+          156.5,
+          14.5,
+          169.4,
+          55.7
+        ],
+        "conf": 0.6549
+      }
+    ]
+  },
+  {
+    "image": "captcha_0048.png",
+    "predicted_text": "GGf",
+    "verified_text": "",
+    "confidence_avg": 0.6208,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          0.0,
+          0.1,
+          31.8,
+          36.6
+        ],
+        "conf": 0.7748
+      },
+      {
+        "char": "G",
+        "box": [
+          74.9,
+          4.1,
+          106.4,
+          40.7
+        ],
+        "conf": 0.6495
+      },
+      {
+        "char": "f",
+        "box": [
+          153.5,
+          13.5,
+          176.2,
+          58.5
+        ],
+        "conf": 0.4381
+      }
+    ]
+  },
+  {
+    "image": "captcha_0049.png",
+    "predicted_text": "2",
+    "verified_text": "",
+    "confidence_avg": 0.8683,
+    "boxes": [
+      {
+        "char": "2",
+        "box": [
+          2.6,
+          22.7,
+          34.3,
+          55.3
+        ],
+        "conf": 0.8683
+      }
+    ]
+  },
+  {
+    "image": "captcha_0050.png",
+    "predicted_text": "pf",
+    "verified_text": "",
+    "confidence_avg": 0.5286,
+    "boxes": [
+      {
+        "char": "p",
+        "box": [
+          3.5,
+          14.1,
+          34.5,
+          51.9
+        ],
+        "conf": 0.4484
+      },
+      {
+        "char": "f",
+        "box": [
+          141.5,
+          9.4,
+          164.6,
+          42.5
+        ],
+        "conf": 0.6087
+      }
+    ]
+  },
+  {
+    "image": "captcha_0051.png",
+    "predicted_text": "5ftIj",
+    "verified_text": "",
+    "confidence_avg": 0.3429,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          0.4,
+          7.8,
+          32.4,
+          46.3
+        ],
+        "conf": 0.3081
+      },
+      {
+        "char": "f",
+        "box": [
+          44.5,
+          15.4,
+          70.9,
+          47.8
+        ],
+        "conf": 0.2853
+      },
+      {
+        "char": "t",
+        "box": [
+          70.9,
+          3.6,
+          91.0,
+          35.6
+        ],
+        "conf": 0.5292
+      },
+      {
+        "char": "I",
+        "box": [
+          109.5,
+          12.3,
+          126.7,
+          52.2
+        ],
+        "conf": 0.2796
+      },
+      {
+        "char": "j",
+        "box": [
+          158.0,
+          0.3,
+          180.0,
+          33.3
+        ],
+        "conf": 0.3122
+      }
+    ]
+  },
+  {
+    "image": "captcha_0052.png",
+    "predicted_text": "IJjY",
+    "verified_text": "",
+    "confidence_avg": 0.4999,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          29.8,
+          13.2,
+          44.5,
+          53.0
+        ],
+        "conf": 0.5819
+      },
+      {
+        "char": "J",
+        "box": [
+          31.9,
+          12.4,
+          60.8,
+          52.0
+        ],
+        "conf": 0.3955
+      },
+      {
+        "char": "j",
+        "box": [
+          83.9,
+          9.8,
+          106.2,
+          38.7
+        ],
+        "conf": 0.4842
+      },
+      {
+        "char": "Y",
+        "box": [
+          105.3,
+          0.5,
+          140.0,
+          40.5
+        ],
+        "conf": 0.5381
+      }
+    ]
+  },
+  {
+    "image": "captcha_0053.png",
+    "predicted_text": "rlR",
+    "verified_text": "",
+    "confidence_avg": 0.5774,
+    "boxes": [
+      {
+        "char": "r",
+        "box": [
+          41.8,
+          18.9,
+          66.5,
+          40.2
+        ],
+        "conf": 0.7021
+      },
+      {
+        "char": "l",
+        "box": [
+          118.9,
+          2.0,
+          131.5,
+          36.8
+        ],
+        "conf": 0.6622
+      },
+      {
+        "char": "R",
+        "box": [
+          114.9,
+          0.2,
+          149.7,
+          36.6
+        ],
+        "conf": 0.368
+      }
+    ]
+  },
+  {
+    "image": "captcha_0054.png",
+    "predicted_text": "lllI",
+    "verified_text": "",
+    "confidence_avg": 0.64,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          52.2,
+          11.9,
+          63.0,
+          42.6
+        ],
+        "conf": 0.4767
+      },
+      {
+        "char": "l",
+        "box": [
+          87.5,
+          6.8,
+          97.9,
+          39.8
+        ],
+        "conf": 0.949
+      },
+      {
+        "char": "l",
+        "box": [
+          104.2,
+          13.0,
+          116.9,
+          50.2
+        ],
+        "conf": 0.7246
+      },
+      {
+        "char": "I",
+        "box": [
+          160.2,
+          16.6,
+          180.0,
+          58.3
+        ],
+        "conf": 0.4097
+      }
+    ]
+  },
+  {
+    "image": "captcha_0055.png",
+    "predicted_text": "Ej",
+    "verified_text": "",
+    "confidence_avg": 0.4283,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          115.0,
+          4.0,
+          145.4,
+          42.8
+        ],
+        "conf": 0.5178
+      },
+      {
+        "char": "j",
+        "box": [
+          140.6,
+          0.2,
+          162.7,
+          43.6
+        ],
+        "conf": 0.3387
+      }
+    ]
+  },
+  {
+    "image": "captcha_0056.png",
+    "predicted_text": "5",
+    "verified_text": "",
+    "confidence_avg": 0.6737,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          111.8,
+          7.1,
+          141.4,
+          45.6
+        ],
+        "conf": 0.6737
+      }
+    ]
+  },
+  {
+    "image": "captcha_0057.png",
+    "predicted_text": "Al7f",
+    "verified_text": "",
+    "confidence_avg": 0.4664,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          0.0,
+          13.8,
+          35.8,
+          52.7
+        ],
+        "conf": 0.3733
+      },
+      {
+        "char": "l",
+        "box": [
+          70.9,
+          9.2,
+          85.2,
+          46.8
+        ],
+        "conf": 0.6447
+      },
+      {
+        "char": "7",
+        "box": [
+          81.2,
+          9.8,
+          115.6,
+          48.7
+        ],
+        "conf": 0.4229
+      },
+      {
+        "char": "f",
+        "box": [
+          139.7,
+          12.9,
+          161.7,
+          48.7
+        ],
+        "conf": 0.4247
+      }
+    ]
+  },
+  {
+    "image": "captcha_0058.png",
+    "predicted_text": "Yl",
+    "verified_text": "",
+    "confidence_avg": 0.4202,
+    "boxes": [
+      {
+        "char": "Y",
+        "box": [
+          0.4,
+          4.1,
+          36.1,
+          42.1
+        ],
+        "conf": 0.333
+      },
+      {
+        "char": "l",
+        "box": [
+          140.0,
+          0.0,
+          155.5,
+          37.3
+        ],
+        "conf": 0.5073
+      }
+    ]
+  },
+  {
+    "image": "captcha_0059.png",
+    "predicted_text": "AI",
+    "verified_text": "",
+    "confidence_avg": 0.5165,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          67.7,
+          21.8,
+          105.7,
+          60.0
+        ],
+        "conf": 0.4201
+      },
+      {
+        "char": "I",
+        "box": [
+          147.4,
+          5.6,
+          162.1,
+          42.2
+        ],
+        "conf": 0.613
+      }
+    ]
+  },
+  {
+    "image": "captcha_0060.png",
+    "predicted_text": "iT",
+    "verified_text": "",
+    "confidence_avg": 0.4055,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          51.3,
+          19.6,
+          66.8,
+          57.1
+        ],
+        "conf": 0.3159
+      },
+      {
+        "char": "T",
+        "box": [
+          112.1,
+          7.7,
+          142.2,
+          47.8
+        ],
+        "conf": 0.4951
+      }
+    ]
+  },
+  {
+    "image": "captcha_0061.png",
+    "predicted_text": "ll",
+    "verified_text": "",
+    "confidence_avg": 0.3417,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          74.1,
+          11.3,
+          87.0,
+          45.2
+        ],
+        "conf": 0.4187
+      },
+      {
+        "char": "l",
+        "box": [
+          148.0,
+          8.2,
+          161.8,
+          43.6
+        ],
+        "conf": 0.2648
+      }
+    ]
+  },
+  {
+    "image": "captcha_0062.png",
+    "predicted_text": "5",
+    "verified_text": "",
+    "confidence_avg": 0.7978,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          0.5,
+          13.6,
+          29.6,
+          52.0
+        ],
+        "conf": 0.7978
+      }
+    ]
+  },
+  {
+    "image": "captcha_0063.png",
+    "predicted_text": "QG",
+    "verified_text": "",
+    "confidence_avg": 0.5923,
+    "boxes": [
+      {
+        "char": "Q",
+        "box": [
+          5.4,
+          24.3,
+          38.0,
+          60.0
+        ],
+        "conf": 0.2547
+      },
+      {
+        "char": "G",
+        "box": [
+          110.8,
+          17.7,
+          146.3,
+          52.9
+        ],
+        "conf": 0.9299
+      }
+    ]
+  },
+  {
+    "image": "captcha_0064.png",
+    "predicted_text": "Pll",
+    "verified_text": "",
+    "confidence_avg": 0.5022,
+    "boxes": [
+      {
+        "char": "P",
+        "box": [
+          0.0,
+          0.8,
+          28.1,
+          40.2
+        ],
+        "conf": 0.2789
+      },
+      {
+        "char": "l",
+        "box": [
+          34.8,
+          10.2,
+          49.7,
+          49.8
+        ],
+        "conf": 0.8499
+      },
+      {
+        "char": "l",
+        "box": [
+          117.0,
+          0.0,
+          131.5,
+          28.8
+        ],
+        "conf": 0.3777
+      }
+    ]
+  },
+  {
+    "image": "captcha_0065.png",
+    "predicted_text": "IjT",
+    "verified_text": "",
+    "confidence_avg": 0.6281,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          32.5,
+          20.7,
+          52.5,
+          57.9
+        ],
+        "conf": 0.5112
+      },
+      {
+        "char": "j",
+        "box": [
+          88.0,
+          26.4,
+          112.1,
+          60.0
+        ],
+        "conf": 0.5951
+      },
+      {
+        "char": "T",
+        "box": [
+          110.2,
+          11.5,
+          144.7,
+          50.5
+        ],
+        "conf": 0.778
+      }
+    ]
+  },
+  {
+    "image": "captcha_0066.png",
+    "predicted_text": "1t",
+    "verified_text": "",
+    "confidence_avg": 0.4409,
+    "boxes": [
+      {
+        "char": "1",
+        "box": [
+          0.0,
+          5.0,
+          26.0,
+          49.3
+        ],
+        "conf": 0.6077
+      },
+      {
+        "char": "t",
+        "box": [
+          158.0,
+          17.6,
+          176.4,
+          42.8
+        ],
+        "conf": 0.2741
+      }
+    ]
+  },
+  {
+    "image": "captcha_0067.png",
+    "predicted_text": "it",
+    "verified_text": "",
+    "confidence_avg": 0.4677,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          1.7,
+          22.9,
+          13.3,
+          52.1
+        ],
+        "conf": 0.4358
+      },
+      {
+        "char": "t",
+        "box": [
+          149.0,
+          13.0,
+          167.2,
+          46.2
+        ],
+        "conf": 0.4995
+      }
+    ]
+  },
+  {
+    "image": "captcha_0068.png",
+    "predicted_text": "ffGT2",
+    "verified_text": "",
+    "confidence_avg": 0.5026,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          41.1,
+          16.8,
+          61.7,
+          50.6
+        ],
+        "conf": 0.3757
+      },
+      {
+        "char": "f",
+        "box": [
+          49.4,
+          15.8,
+          70.2,
+          47.9
+        ],
+        "conf": 0.6368
+      },
+      {
+        "char": "G",
+        "box": [
+          73.8,
+          20.1,
+          108.5,
+          57.1
+        ],
+        "conf": 0.361
+      },
+      {
+        "char": "T",
+        "box": [
+          103.4,
+          3.4,
+          124.9,
+          39.7
+        ],
+        "conf": 0.3826
+      },
+      {
+        "char": "2",
+        "box": [
+          142.2,
+          8.1,
+          172.1,
+          46.5
+        ],
+        "conf": 0.7569
+      }
+    ]
+  },
+  {
+    "image": "captcha_0069.png",
+    "predicted_text": "fAG",
+    "verified_text": "",
+    "confidence_avg": 0.6435,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          9.3,
+          13.6,
+          27.5,
+          49.8
+        ],
+        "conf": 0.9156
+      },
+      {
+        "char": "A",
+        "box": [
+          32.7,
+          2.0,
+          66.3,
+          41.3
+        ],
+        "conf": 0.4662
+      },
+      {
+        "char": "G",
+        "box": [
+          71.2,
+          22.1,
+          105.6,
+          60.0
+        ],
+        "conf": 0.5488
+      }
+    ]
+  },
+  {
+    "image": "captcha_0070.png",
+    "predicted_text": "lIElT",
+    "verified_text": "",
+    "confidence_avg": 0.5854,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          37.0,
+          10.5,
+          50.6,
+          48.1
+        ],
+        "conf": 0.7569
+      },
+      {
+        "char": "I",
+        "box": [
+          47.1,
+          11.5,
+          66.2,
+          50.4
+        ],
+        "conf": 0.2967
+      },
+      {
+        "char": "E",
+        "box": [
+          103.0,
+          9.2,
+          134.3,
+          49.9
+        ],
+        "conf": 0.9104
+      },
+      {
+        "char": "l",
+        "box": [
+          158.6,
+          0.0,
+          168.3,
+          32.6
+        ],
+        "conf": 0.2866
+      },
+      {
+        "char": "T",
+        "box": [
+          150.1,
+          0.0,
+          179.5,
+          34.2
+        ],
+        "conf": 0.6762
+      }
+    ]
+  },
+  {
+    "image": "captcha_0071.png",
+    "predicted_text": "il",
+    "verified_text": "",
+    "confidence_avg": 0.5185,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          40.7,
+          17.9,
+          56.7,
+          54.0
+        ],
+        "conf": 0.5445
+      },
+      {
+        "char": "l",
+        "box": [
+          107.7,
+          2.8,
+          120.4,
+          36.2
+        ],
+        "conf": 0.4926
+      }
+    ]
+  },
+  {
+    "image": "captcha_0072.png",
+    "predicted_text": "TTIJ",
+    "verified_text": "",
+    "confidence_avg": 0.5974,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          72.3,
+          0.0,
+          110.3,
+          40.0
+        ],
+        "conf": 0.961
+      },
+      {
+        "char": "T",
+        "box": [
+          108.2,
+          2.2,
+          140.8,
+          41.4
+        ],
+        "conf": 0.3643
+      },
+      {
+        "char": "I",
+        "box": [
+          147.5,
+          14.4,
+          161.9,
+          53.5
+        ],
+        "conf": 0.4617
+      },
+      {
+        "char": "J",
+        "box": [
+          148.7,
+          14.2,
+          175.9,
+          52.2
+        ],
+        "conf": 0.6024
+      }
+    ]
+  },
+  {
+    "image": "captcha_0073.png",
+    "predicted_text": "16",
+    "verified_text": "",
+    "confidence_avg": 0.3108,
+    "boxes": [
+      {
+        "char": "1",
+        "box": [
+          109.0,
+          13.1,
+          128.1,
+          51.7
+        ],
+        "conf": 0.3656
+      },
+      {
+        "char": "6",
+        "box": [
+          147.1,
+          20.2,
+          179.9,
+          58.7
+        ],
+        "conf": 0.2561
+      }
+    ]
+  },
+  {
+    "image": "captcha_0074.png",
+    "predicted_text": "5of5",
+    "verified_text": "",
+    "confidence_avg": 0.4885,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          0.8,
+          16.2,
+          30.9,
+          55.7
+        ],
+        "conf": 0.8606
+      },
+      {
+        "char": "o",
+        "box": [
+          44.4,
+          26.2,
+          65.6,
+          48.1
+        ],
+        "conf": 0.5288
+      },
+      {
+        "char": "f",
+        "box": [
+          80.7,
+          7.7,
+          101.0,
+          46.4
+        ],
+        "conf": 0.3125
+      },
+      {
+        "char": "5",
+        "box": [
+          137.7,
+          13.5,
+          172.0,
+          51.6
+        ],
+        "conf": 0.252
+      }
+    ]
+  },
+  {
+    "image": "captcha_0075.png",
+    "predicted_text": "5GBTI",
+    "verified_text": "",
+    "confidence_avg": 0.5317,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          5.4,
+          17.2,
+          35.0,
+          55.4
+        ],
+        "conf": 0.2662
+      },
+      {
+        "char": "G",
+        "box": [
+          35.7,
+          5.3,
+          75.3,
+          39.7
+        ],
+        "conf": 0.591
+      },
+      {
+        "char": "B",
+        "box": [
+          72.7,
+          13.2,
+          106.7,
+          55.5
+        ],
+        "conf": 0.4101
+      },
+      {
+        "char": "T",
+        "box": [
+          106.9,
+          21.3,
+          139.0,
+          60.0
+        ],
+        "conf": 0.9457
+      },
+      {
+        "char": "I",
+        "box": [
+          148.0,
+          24.1,
+          163.4,
+          60.0
+        ],
+        "conf": 0.4456
+      }
+    ]
+  },
+  {
+    "image": "captcha_0076.png",
+    "predicted_text": "iBt",
+    "verified_text": "",
+    "confidence_avg": 0.4444,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          8.1,
+          3.2,
+          22.7,
+          39.3
+        ],
+        "conf": 0.7047
+      },
+      {
+        "char": "B",
+        "box": [
+          112.5,
+          0.0,
+          145.0,
+          35.2
+        ],
+        "conf": 0.2983
+      },
+      {
+        "char": "t",
+        "box": [
+          147.0,
+          22.1,
+          165.8,
+          56.6
+        ],
+        "conf": 0.3303
+      }
+    ]
+  },
+  {
+    "image": "captcha_0077.png",
+    "predicted_text": "lIZ",
+    "verified_text": "",
+    "confidence_avg": 0.4739,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          76.8,
+          0.0,
+          91.5,
+          37.0
+        ],
+        "conf": 0.2733
+      },
+      {
+        "char": "I",
+        "box": [
+          104.9,
+          8.3,
+          118.9,
+          44.9
+        ],
+        "conf": 0.4641
+      },
+      {
+        "char": "Z",
+        "box": [
+          147.7,
+          16.8,
+          176.9,
+          56.3
+        ],
+        "conf": 0.6842
+      }
+    ]
+  },
+  {
+    "image": "captcha_0078.png",
+    "predicted_text": "j",
+    "verified_text": "",
+    "confidence_avg": 0.4723,
+    "boxes": [
+      {
+        "char": "j",
+        "box": [
+          57.1,
+          15.8,
+          76.4,
+          60.0
+        ],
+        "conf": 0.4723
+      }
+    ]
+  },
+  {
+    "image": "captcha_0079.png",
+    "predicted_text": "l",
+    "verified_text": "",
+    "confidence_avg": 0.3053,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          5.4,
+          0.0,
+          19.4,
+          34.2
+        ],
+        "conf": 0.3053
+      }
+    ]
+  },
+  {
+    "image": "captcha_0080.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0081.png",
+    "predicted_text": "REf",
+    "verified_text": "",
+    "confidence_avg": 0.5997,
+    "boxes": [
+      {
+        "char": "R",
+        "box": [
+          0.0,
+          16.8,
+          29.7,
+          57.4
+        ],
+        "conf": 0.9425
+      },
+      {
+        "char": "E",
+        "box": [
+          104.4,
+          0.0,
+          145.8,
+          43.2
+        ],
+        "conf": 0.2869
+      },
+      {
+        "char": "f",
+        "box": [
+          140.7,
+          9.4,
+          161.3,
+          43.0
+        ],
+        "conf": 0.5698
+      }
+    ]
+  },
+  {
+    "image": "captcha_0082.png",
+    "predicted_text": "TTjTT",
+    "verified_text": "",
+    "confidence_avg": 0.5202,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          34.5,
+          11.7,
+          59.2,
+          47.8
+        ],
+        "conf": 0.4016
+      },
+      {
+        "char": "T",
+        "box": [
+          47.2,
+          12.3,
+          76.8,
+          47.6
+        ],
+        "conf": 0.304
+      },
+      {
+        "char": "j",
+        "box": [
+          75.9,
+          9.8,
+          97.5,
+          53.3
+        ],
+        "conf": 0.5401
+      },
+      {
+        "char": "T",
+        "box": [
+          110.2,
+          9.6,
+          149.2,
+          49.3
+        ],
+        "conf": 0.6407
+      },
+      {
+        "char": "T",
+        "box": [
+          139.3,
+          15.2,
+          177.1,
+          58.7
+        ],
+        "conf": 0.7146
+      }
+    ]
+  },
+  {
+    "image": "captcha_0083.png",
+    "predicted_text": "tlli",
+    "verified_text": "",
+    "confidence_avg": 0.6867,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          54.5,
+          19.1,
+          73.5,
+          51.4
+        ],
+        "conf": 0.5727
+      },
+      {
+        "char": "l",
+        "box": [
+          75.5,
+          0.9,
+          89.3,
+          36.8
+        ],
+        "conf": 0.6839
+      },
+      {
+        "char": "l",
+        "box": [
+          94.6,
+          1.5,
+          109.0,
+          37.7
+        ],
+        "conf": 0.6849
+      },
+      {
+        "char": "i",
+        "box": [
+          154.4,
+          24.6,
+          169.6,
+          60.0
+        ],
+        "conf": 0.8052
+      }
+    ]
+  },
+  {
+    "image": "captcha_0084.png",
+    "predicted_text": "r5",
+    "verified_text": "",
+    "confidence_avg": 0.4453,
+    "boxes": [
+      {
+        "char": "r",
+        "box": [
+          1.4,
+          8.1,
+          25.3,
+          29.4
+        ],
+        "conf": 0.4528
+      },
+      {
+        "char": "5",
+        "box": [
+          73.5,
+          5.7,
+          111.3,
+          43.8
+        ],
+        "conf": 0.4378
+      }
+    ]
+  },
+  {
+    "image": "captcha_0085.png",
+    "predicted_text": "PAR",
+    "verified_text": "",
+    "confidence_avg": 0.4227,
+    "boxes": [
+      {
+        "char": "P",
+        "box": [
+          0.0,
+          7.5,
+          26.6,
+          44.2
+        ],
+        "conf": 0.3589
+      },
+      {
+        "char": "A",
+        "box": [
+          32.0,
+          12.7,
+          65.2,
+          51.3
+        ],
+        "conf": 0.498
+      },
+      {
+        "char": "R",
+        "box": [
+          145.6,
+          20.8,
+          178.6,
+          60.0
+        ],
+        "conf": 0.4111
+      }
+    ]
+  },
+  {
+    "image": "captcha_0086.png",
+    "predicted_text": "1",
+    "verified_text": "",
+    "confidence_avg": 0.3418,
+    "boxes": [
+      {
+        "char": "1",
+        "box": [
+          75.0,
+          15.6,
+          93.9,
+          52.7
+        ],
+        "conf": 0.3418
+      }
+    ]
+  },
+  {
+    "image": "captcha_0087.png",
+    "predicted_text": "o2JlXE",
+    "verified_text": "",
+    "confidence_avg": 0.4746,
+    "boxes": [
+      {
+        "char": "o",
+        "box": [
+          10.7,
+          28.9,
+          32.4,
+          49.8
+        ],
+        "conf": 0.3688
+      },
+      {
+        "char": "2",
+        "box": [
+          31.6,
+          9.2,
+          62.4,
+          45.7
+        ],
+        "conf": 0.7853
+      },
+      {
+        "char": "J",
+        "box": [
+          76.4,
+          14.1,
+          109.0,
+          51.7
+        ],
+        "conf": 0.2601
+      },
+      {
+        "char": "l",
+        "box": [
+          87.8,
+          17.6,
+          102.7,
+          52.5
+        ],
+        "conf": 0.388
+      },
+      {
+        "char": "X",
+        "box": [
+          105.9,
+          6.1,
+          144.8,
+          47.8
+        ],
+        "conf": 0.3857
+      },
+      {
+        "char": "E",
+        "box": [
+          145.6,
+          18.0,
+          177.6,
+          51.5
+        ],
+        "conf": 0.6598
+      }
+    ]
+  },
+  {
+    "image": "captcha_0088.png",
+    "predicted_text": "G",
+    "verified_text": "",
+    "confidence_avg": 0.3823,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          102.9,
+          34.2,
+          132.8,
+          60.0
+        ],
+        "conf": 0.3823
+      }
+    ]
+  },
+  {
+    "image": "captcha_0089.png",
+    "predicted_text": "E2",
+    "verified_text": "",
+    "confidence_avg": 0.9033,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          107.5,
+          0.2,
+          134.5,
+          38.7
+        ],
+        "conf": 0.9173
+      },
+      {
+        "char": "2",
+        "box": [
+          141.8,
+          21.7,
+          174.4,
+          52.5
+        ],
+        "conf": 0.8894
+      }
+    ]
+  },
+  {
+    "image": "captcha_0090.png",
+    "predicted_text": "Z7lGll",
+    "verified_text": "",
+    "confidence_avg": 0.6078,
+    "boxes": [
+      {
+        "char": "Z",
+        "box": [
+          5.1,
+          20.8,
+          36.3,
+          60.0
+        ],
+        "conf": 0.5038
+      },
+      {
+        "char": "7",
+        "box": [
+          30.5,
+          14.7,
+          64.2,
+          55.3
+        ],
+        "conf": 0.44
+      },
+      {
+        "char": "l",
+        "box": [
+          76.3,
+          16.2,
+          88.8,
+          54.1
+        ],
+        "conf": 0.5441
+      },
+      {
+        "char": "G",
+        "box": [
+          108.5,
+          14.4,
+          143.4,
+          55.1
+        ],
+        "conf": 0.7948
+      },
+      {
+        "char": "l",
+        "box": [
+          145.0,
+          2.1,
+          156.4,
+          38.6
+        ],
+        "conf": 0.6397
+      },
+      {
+        "char": "l",
+        "box": [
+          159.1,
+          6.4,
+          170.4,
+          40.9
+        ],
+        "conf": 0.7243
+      }
+    ]
+  },
+  {
+    "image": "captcha_0091.png",
+    "predicted_text": "llfd",
+    "verified_text": "",
+    "confidence_avg": 0.5185,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          1.3,
+          0.0,
+          11.3,
+          32.3
+        ],
+        "conf": 0.657
+      },
+      {
+        "char": "l",
+        "box": [
+          23.8,
+          0.0,
+          34.0,
+          31.2
+        ],
+        "conf": 0.517
+      },
+      {
+        "char": "f",
+        "box": [
+          40.5,
+          12.2,
+          59.7,
+          47.5
+        ],
+        "conf": 0.6209
+      },
+      {
+        "char": "d",
+        "box": [
+          86.8,
+          8.2,
+          109.5,
+          35.6
+        ],
+        "conf": 0.2791
+      }
+    ]
+  },
+  {
+    "image": "captcha_0092.png",
+    "predicted_text": "rJ",
+    "verified_text": "",
+    "confidence_avg": 0.3156,
+    "boxes": [
+      {
+        "char": "r",
+        "box": [
+          13.8,
+          9.0,
+          33.9,
+          37.3
+        ],
+        "conf": 0.3187
+      },
+      {
+        "char": "J",
+        "box": [
+          102.7,
+          17.7,
+          128.6,
+          58.3
+        ],
+        "conf": 0.3125
+      }
+    ]
+  },
+  {
+    "image": "captcha_0093.png",
+    "predicted_text": "GTl",
+    "verified_text": "",
+    "confidence_avg": 0.4834,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          35.5,
+          5.2,
+          75.7,
+          40.8
+        ],
+        "conf": 0.2858
+      },
+      {
+        "char": "T",
+        "box": [
+          103.6,
+          9.2,
+          133.1,
+          43.9
+        ],
+        "conf": 0.7353
+      },
+      {
+        "char": "l",
+        "box": [
+          132.6,
+          10.5,
+          143.3,
+          46.4
+        ],
+        "conf": 0.429
+      }
+    ]
+  },
+  {
+    "image": "captcha_0094.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0095.png",
+    "predicted_text": "BfA",
+    "verified_text": "",
+    "confidence_avg": 0.4741,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          41.5,
+          20.6,
+          71.4,
+          60.0
+        ],
+        "conf": 0.282
+      },
+      {
+        "char": "f",
+        "box": [
+          74.8,
+          22.3,
+          93.1,
+          53.7
+        ],
+        "conf": 0.4405
+      },
+      {
+        "char": "A",
+        "box": [
+          147.8,
+          20.3,
+          179.8,
+          58.8
+        ],
+        "conf": 0.6998
+      }
+    ]
+  },
+  {
+    "image": "captcha_0096.png",
+    "predicted_text": "rB",
+    "verified_text": "",
+    "confidence_avg": 0.4953,
+    "boxes": [
+      {
+        "char": "r",
+        "box": [
+          33.8,
+          2.3,
+          55.1,
+          22.9
+        ],
+        "conf": 0.3425
+      },
+      {
+        "char": "B",
+        "box": [
+          113.8,
+          13.6,
+          147.8,
+          56.9
+        ],
+        "conf": 0.6481
+      }
+    ]
+  },
+  {
+    "image": "captcha_0097.png",
+    "predicted_text": "EIi",
+    "verified_text": "",
+    "confidence_avg": 0.4501,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          3.8,
+          2.9,
+          35.0,
+          34.8
+        ],
+        "conf": 0.3182
+      },
+      {
+        "char": "I",
+        "box": [
+          107.5,
+          17.1,
+          124.0,
+          56.6
+        ],
+        "conf": 0.6397
+      },
+      {
+        "char": "i",
+        "box": [
+          142.8,
+          0.3,
+          161.3,
+          34.4
+        ],
+        "conf": 0.3923
+      }
+    ]
+  },
+  {
+    "image": "captcha_0098.png",
+    "predicted_text": "XA",
+    "verified_text": "",
+    "confidence_avg": 0.6331,
+    "boxes": [
+      {
+        "char": "X",
+        "box": [
+          38.3,
+          0.0,
+          73.4,
+          36.7
+        ],
+        "conf": 0.8575
+      },
+      {
+        "char": "A",
+        "box": [
+          104.7,
+          22.9,
+          135.6,
+          60.0
+        ],
+        "conf": 0.4087
+      }
+    ]
+  },
+  {
+    "image": "captcha_0099.png",
+    "predicted_text": "BBc",
+    "verified_text": "",
+    "confidence_avg": 0.3659,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          0.0,
+          3.8,
+          10.5,
+          40.1
+        ],
+        "conf": 0.3188
+      },
+      {
+        "char": "B",
+        "box": [
+          0.4,
+          11.6,
+          22.5,
+          40.8
+        ],
+        "conf": 0.4002
+      },
+      {
+        "char": "c",
+        "box": [
+          122.4,
+          39.1,
+          142.3,
+          58.5
+        ],
+        "conf": 0.3786
+      }
+    ]
+  },
+  {
+    "image": "captcha_0100.png",
+    "predicted_text": "d",
+    "verified_text": "",
+    "confidence_avg": 0.7014,
+    "boxes": [
+      {
+        "char": "d",
+        "box": [
+          107.4,
+          33.2,
+          130.0,
+          60.0
+        ],
+        "conf": 0.7014
+      }
+    ]
+  },
+  {
+    "image": "captcha_0101.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0102.png",
+    "predicted_text": "TGA",
+    "verified_text": "",
+    "confidence_avg": 0.6119,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          70.4,
+          14.5,
+          108.5,
+          57.1
+        ],
+        "conf": 0.5741
+      },
+      {
+        "char": "G",
+        "box": [
+          109.3,
+          8.2,
+          143.4,
+          45.7
+        ],
+        "conf": 0.8496
+      },
+      {
+        "char": "A",
+        "box": [
+          139.2,
+          12.6,
+          175.4,
+          50.5
+        ],
+        "conf": 0.412
+      }
+    ]
+  },
+  {
+    "image": "captcha_0103.png",
+    "predicted_text": "lRj",
+    "verified_text": "",
+    "confidence_avg": 0.5054,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          2.8,
+          13.0,
+          12.6,
+          41.7
+        ],
+        "conf": 0.4353
+      },
+      {
+        "char": "R",
+        "box": [
+          76.3,
+          17.7,
+          107.5,
+          58.0
+        ],
+        "conf": 0.3297
+      },
+      {
+        "char": "j",
+        "box": [
+          109.2,
+          6.3,
+          136.8,
+          50.7
+        ],
+        "conf": 0.7512
+      }
+    ]
+  },
+  {
+    "image": "captcha_0104.png",
+    "predicted_text": "fE",
+    "verified_text": "",
+    "confidence_avg": 0.6039,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          15.8,
+          19.9,
+          35.6,
+          50.6
+        ],
+        "conf": 0.8854
+      },
+      {
+        "char": "E",
+        "box": [
+          46.1,
+          21.2,
+          70.1,
+          53.3
+        ],
+        "conf": 0.3225
+      }
+    ]
+  },
+  {
+    "image": "captcha_0105.png",
+    "predicted_text": "tP",
+    "verified_text": "",
+    "confidence_avg": 0.583,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          110.8,
+          12.2,
+          130.0,
+          46.4
+        ],
+        "conf": 0.5744
+      },
+      {
+        "char": "P",
+        "box": [
+          114.5,
+          11.6,
+          140.1,
+          46.0
+        ],
+        "conf": 0.5916
+      }
+    ]
+  },
+  {
+    "image": "captcha_0106.png",
+    "predicted_text": "lR",
+    "verified_text": "",
+    "confidence_avg": 0.502,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          107.9,
+          15.9,
+          119.7,
+          51.1
+        ],
+        "conf": 0.5736
+      },
+      {
+        "char": "R",
+        "box": [
+          104.6,
+          14.6,
+          137.3,
+          51.0
+        ],
+        "conf": 0.4305
+      }
+    ]
+  },
+  {
+    "image": "captcha_0107.png",
+    "predicted_text": "J",
+    "verified_text": "",
+    "confidence_avg": 0.5775,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          32.7,
+          15.8,
+          54.3,
+          47.9
+        ],
+        "conf": 0.5775
+      }
+    ]
+  },
+  {
+    "image": "captcha_0108.png",
+    "predicted_text": "I",
+    "verified_text": "",
+    "confidence_avg": 0.3172,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          32.3,
+          7.5,
+          49.4,
+          48.5
+        ],
+        "conf": 0.3172
+      }
+    ]
+  },
+  {
+    "image": "captcha_0109.png",
+    "predicted_text": "Yl",
+    "verified_text": "",
+    "confidence_avg": 0.5702,
+    "boxes": [
+      {
+        "char": "Y",
+        "box": [
+          74.2,
+          12.5,
+          110.4,
+          51.9
+        ],
+        "conf": 0.668
+      },
+      {
+        "char": "l",
+        "box": [
+          116.9,
+          16.9,
+          128.3,
+          52.5
+        ],
+        "conf": 0.4724
+      }
+    ]
+  },
+  {
+    "image": "captcha_0110.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0111.png",
+    "predicted_text": "BT",
+    "verified_text": "",
+    "confidence_avg": 0.3643,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          0.3,
+          10.5,
+          41.0,
+          53.2
+        ],
+        "conf": 0.3804
+      },
+      {
+        "char": "T",
+        "box": [
+          99.6,
+          12.4,
+          131.6,
+          50.8
+        ],
+        "conf": 0.3482
+      }
+    ]
+  },
+  {
+    "image": "captcha_0112.png",
+    "predicted_text": "XTl",
+    "verified_text": "",
+    "confidence_avg": 0.4896,
+    "boxes": [
+      {
+        "char": "X",
+        "box": [
+          75.3,
+          11.9,
+          114.2,
+          52.4
+        ],
+        "conf": 0.429
+      },
+      {
+        "char": "T",
+        "box": [
+          148.4,
+          7.9,
+          179.9,
+          48.8
+        ],
+        "conf": 0.5248
+      },
+      {
+        "char": "l",
+        "box": [
+          158.3,
+          13.7,
+          171.3,
+          46.0
+        ],
+        "conf": 0.515
+      }
+    ]
+  },
+  {
+    "image": "captcha_0113.png",
+    "predicted_text": "T",
+    "verified_text": "",
+    "confidence_avg": 0.626,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          149.3,
+          15.9,
+          179.8,
+          57.2
+        ],
+        "conf": 0.626
+      }
+    ]
+  },
+  {
+    "image": "captcha_0114.png",
+    "predicted_text": "22",
+    "verified_text": "",
+    "confidence_avg": 0.5083,
+    "boxes": [
+      {
+        "char": "2",
+        "box": [
+          36.3,
+          1.2,
+          67.0,
+          33.3
+        ],
+        "conf": 0.4673
+      },
+      {
+        "char": "2",
+        "box": [
+          73.7,
+          10.1,
+          104.8,
+          47.4
+        ],
+        "conf": 0.5493
+      }
+    ]
+  },
+  {
+    "image": "captcha_0115.png",
+    "predicted_text": "2iT",
+    "verified_text": "",
+    "confidence_avg": 0.3907,
+    "boxes": [
+      {
+        "char": "2",
+        "box": [
+          42.0,
+          6.3,
+          70.7,
+          42.9
+        ],
+        "conf": 0.2608
+      },
+      {
+        "char": "i",
+        "box": [
+          154.5,
+          0.0,
+          168.3,
+          24.7
+        ],
+        "conf": 0.281
+      },
+      {
+        "char": "T",
+        "box": [
+          161.6,
+          0.4,
+          178.9,
+          25.5
+        ],
+        "conf": 0.6304
+      }
+    ]
+  },
+  {
+    "image": "captcha_0116.png",
+    "predicted_text": "2fI",
+    "verified_text": "",
+    "confidence_avg": 0.5035,
+    "boxes": [
+      {
+        "char": "2",
+        "box": [
+          75.2,
+          5.8,
+          109.1,
+          37.8
+        ],
+        "conf": 0.414
+      },
+      {
+        "char": "f",
+        "box": [
+          110.0,
+          12.4,
+          135.6,
+          46.9
+        ],
+        "conf": 0.3986
+      },
+      {
+        "char": "I",
+        "box": [
+          159.4,
+          14.5,
+          175.2,
+          55.2
+        ],
+        "conf": 0.6978
+      }
+    ]
+  },
+  {
+    "image": "captcha_0117.png",
+    "predicted_text": "Il",
+    "verified_text": "",
+    "confidence_avg": 0.3008,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          28.5,
+          10.9,
+          44.0,
+          52.1
+        ],
+        "conf": 0.2631
+      },
+      {
+        "char": "l",
+        "box": [
+          106.2,
+          24.0,
+          117.7,
+          59.7
+        ],
+        "conf": 0.3385
+      }
+    ]
+  },
+  {
+    "image": "captcha_0118.png",
+    "predicted_text": "fCl",
+    "verified_text": "",
+    "confidence_avg": 0.4848,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          94.7,
+          14.4,
+          109.7,
+          52.8
+        ],
+        "conf": 0.2513
+      },
+      {
+        "char": "C",
+        "box": [
+          111.5,
+          13.3,
+          144.2,
+          51.4
+        ],
+        "conf": 0.7711
+      },
+      {
+        "char": "l",
+        "box": [
+          145.3,
+          24.4,
+          157.8,
+          60.0
+        ],
+        "conf": 0.4319
+      }
+    ]
+  },
+  {
+    "image": "captcha_0119.png",
+    "predicted_text": "E2T5",
+    "verified_text": "",
+    "confidence_avg": 0.4797,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          0.0,
+          0.0,
+          38.4,
+          37.9
+        ],
+        "conf": 0.2555
+      },
+      {
+        "char": "2",
+        "box": [
+          38.8,
+          14.9,
+          68.0,
+          51.9
+        ],
+        "conf": 0.3629
+      },
+      {
+        "char": "T",
+        "box": [
+          71.8,
+          12.9,
+          101.1,
+          51.4
+        ],
+        "conf": 0.8881
+      },
+      {
+        "char": "5",
+        "box": [
+          107.4,
+          13.4,
+          143.0,
+          51.1
+        ],
+        "conf": 0.4121
+      }
+    ]
+  },
+  {
+    "image": "captcha_0120.png",
+    "predicted_text": "epI",
+    "verified_text": "",
+    "confidence_avg": 0.4736,
+    "boxes": [
+      {
+        "char": "e",
+        "box": [
+          33.5,
+          33.2,
+          58.1,
+          57.0
+        ],
+        "conf": 0.3235
+      },
+      {
+        "char": "p",
+        "box": [
+          74.6,
+          29.2,
+          108.0,
+          60.0
+        ],
+        "conf": 0.3432
+      },
+      {
+        "char": "I",
+        "box": [
+          112.6,
+          17.3,
+          129.4,
+          57.8
+        ],
+        "conf": 0.7541
+      }
+    ]
+  },
+  {
+    "image": "captcha_0121.png",
+    "predicted_text": "IGG",
+    "verified_text": "",
+    "confidence_avg": 0.7168,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          33.2,
+          16.7,
+          48.8,
+          55.3
+        ],
+        "conf": 0.7641
+      },
+      {
+        "char": "G",
+        "box": [
+          69.5,
+          8.3,
+          104.2,
+          46.2
+        ],
+        "conf": 0.5619
+      },
+      {
+        "char": "G",
+        "box": [
+          106.7,
+          31.0,
+          129.9,
+          59.9
+        ],
+        "conf": 0.8245
+      }
+    ]
+  },
+  {
+    "image": "captcha_0122.png",
+    "predicted_text": "flAj",
+    "verified_text": "",
+    "confidence_avg": 0.4453,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          19.5,
+          26.7,
+          36.7,
+          59.4
+        ],
+        "conf": 0.3573
+      },
+      {
+        "char": "l",
+        "box": [
+          75.3,
+          6.1,
+          90.8,
+          46.0
+        ],
+        "conf": 0.4822
+      },
+      {
+        "char": "A",
+        "box": [
+          71.4,
+          7.7,
+          105.5,
+          43.5
+        ],
+        "conf": 0.6592
+      },
+      {
+        "char": "j",
+        "box": [
+          116.8,
+          8.0,
+          140.9,
+          53.2
+        ],
+        "conf": 0.2823
+      }
+    ]
+  },
+  {
+    "image": "captcha_0123.png",
+    "predicted_text": "blZ",
+    "verified_text": "",
+    "confidence_avg": 0.4081,
+    "boxes": [
+      {
+        "char": "b",
+        "box": [
+          65.9,
+          11.4,
+          94.2,
+          51.8
+        ],
+        "conf": 0.4181
+      },
+      {
+        "char": "l",
+        "box": [
+          82.0,
+          13.0,
+          95.8,
+          52.6
+        ],
+        "conf": 0.4456
+      },
+      {
+        "char": "Z",
+        "box": [
+          109.2,
+          9.0,
+          141.4,
+          49.5
+        ],
+        "conf": 0.3605
+      }
+    ]
+  },
+  {
+    "image": "captcha_0124.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0125.png",
+    "predicted_text": "T3i",
+    "verified_text": "",
+    "confidence_avg": 0.5108,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.1,
+          0.0,
+          31.5,
+          37.0
+        ],
+        "conf": 0.4138
+      },
+      {
+        "char": "3",
+        "box": [
+          42.3,
+          27.2,
+          68.2,
+          56.7
+        ],
+        "conf": 0.2741
+      },
+      {
+        "char": "i",
+        "box": [
+          116.8,
+          15.1,
+          131.3,
+          50.9
+        ],
+        "conf": 0.8445
+      }
+    ]
+  },
+  {
+    "image": "captcha_0126.png",
+    "predicted_text": "fl",
+    "verified_text": "",
+    "confidence_avg": 0.5861,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          20.1,
+          11.6,
+          36.2,
+          49.1
+        ],
+        "conf": 0.3745
+      },
+      {
+        "char": "l",
+        "box": [
+          116.8,
+          25.6,
+          128.8,
+          60.0
+        ],
+        "conf": 0.7978
+      }
+    ]
+  },
+  {
+    "image": "captcha_0127.png",
+    "predicted_text": "EGJd",
+    "verified_text": "",
+    "confidence_avg": 0.5742,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          1.2,
+          1.3,
+          31.9,
+          33.6
+        ],
+        "conf": 0.4331
+      },
+      {
+        "char": "G",
+        "box": [
+          38.5,
+          12.9,
+          70.9,
+          49.7
+        ],
+        "conf": 0.3207
+      },
+      {
+        "char": "J",
+        "box": [
+          104.5,
+          15.9,
+          129.7,
+          51.2
+        ],
+        "conf": 0.6481
+      },
+      {
+        "char": "d",
+        "box": [
+          156.3,
+          15.3,
+          178.0,
+          45.8
+        ],
+        "conf": 0.8948
+      }
+    ]
+  },
+  {
+    "image": "captcha_0128.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0129.png",
+    "predicted_text": "lAY",
+    "verified_text": "",
+    "confidence_avg": 0.5036,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          0.0,
+          7.6,
+          11.0,
+          40.2
+        ],
+        "conf": 0.3468
+      },
+      {
+        "char": "A",
+        "box": [
+          67.6,
+          12.7,
+          107.6,
+          50.0
+        ],
+        "conf": 0.59
+      },
+      {
+        "char": "Y",
+        "box": [
+          147.3,
+          13.0,
+          180.0,
+          55.4
+        ],
+        "conf": 0.574
+      }
+    ]
+  },
+  {
+    "image": "captcha_0130.png",
+    "predicted_text": "iT",
+    "verified_text": "",
+    "confidence_avg": 0.3298,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          48.7,
+          7.5,
+          62.1,
+          41.6
+        ],
+        "conf": 0.3777
+      },
+      {
+        "char": "T",
+        "box": [
+          63.0,
+          18.1,
+          90.6,
+          56.6
+        ],
+        "conf": 0.2819
+      }
+    ]
+  },
+  {
+    "image": "captcha_0131.png",
+    "predicted_text": "lJij",
+    "verified_text": "",
+    "confidence_avg": 0.4231,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          68.2,
+          4.8,
+          83.0,
+          40.2
+        ],
+        "conf": 0.3119
+      },
+      {
+        "char": "J",
+        "box": [
+          67.8,
+          4.7,
+          95.9,
+          42.2
+        ],
+        "conf": 0.4076
+      },
+      {
+        "char": "i",
+        "box": [
+          109.4,
+          17.4,
+          121.6,
+          50.8
+        ],
+        "conf": 0.556
+      },
+      {
+        "char": "j",
+        "box": [
+          155.4,
+          2.2,
+          180.0,
+          47.0
+        ],
+        "conf": 0.417
+      }
+    ]
+  },
+  {
+    "image": "captcha_0132.png",
+    "predicted_text": "Ec",
+    "verified_text": "",
+    "confidence_avg": 0.5344,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          36.7,
+          7.0,
+          65.0,
+          46.1
+        ],
+        "conf": 0.8132
+      },
+      {
+        "char": "c",
+        "box": [
+          155.2,
+          39.1,
+          177.4,
+          59.9
+        ],
+        "conf": 0.2556
+      }
+    ]
+  },
+  {
+    "image": "captcha_0133.png",
+    "predicted_text": "IIIII3",
+    "verified_text": "",
+    "confidence_avg": 0.5702,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          0.0,
+          19.8,
+          15.1,
+          57.8
+        ],
+        "conf": 0.7957
+      },
+      {
+        "char": "I",
+        "box": [
+          6.3,
+          21.5,
+          22.9,
+          58.1
+        ],
+        "conf": 0.4137
+      },
+      {
+        "char": "I",
+        "box": [
+          10.8,
+          21.2,
+          30.3,
+          57.8
+        ],
+        "conf": 0.342
+      },
+      {
+        "char": "I",
+        "box": [
+          20.0,
+          19.1,
+          35.5,
+          58.4
+        ],
+        "conf": 0.8028
+      },
+      {
+        "char": "I",
+        "box": [
+          73.3,
+          23.2,
+          93.3,
+          60.0
+        ],
+        "conf": 0.5311
+      },
+      {
+        "char": "3",
+        "box": [
+          111.4,
+          15.8,
+          140.4,
+          54.4
+        ],
+        "conf": 0.5356
+      }
+    ]
+  },
+  {
+    "image": "captcha_0134.png",
+    "predicted_text": "J2",
+    "verified_text": "",
+    "confidence_avg": 0.7474,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          2.3,
+          12.8,
+          29.3,
+          50.0
+        ],
+        "conf": 0.5531
+      },
+      {
+        "char": "2",
+        "box": [
+          36.6,
+          27.6,
+          71.1,
+          60.0
+        ],
+        "conf": 0.9418
+      }
+    ]
+  },
+  {
+    "image": "captcha_0135.png",
+    "predicted_text": "8G",
+    "verified_text": "",
+    "confidence_avg": 0.5878,
+    "boxes": [
+      {
+        "char": "8",
+        "box": [
+          3.8,
+          23.7,
+          28.7,
+          60.0
+        ],
+        "conf": 0.9184
+      },
+      {
+        "char": "G",
+        "box": [
+          75.9,
+          14.0,
+          101.0,
+          50.2
+        ],
+        "conf": 0.2573
+      }
+    ]
+  },
+  {
+    "image": "captcha_0136.png",
+    "predicted_text": "ElR",
+    "verified_text": "",
+    "confidence_avg": 0.5103,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          34.1,
+          2.0,
+          72.5,
+          43.9
+        ],
+        "conf": 0.7113
+      },
+      {
+        "char": "l",
+        "box": [
+          68.7,
+          8.3,
+          80.8,
+          43.1
+        ],
+        "conf": 0.4393
+      },
+      {
+        "char": "R",
+        "box": [
+          65.5,
+          7.9,
+          101.6,
+          45.7
+        ],
+        "conf": 0.3803
+      }
+    ]
+  },
+  {
+    "image": "captcha_0137.png",
+    "predicted_text": "C",
+    "verified_text": "",
+    "confidence_avg": 0.8076,
+    "boxes": [
+      {
+        "char": "C",
+        "box": [
+          34.7,
+          0.0,
+          67.4,
+          36.4
+        ],
+        "conf": 0.8076
+      }
+    ]
+  },
+  {
+    "image": "captcha_0138.png",
+    "predicted_text": "lG5",
+    "verified_text": "",
+    "confidence_avg": 0.3769,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          6.7,
+          0.0,
+          19.3,
+          29.0
+        ],
+        "conf": 0.3016
+      },
+      {
+        "char": "G",
+        "box": [
+          34.3,
+          7.9,
+          76.2,
+          44.2
+        ],
+        "conf": 0.4374
+      },
+      {
+        "char": "5",
+        "box": [
+          77.3,
+          8.0,
+          111.8,
+          44.7
+        ],
+        "conf": 0.3916
+      }
+    ]
+  },
+  {
+    "image": "captcha_0139.png",
+    "predicted_text": "I",
+    "verified_text": "",
+    "confidence_avg": 0.6576,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          140.8,
+          17.6,
+          157.3,
+          55.4
+        ],
+        "conf": 0.6576
+      }
+    ]
+  },
+  {
+    "image": "captcha_0140.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0141.png",
+    "predicted_text": "X",
+    "verified_text": "",
+    "confidence_avg": 0.474,
+    "boxes": [
+      {
+        "char": "X",
+        "box": [
+          142.8,
+          6.7,
+          174.0,
+          43.4
+        ],
+        "conf": 0.474
+      }
+    ]
+  },
+  {
+    "image": "captcha_0142.png",
+    "predicted_text": "fl",
+    "verified_text": "",
+    "confidence_avg": 0.2783,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          14.3,
+          0.0,
+          34.8,
+          38.4
+        ],
+        "conf": 0.2747
+      },
+      {
+        "char": "l",
+        "box": [
+          119.2,
+          8.2,
+          133.4,
+          46.1
+        ],
+        "conf": 0.2819
+      }
+    ]
+  },
+  {
+    "image": "captcha_0143.png",
+    "predicted_text": "tB",
+    "verified_text": "",
+    "confidence_avg": 0.3888,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          0.0,
+          18.8,
+          18.9,
+          54.1
+        ],
+        "conf": 0.5254
+      },
+      {
+        "char": "B",
+        "box": [
+          51.5,
+          4.4,
+          75.8,
+          39.4
+        ],
+        "conf": 0.2522
+      }
+    ]
+  },
+  {
+    "image": "captcha_0144.png",
+    "predicted_text": "ET",
+    "verified_text": "",
+    "confidence_avg": 0.3874,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          33.5,
+          1.1,
+          73.0,
+          41.3
+        ],
+        "conf": 0.3775
+      },
+      {
+        "char": "T",
+        "box": [
+          138.9,
+          0.0,
+          174.0,
+          31.3
+        ],
+        "conf": 0.3974
+      }
+    ]
+  },
+  {
+    "image": "captcha_0145.png",
+    "predicted_text": "E",
+    "verified_text": "",
+    "confidence_avg": 0.9033,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          105.6,
+          7.5,
+          136.6,
+          49.5
+        ],
+        "conf": 0.9033
+      }
+    ]
+  },
+  {
+    "image": "captcha_0146.png",
+    "predicted_text": "d",
+    "verified_text": "",
+    "confidence_avg": 0.3034,
+    "boxes": [
+      {
+        "char": "d",
+        "box": [
+          0.0,
+          13.3,
+          31.8,
+          57.4
+        ],
+        "conf": 0.3034
+      }
+    ]
+  },
+  {
+    "image": "captcha_0147.png",
+    "predicted_text": "TT",
+    "verified_text": "",
+    "confidence_avg": 0.8627,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.1,
+          11.8,
+          22.5,
+          49.3
+        ],
+        "conf": 0.7969
+      },
+      {
+        "char": "T",
+        "box": [
+          9.1,
+          12.8,
+          41.6,
+          51.1
+        ],
+        "conf": 0.9284
+      }
+    ]
+  },
+  {
+    "image": "captcha_0148.png",
+    "predicted_text": "Rj",
+    "verified_text": "",
+    "confidence_avg": 0.6893,
+    "boxes": [
+      {
+        "char": "R",
+        "box": [
+          34.0,
+          5.8,
+          71.4,
+          46.8
+        ],
+        "conf": 0.5987
+      },
+      {
+        "char": "j",
+        "box": [
+          156.8,
+          15.5,
+          180.0,
+          55.3
+        ],
+        "conf": 0.7799
+      }
+    ]
+  },
+  {
+    "image": "captcha_0149.png",
+    "predicted_text": "ft",
+    "verified_text": "",
+    "confidence_avg": 0.4831,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          5.9,
+          10.9,
+          29.8,
+          57.6
+        ],
+        "conf": 0.5804
+      },
+      {
+        "char": "t",
+        "box": [
+          83.7,
+          16.5,
+          101.1,
+          48.7
+        ],
+        "conf": 0.3858
+      }
+    ]
+  },
+  {
+    "image": "captcha_0150.png",
+    "predicted_text": "TT",
+    "verified_text": "",
+    "confidence_avg": 0.5612,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          34.7,
+          2.2,
+          74.1,
+          45.9
+        ],
+        "conf": 0.6928
+      },
+      {
+        "char": "T",
+        "box": [
+          70.4,
+          14.3,
+          114.1,
+          60.0
+        ],
+        "conf": 0.4296
+      }
+    ]
+  },
+  {
+    "image": "captcha_0151.png",
+    "predicted_text": "Q5f",
+    "verified_text": "",
+    "confidence_avg": 0.4581,
+    "boxes": [
+      {
+        "char": "Q",
+        "box": [
+          71.8,
+          0.9,
+          106.9,
+          38.5
+        ],
+        "conf": 0.6958
+      },
+      {
+        "char": "5",
+        "box": [
+          113.0,
+          12.1,
+          142.6,
+          45.9
+        ],
+        "conf": 0.3815
+      },
+      {
+        "char": "f",
+        "box": [
+          149.9,
+          13.8,
+          171.2,
+          60.0
+        ],
+        "conf": 0.297
+      }
+    ]
+  },
+  {
+    "image": "captcha_0152.png",
+    "predicted_text": "GjB",
+    "verified_text": "",
+    "confidence_avg": 0.6469,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          81.5,
+          19.0,
+          105.4,
+          48.6
+        ],
+        "conf": 0.3827
+      },
+      {
+        "char": "j",
+        "box": [
+          118.4,
+          0.0,
+          138.3,
+          40.9
+        ],
+        "conf": 0.8446
+      },
+      {
+        "char": "B",
+        "box": [
+          143.8,
+          10.0,
+          174.6,
+          48.9
+        ],
+        "conf": 0.7133
+      }
+    ]
+  },
+  {
+    "image": "captcha_0153.png",
+    "predicted_text": "llC",
+    "verified_text": "",
+    "confidence_avg": 0.4286,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          106.4,
+          8.2,
+          120.7,
+          46.0
+        ],
+        "conf": 0.6526
+      },
+      {
+        "char": "l",
+        "box": [
+          125.2,
+          10.1,
+          138.5,
+          48.1
+        ],
+        "conf": 0.3176
+      },
+      {
+        "char": "C",
+        "box": [
+          154.0,
+          12.9,
+          178.7,
+          44.4
+        ],
+        "conf": 0.3155
+      }
+    ]
+  },
+  {
+    "image": "captcha_0154.png",
+    "predicted_text": "iEJG",
+    "verified_text": "",
+    "confidence_avg": 0.4553,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          0.5,
+          29.0,
+          12.0,
+          56.9
+        ],
+        "conf": 0.8519
+      },
+      {
+        "char": "E",
+        "box": [
+          37.8,
+          7.2,
+          74.5,
+          44.8
+        ],
+        "conf": 0.4612
+      },
+      {
+        "char": "J",
+        "box": [
+          73.6,
+          0.0,
+          99.4,
+          37.1
+        ],
+        "conf": 0.2512
+      },
+      {
+        "char": "G",
+        "box": [
+          106.8,
+          12.5,
+          139.7,
+          51.3
+        ],
+        "conf": 0.2568
+      }
+    ]
+  },
+  {
+    "image": "captcha_0155.png",
+    "predicted_text": "El",
+    "verified_text": "",
+    "confidence_avg": 0.3461,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          105.5,
+          5.4,
+          146.1,
+          46.3
+        ],
+        "conf": 0.4019
+      },
+      {
+        "char": "l",
+        "box": [
+          163.6,
+          14.9,
+          177.2,
+          52.8
+        ],
+        "conf": 0.2903
+      }
+    ]
+  },
+  {
+    "image": "captcha_0156.png",
+    "predicted_text": "SGBm",
+    "verified_text": "",
+    "confidence_avg": 0.4829,
+    "boxes": [
+      {
+        "char": "S",
+        "box": [
+          5.3,
+          32.0,
+          27.6,
+          60.0
+        ],
+        "conf": 0.5763
+      },
+      {
+        "char": "G",
+        "box": [
+          36.4,
+          22.8,
+          70.5,
+          58.6
+        ],
+        "conf": 0.5071
+      },
+      {
+        "char": "B",
+        "box": [
+          110.8,
+          5.9,
+          143.5,
+          43.6
+        ],
+        "conf": 0.3209
+      },
+      {
+        "char": "m",
+        "box": [
+          152.2,
+          39.7,
+          175.4,
+          59.8
+        ],
+        "conf": 0.5275
+      }
+    ]
+  },
+  {
+    "image": "captcha_0157.png",
+    "predicted_text": "lrlX",
+    "verified_text": "",
+    "confidence_avg": 0.5804,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          0.0,
+          26.4,
+          9.3,
+          60.0
+        ],
+        "conf": 0.85
+      },
+      {
+        "char": "r",
+        "box": [
+          41.3,
+          23.0,
+          62.9,
+          39.3
+        ],
+        "conf": 0.2851
+      },
+      {
+        "char": "l",
+        "box": [
+          70.9,
+          12.1,
+          85.1,
+          45.5
+        ],
+        "conf": 0.416
+      },
+      {
+        "char": "X",
+        "box": [
+          112.3,
+          0.3,
+          149.4,
+          41.0
+        ],
+        "conf": 0.7706
+      }
+    ]
+  },
+  {
+    "image": "captcha_0158.png",
+    "predicted_text": "GTc",
+    "verified_text": "",
+    "confidence_avg": 0.5385,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          0.0,
+          2.7,
+          32.7,
+          40.7
+        ],
+        "conf": 0.3202
+      },
+      {
+        "char": "T",
+        "box": [
+          32.7,
+          12.9,
+          66.4,
+          51.5
+        ],
+        "conf": 0.9676
+      },
+      {
+        "char": "c",
+        "box": [
+          83.6,
+          34.4,
+          104.5,
+          56.2
+        ],
+        "conf": 0.3276
+      }
+    ]
+  },
+  {
+    "image": "captcha_0159.png",
+    "predicted_text": "lAIll",
+    "verified_text": "",
+    "confidence_avg": 0.6208,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          77.4,
+          18.4,
+          90.6,
+          56.1
+        ],
+        "conf": 0.6582
+      },
+      {
+        "char": "A",
+        "box": [
+          72.8,
+          14.5,
+          108.6,
+          55.9
+        ],
+        "conf": 0.3422
+      },
+      {
+        "char": "I",
+        "box": [
+          108.1,
+          11.8,
+          125.0,
+          50.0
+        ],
+        "conf": 0.5788
+      },
+      {
+        "char": "l",
+        "box": [
+          125.8,
+          10.1,
+          140.4,
+          48.3
+        ],
+        "conf": 0.7767
+      },
+      {
+        "char": "l",
+        "box": [
+          140.7,
+          22.7,
+          156.9,
+          58.4
+        ],
+        "conf": 0.748
+      }
+    ]
+  },
+  {
+    "image": "captcha_0160.png",
+    "predicted_text": "tB",
+    "verified_text": "",
+    "confidence_avg": 0.3277,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          111.7,
+          23.4,
+          132.2,
+          59.4
+        ],
+        "conf": 0.3058
+      },
+      {
+        "char": "B",
+        "box": [
+          142.5,
+          20.0,
+          172.1,
+          60.0
+        ],
+        "conf": 0.3496
+      }
+    ]
+  },
+  {
+    "image": "captcha_0161.png",
+    "predicted_text": "t",
+    "verified_text": "",
+    "confidence_avg": 0.2879,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          147.0,
+          26.8,
+          161.5,
+          55.5
+        ],
+        "conf": 0.2879
+      }
+    ]
+  },
+  {
+    "image": "captcha_0162.png",
+    "predicted_text": "Gllp",
+    "verified_text": "",
+    "confidence_avg": 0.5708,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          75.9,
+          17.8,
+          101.2,
+          47.2
+        ],
+        "conf": 0.6283
+      },
+      {
+        "char": "l",
+        "box": [
+          111.6,
+          0.0,
+          122.5,
+          36.6
+        ],
+        "conf": 0.6815
+      },
+      {
+        "char": "l",
+        "box": [
+          126.7,
+          0.0,
+          140.0,
+          35.9
+        ],
+        "conf": 0.3157
+      },
+      {
+        "char": "p",
+        "box": [
+          148.0,
+          20.8,
+          179.9,
+          60.0
+        ],
+        "conf": 0.6576
+      }
+    ]
+  },
+  {
+    "image": "captcha_0163.png",
+    "predicted_text": "lS",
+    "verified_text": "",
+    "confidence_avg": 0.4904,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          36.9,
+          18.3,
+          51.4,
+          54.9
+        ],
+        "conf": 0.6755
+      },
+      {
+        "char": "S",
+        "box": [
+          149.8,
+          22.8,
+          179.8,
+          58.8
+        ],
+        "conf": 0.3052
+      }
+    ]
+  },
+  {
+    "image": "captcha_0164.png",
+    "predicted_text": "fllJB",
+    "verified_text": "",
+    "confidence_avg": 0.4767,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          47.6,
+          9.8,
+          62.1,
+          38.7
+        ],
+        "conf": 0.2622
+      },
+      {
+        "char": "l",
+        "box": [
+          77.1,
+          14.4,
+          92.9,
+          52.3
+        ],
+        "conf": 0.9065
+      },
+      {
+        "char": "l",
+        "box": [
+          96.3,
+          14.1,
+          109.8,
+          51.1
+        ],
+        "conf": 0.5006
+      },
+      {
+        "char": "J",
+        "box": [
+          105.2,
+          24.0,
+          126.3,
+          56.7
+        ],
+        "conf": 0.3651
+      },
+      {
+        "char": "B",
+        "box": [
+          111.3,
+          20.1,
+          145.3,
+          60.0
+        ],
+        "conf": 0.3493
+      }
+    ]
+  },
+  {
+    "image": "captcha_0165.png",
+    "predicted_text": "I",
+    "verified_text": "",
+    "confidence_avg": 0.4132,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          153.9,
+          20.8,
+          170.4,
+          53.6
+        ],
+        "conf": 0.4132
+      }
+    ]
+  },
+  {
+    "image": "captcha_0166.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0167.png",
+    "predicted_text": "Ty",
+    "verified_text": "",
+    "confidence_avg": 0.597,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.2,
+          9.1,
+          35.4,
+          51.6
+        ],
+        "conf": 0.8556
+      },
+      {
+        "char": "y",
+        "box": [
+          43.8,
+          16.4,
+          72.9,
+          48.3
+        ],
+        "conf": 0.3384
+      }
+    ]
+  },
+  {
+    "image": "captcha_0168.png",
+    "predicted_text": "i",
+    "verified_text": "",
+    "confidence_avg": 0.7989,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          148.4,
+          1.5,
+          162.4,
+          37.7
+        ],
+        "conf": 0.7989
+      }
+    ]
+  },
+  {
+    "image": "captcha_0169.png",
+    "predicted_text": "Bi",
+    "verified_text": "",
+    "confidence_avg": 0.4508,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          109.8,
+          0.0,
+          142.2,
+          35.2
+        ],
+        "conf": 0.2941
+      },
+      {
+        "char": "i",
+        "box": [
+          141.9,
+          8.3,
+          156.9,
+          44.3
+        ],
+        "conf": 0.6076
+      }
+    ]
+  },
+  {
+    "image": "captcha_0170.png",
+    "predicted_text": "fB",
+    "verified_text": "",
+    "confidence_avg": 0.4102,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          0.0,
+          18.1,
+          28.6,
+          50.3
+        ],
+        "conf": 0.4901
+      },
+      {
+        "char": "B",
+        "box": [
+          77.3,
+          17.8,
+          110.2,
+          60.0
+        ],
+        "conf": 0.3302
+      }
+    ]
+  },
+  {
+    "image": "captcha_0171.png",
+    "predicted_text": "CllZ",
+    "verified_text": "",
+    "confidence_avg": 0.5935,
+    "boxes": [
+      {
+        "char": "C",
+        "box": [
+          7.8,
+          22.5,
+          40.4,
+          60.0
+        ],
+        "conf": 0.5578
+      },
+      {
+        "char": "l",
+        "box": [
+          39.6,
+          13.4,
+          56.7,
+          52.7
+        ],
+        "conf": 0.721
+      },
+      {
+        "char": "l",
+        "box": [
+          58.7,
+          11.8,
+          74.2,
+          49.3
+        ],
+        "conf": 0.8287
+      },
+      {
+        "char": "Z",
+        "box": [
+          139.6,
+          9.3,
+          173.4,
+          47.0
+        ],
+        "conf": 0.2666
+      }
+    ]
+  },
+  {
+    "image": "captcha_0172.png",
+    "predicted_text": "f6",
+    "verified_text": "",
+    "confidence_avg": 0.5505,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          11.5,
+          13.7,
+          31.4,
+          47.6
+        ],
+        "conf": 0.625
+      },
+      {
+        "char": "6",
+        "box": [
+          106.5,
+          22.4,
+          139.4,
+          60.0
+        ],
+        "conf": 0.476
+      }
+    ]
+  },
+  {
+    "image": "captcha_0173.png",
+    "predicted_text": "jFG",
+    "verified_text": "",
+    "confidence_avg": 0.6096,
+    "boxes": [
+      {
+        "char": "j",
+        "box": [
+          1.5,
+          9.6,
+          28.3,
+          54.6
+        ],
+        "conf": 0.9827
+      },
+      {
+        "char": "F",
+        "box": [
+          40.6,
+          19.9,
+          69.4,
+          52.7
+        ],
+        "conf": 0.5334
+      },
+      {
+        "char": "G",
+        "box": [
+          148.2,
+          4.1,
+          174.7,
+          31.3
+        ],
+        "conf": 0.3128
+      }
+    ]
+  },
+  {
+    "image": "captcha_0174.png",
+    "predicted_text": "IIl",
+    "verified_text": "",
+    "confidence_avg": 0.3913,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          55.3,
+          15.5,
+          72.5,
+          55.4
+        ],
+        "conf": 0.4111
+      },
+      {
+        "char": "I",
+        "box": [
+          142.2,
+          10.5,
+          154.4,
+          40.3
+        ],
+        "conf": 0.4683
+      },
+      {
+        "char": "l",
+        "box": [
+          153.6,
+          9.7,
+          164.4,
+          38.8
+        ],
+        "conf": 0.2946
+      }
+    ]
+  },
+  {
+    "image": "captcha_0175.png",
+    "predicted_text": "f",
+    "verified_text": "",
+    "confidence_avg": 0.4451,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          34.2,
+          7.4,
+          68.0,
+          55.1
+        ],
+        "conf": 0.4451
+      }
+    ]
+  },
+  {
+    "image": "captcha_0176.png",
+    "predicted_text": "B22G",
+    "verified_text": "",
+    "confidence_avg": 0.5947,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          41.7,
+          3.7,
+          76.3,
+          40.2
+        ],
+        "conf": 0.7163
+      },
+      {
+        "char": "2",
+        "box": [
+          71.9,
+          13.1,
+          100.7,
+          50.0
+        ],
+        "conf": 0.5793
+      },
+      {
+        "char": "2",
+        "box": [
+          109.2,
+          13.0,
+          145.3,
+          45.5
+        ],
+        "conf": 0.7116
+      },
+      {
+        "char": "G",
+        "box": [
+          153.5,
+          10.2,
+          180.0,
+          41.4
+        ],
+        "conf": 0.3715
+      }
+    ]
+  },
+  {
+    "image": "captcha_0177.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0178.png",
+    "predicted_text": "o",
+    "verified_text": "",
+    "confidence_avg": 0.4036,
+    "boxes": [
+      {
+        "char": "o",
+        "box": [
+          83.3,
+          14.4,
+          107.9,
+          45.4
+        ],
+        "conf": 0.4036
+      }
+    ]
+  },
+  {
+    "image": "captcha_0179.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0180.png",
+    "predicted_text": "RlX",
+    "verified_text": "",
+    "confidence_avg": 0.3957,
+    "boxes": [
+      {
+        "char": "R",
+        "box": [
+          70.2,
+          19.7,
+          104.3,
+          58.9
+        ],
+        "conf": 0.5561
+      },
+      {
+        "char": "l",
+        "box": [
+          127.2,
+          7.6,
+          144.4,
+          45.8
+        ],
+        "conf": 0.3213
+      },
+      {
+        "char": "X",
+        "box": [
+          140.6,
+          4.6,
+          175.4,
+          43.1
+        ],
+        "conf": 0.3098
+      }
+    ]
+  },
+  {
+    "image": "captcha_0181.png",
+    "predicted_text": "lh",
+    "verified_text": "",
+    "confidence_avg": 0.5771,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          88.9,
+          1.9,
+          101.5,
+          36.2
+        ],
+        "conf": 0.6743
+      },
+      {
+        "char": "h",
+        "box": [
+          86.8,
+          0.0,
+          112.5,
+          35.8
+        ],
+        "conf": 0.4799
+      }
+    ]
+  },
+  {
+    "image": "captcha_0182.png",
+    "predicted_text": "Ti",
+    "verified_text": "",
+    "confidence_avg": 0.542,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.0,
+          20.1,
+          31.8,
+          59.9
+        ],
+        "conf": 0.7478
+      },
+      {
+        "char": "i",
+        "box": [
+          67.2,
+          0.0,
+          81.8,
+          32.8
+        ],
+        "conf": 0.3362
+      }
+    ]
+  },
+  {
+    "image": "captcha_0183.png",
+    "predicted_text": "f",
+    "verified_text": "",
+    "confidence_avg": 0.7213,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          78.0,
+          7.8,
+          98.6,
+          39.6
+        ],
+        "conf": 0.7213
+      }
+    ]
+  },
+  {
+    "image": "captcha_0184.png",
+    "predicted_text": "I",
+    "verified_text": "",
+    "confidence_avg": 0.3619,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          112.0,
+          18.3,
+          132.0,
+          60.0
+        ],
+        "conf": 0.3619
+      }
+    ]
+  },
+  {
+    "image": "captcha_0185.png",
+    "predicted_text": "f7",
+    "verified_text": "",
+    "confidence_avg": 0.4333,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          44.4,
+          5.0,
+          66.7,
+          35.5
+        ],
+        "conf": 0.4025
+      },
+      {
+        "char": "7",
+        "box": [
+          138.1,
+          8.0,
+          180.0,
+          52.6
+        ],
+        "conf": 0.464
+      }
+    ]
+  },
+  {
+    "image": "captcha_0186.png",
+    "predicted_text": "lIlj",
+    "verified_text": "",
+    "confidence_avg": 0.693,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          75.9,
+          19.3,
+          87.5,
+          55.6
+        ],
+        "conf": 0.8607
+      },
+      {
+        "char": "I",
+        "box": [
+          92.3,
+          14.6,
+          104.8,
+          56.0
+        ],
+        "conf": 0.5627
+      },
+      {
+        "char": "l",
+        "box": [
+          109.6,
+          28.4,
+          123.5,
+          60.0
+        ],
+        "conf": 0.3758
+      },
+      {
+        "char": "j",
+        "box": [
+          142.4,
+          0.2,
+          165.9,
+          43.0
+        ],
+        "conf": 0.973
+      }
+    ]
+  },
+  {
+    "image": "captcha_0187.png",
+    "predicted_text": "A5AjjAI",
+    "verified_text": "",
+    "confidence_avg": 0.5262,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          0.0,
+          0.3,
+          32.7,
+          38.2
+        ],
+        "conf": 0.374
+      },
+      {
+        "char": "5",
+        "box": [
+          40.4,
+          2.1,
+          70.3,
+          41.0
+        ],
+        "conf": 0.4685
+      },
+      {
+        "char": "A",
+        "box": [
+          67.9,
+          6.5,
+          109.2,
+          43.3
+        ],
+        "conf": 0.5237
+      },
+      {
+        "char": "j",
+        "box": [
+          103.2,
+          1.1,
+          153.3,
+          47.2
+        ],
+        "conf": 0.6573
+      },
+      {
+        "char": "j",
+        "box": [
+          118.3,
+          5.4,
+          153.9,
+          44.6
+        ],
+        "conf": 0.8644
+      },
+      {
+        "char": "A",
+        "box": [
+          142.2,
+          17.6,
+          178.0,
+          58.6
+        ],
+        "conf": 0.2564
+      },
+      {
+        "char": "I",
+        "box": [
+          154.2,
+          20.4,
+          174.1,
+          58.1
+        ],
+        "conf": 0.5392
+      }
+    ]
+  },
+  {
+    "image": "captcha_0188.png",
+    "predicted_text": "JGP",
+    "verified_text": "",
+    "confidence_avg": 0.4992,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          0.1,
+          0.1,
+          31.4,
+          35.3
+        ],
+        "conf": 0.2949
+      },
+      {
+        "char": "G",
+        "box": [
+          70.0,
+          14.9,
+          96.9,
+          51.5
+        ],
+        "conf": 0.8705
+      },
+      {
+        "char": "P",
+        "box": [
+          153.7,
+          14.6,
+          180.0,
+          50.1
+        ],
+        "conf": 0.3321
+      }
+    ]
+  },
+  {
+    "image": "captcha_0189.png",
+    "predicted_text": "TT",
+    "verified_text": "",
+    "confidence_avg": 0.7755,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.0,
+          13.3,
+          25.8,
+          52.2
+        ],
+        "conf": 0.7536
+      },
+      {
+        "char": "T",
+        "box": [
+          110.9,
+          11.7,
+          146.3,
+          46.5
+        ],
+        "conf": 0.7974
+      }
+    ]
+  },
+  {
+    "image": "captcha_0190.png",
+    "predicted_text": "fG",
+    "verified_text": "",
+    "confidence_avg": 0.3853,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          77.8,
+          15.7,
+          105.7,
+          50.9
+        ],
+        "conf": 0.3608
+      },
+      {
+        "char": "G",
+        "box": [
+          112.6,
+          12.4,
+          143.2,
+          49.1
+        ],
+        "conf": 0.4098
+      }
+    ]
+  },
+  {
+    "image": "captcha_0191.png",
+    "predicted_text": "AllI",
+    "verified_text": "",
+    "confidence_avg": 0.6019,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          0.2,
+          5.7,
+          36.7,
+          40.9
+        ],
+        "conf": 0.5618
+      },
+      {
+        "char": "l",
+        "box": [
+          17.8,
+          5.6,
+          34.4,
+          41.8
+        ],
+        "conf": 0.519
+      },
+      {
+        "char": "l",
+        "box": [
+          143.7,
+          21.3,
+          157.8,
+          57.0
+        ],
+        "conf": 0.8268
+      },
+      {
+        "char": "I",
+        "box": [
+          164.0,
+          15.5,
+          179.9,
+          55.2
+        ],
+        "conf": 0.4999
+      }
+    ]
+  },
+  {
+    "image": "captcha_0192.png",
+    "predicted_text": "mBTXi",
+    "verified_text": "",
+    "confidence_avg": 0.6447,
+    "boxes": [
+      {
+        "char": "m",
+        "box": [
+          0.1,
+          16.3,
+          29.1,
+          35.0
+        ],
+        "conf": 0.402
+      },
+      {
+        "char": "B",
+        "box": [
+          35.1,
+          18.6,
+          67.2,
+          56.3
+        ],
+        "conf": 0.7167
+      },
+      {
+        "char": "T",
+        "box": [
+          107.4,
+          20.8,
+          145.5,
+          60.0
+        ],
+        "conf": 0.668
+      },
+      {
+        "char": "X",
+        "box": [
+          144.1,
+          19.2,
+          178.3,
+          60.0
+        ],
+        "conf": 0.8866
+      },
+      {
+        "char": "i",
+        "box": [
+          167.9,
+          28.8,
+          179.9,
+          60.0
+        ],
+        "conf": 0.55
+      }
+    ]
+  },
+  {
+    "image": "captcha_0193.png",
+    "predicted_text": "tfEI",
+    "verified_text": "",
+    "confidence_avg": 0.5074,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          49.3,
+          16.1,
+          73.4,
+          46.9
+        ],
+        "conf": 0.321
+      },
+      {
+        "char": "f",
+        "box": [
+          72.1,
+          10.1,
+          92.7,
+          39.9
+        ],
+        "conf": 0.3111
+      },
+      {
+        "char": "E",
+        "box": [
+          79.0,
+          8.2,
+          106.7,
+          41.3
+        ],
+        "conf": 0.8709
+      },
+      {
+        "char": "I",
+        "box": [
+          125.0,
+          16.3,
+          141.1,
+          55.0
+        ],
+        "conf": 0.5265
+      }
+    ]
+  },
+  {
+    "image": "captcha_0194.png",
+    "predicted_text": "2i",
+    "verified_text": "",
+    "confidence_avg": 0.3086,
+    "boxes": [
+      {
+        "char": "2",
+        "box": [
+          107.8,
+          25.9,
+          138.9,
+          60.0
+        ],
+        "conf": 0.2991
+      },
+      {
+        "char": "i",
+        "box": [
+          142.7,
+          4.6,
+          156.2,
+          35.6
+        ],
+        "conf": 0.3182
+      }
+    ]
+  },
+  {
+    "image": "captcha_0195.png",
+    "predicted_text": "lll",
+    "verified_text": "",
+    "confidence_avg": 0.6119,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          143.9,
+          19.5,
+          158.9,
+          56.3
+        ],
+        "conf": 0.7435
+      },
+      {
+        "char": "l",
+        "box": [
+          151.3,
+          20.2,
+          165.2,
+          56.0
+        ],
+        "conf": 0.4997
+      },
+      {
+        "char": "l",
+        "box": [
+          165.9,
+          19.6,
+          179.1,
+          56.1
+        ],
+        "conf": 0.5924
+      }
+    ]
+  },
+  {
+    "image": "captcha_0196.png",
+    "predicted_text": "Tr2",
+    "verified_text": "",
+    "confidence_avg": 0.4852,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          60.7,
+          0.7,
+          94.2,
+          42.3
+        ],
+        "conf": 0.4412
+      },
+      {
+        "char": "r",
+        "box": [
+          83.6,
+          18.3,
+          107.9,
+          44.2
+        ],
+        "conf": 0.4409
+      },
+      {
+        "char": "2",
+        "box": [
+          140.1,
+          9.2,
+          171.8,
+          48.3
+        ],
+        "conf": 0.5734
+      }
+    ]
+  },
+  {
+    "image": "captcha_0197.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0198.png",
+    "predicted_text": "Tl",
+    "verified_text": "",
+    "confidence_avg": 0.5798,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          35.6,
+          7.9,
+          60.1,
+          45.0
+        ],
+        "conf": 0.7216
+      },
+      {
+        "char": "l",
+        "box": [
+          84.1,
+          18.6,
+          96.3,
+          59.1
+        ],
+        "conf": 0.438
+      }
+    ]
+  },
+  {
+    "image": "captcha_0199.png",
+    "predicted_text": "lo7",
+    "verified_text": "",
+    "confidence_avg": 0.2907,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          4.7,
+          15.8,
+          15.6,
+          52.2
+        ],
+        "conf": 0.2868
+      },
+      {
+        "char": "o",
+        "box": [
+          40.9,
+          14.2,
+          65.3,
+          40.2
+        ],
+        "conf": 0.3157
+      },
+      {
+        "char": "7",
+        "box": [
+          140.4,
+          1.6,
+          169.1,
+          42.3
+        ],
+        "conf": 0.2696
+      }
+    ]
+  },
+  {
+    "image": "captcha_0200.png",
+    "predicted_text": "II",
+    "verified_text": "",
+    "confidence_avg": 0.8105,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          70.6,
+          24.1,
+          87.3,
+          60.0
+        ],
+        "conf": 0.7594
+      },
+      {
+        "char": "I",
+        "box": [
+          87.3,
+          19.9,
+          103.8,
+          58.5
+        ],
+        "conf": 0.8615
+      }
+    ]
+  },
+  {
+    "image": "captcha_0201.png",
+    "predicted_text": "EGGG",
+    "verified_text": "",
+    "confidence_avg": 0.5857,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          0.0,
+          20.1,
+          35.7,
+          60.0
+        ],
+        "conf": 0.3906
+      },
+      {
+        "char": "G",
+        "box": [
+          35.6,
+          23.4,
+          61.5,
+          51.1
+        ],
+        "conf": 0.6192
+      },
+      {
+        "char": "G",
+        "box": [
+          83.0,
+          14.0,
+          106.8,
+          42.7
+        ],
+        "conf": 0.5271
+      },
+      {
+        "char": "G",
+        "box": [
+          148.6,
+          22.3,
+          172.8,
+          50.3
+        ],
+        "conf": 0.806
+      }
+    ]
+  },
+  {
+    "image": "captcha_0202.png",
+    "predicted_text": "Jl",
+    "verified_text": "",
+    "confidence_avg": 0.6496,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          77.2,
+          9.8,
+          104.7,
+          48.0
+        ],
+        "conf": 0.4201
+      },
+      {
+        "char": "l",
+        "box": [
+          149.3,
+          3.0,
+          160.9,
+          36.2
+        ],
+        "conf": 0.8792
+      }
+    ]
+  },
+  {
+    "image": "captcha_0203.png",
+    "predicted_text": "j5",
+    "verified_text": "",
+    "confidence_avg": 0.5708,
+    "boxes": [
+      {
+        "char": "j",
+        "box": [
+          42.3,
+          0.4,
+          65.3,
+          44.1
+        ],
+        "conf": 0.6467
+      },
+      {
+        "char": "5",
+        "box": [
+          145.1,
+          11.9,
+          179.9,
+          50.8
+        ],
+        "conf": 0.4949
+      }
+    ]
+  },
+  {
+    "image": "captcha_0204.png",
+    "predicted_text": "t",
+    "verified_text": "",
+    "confidence_avg": 0.3259,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          147.6,
+          29.2,
+          172.1,
+          51.1
+        ],
+        "conf": 0.3259
+      }
+    ]
+  },
+  {
+    "image": "captcha_0205.png",
+    "predicted_text": "iG",
+    "verified_text": "",
+    "confidence_avg": 0.2848,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          84.7,
+          15.5,
+          102.4,
+          52.0
+        ],
+        "conf": 0.3162
+      },
+      {
+        "char": "G",
+        "box": [
+          146.3,
+          17.0,
+          170.4,
+          46.3
+        ],
+        "conf": 0.2535
+      }
+    ]
+  },
+  {
+    "image": "captcha_0206.png",
+    "predicted_text": "t",
+    "verified_text": "",
+    "confidence_avg": 0.4158,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          124.5,
+          26.2,
+          144.9,
+          58.1
+        ],
+        "conf": 0.4158
+      }
+    ]
+  },
+  {
+    "image": "captcha_0207.png",
+    "predicted_text": "d",
+    "verified_text": "",
+    "confidence_avg": 0.2996,
+    "boxes": [
+      {
+        "char": "d",
+        "box": [
+          141.5,
+          14.2,
+          167.9,
+          55.2
+        ],
+        "conf": 0.2996
+      }
+    ]
+  },
+  {
+    "image": "captcha_0208.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0209.png",
+    "predicted_text": "4",
+    "verified_text": "",
+    "confidence_avg": 0.4048,
+    "boxes": [
+      {
+        "char": "4",
+        "box": [
+          50.5,
+          26.8,
+          71.8,
+          58.8
+        ],
+        "conf": 0.4048
+      }
+    ]
+  },
+  {
+    "image": "captcha_0210.png",
+    "predicted_text": "Gj5G",
+    "verified_text": "",
+    "confidence_avg": 0.3175,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          0.0,
+          0.3,
+          24.2,
+          35.4
+        ],
+        "conf": 0.3196
+      },
+      {
+        "char": "j",
+        "box": [
+          28.1,
+          13.1,
+          75.9,
+          56.8
+        ],
+        "conf": 0.2768
+      },
+      {
+        "char": "5",
+        "box": [
+          72.6,
+          0.4,
+          100.5,
+          37.5
+        ],
+        "conf": 0.3222
+      },
+      {
+        "char": "G",
+        "box": [
+          143.7,
+          5.4,
+          178.4,
+          40.8
+        ],
+        "conf": 0.3512
+      }
+    ]
+  },
+  {
+    "image": "captcha_0211.png",
+    "predicted_text": "BE",
+    "verified_text": "",
+    "confidence_avg": 0.6074,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          40.7,
+          5.7,
+          73.0,
+          43.1
+        ],
+        "conf": 0.7156
+      },
+      {
+        "char": "E",
+        "box": [
+          138.4,
+          0.0,
+          180.0,
+          60.0
+        ],
+        "conf": 0.4991
+      }
+    ]
+  },
+  {
+    "image": "captcha_0212.png",
+    "predicted_text": "J6l",
+    "verified_text": "",
+    "confidence_avg": 0.3964,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          0.3,
+          5.4,
+          37.2,
+          42.5
+        ],
+        "conf": 0.4089
+      },
+      {
+        "char": "6",
+        "box": [
+          37.3,
+          6.4,
+          64.9,
+          40.8
+        ],
+        "conf": 0.4055
+      },
+      {
+        "char": "l",
+        "box": [
+          110.6,
+          19.3,
+          120.7,
+          47.5
+        ],
+        "conf": 0.3747
+      }
+    ]
+  },
+  {
+    "image": "captcha_0213.png",
+    "predicted_text": "BtPot",
+    "verified_text": "",
+    "confidence_avg": 0.3972,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          0.1,
+          14.1,
+          38.3,
+          56.5
+        ],
+        "conf": 0.7753
+      },
+      {
+        "char": "t",
+        "box": [
+          41.4,
+          14.4,
+          57.7,
+          47.5
+        ],
+        "conf": 0.3117
+      },
+      {
+        "char": "P",
+        "box": [
+          49.1,
+          15.1,
+          68.2,
+          39.1
+        ],
+        "conf": 0.2845
+      },
+      {
+        "char": "o",
+        "box": [
+          123.3,
+          15.0,
+          145.1,
+          34.7
+        ],
+        "conf": 0.3056
+      },
+      {
+        "char": "t",
+        "box": [
+          148.8,
+          12.7,
+          165.7,
+          45.6
+        ],
+        "conf": 0.309
+      }
+    ]
+  },
+  {
+    "image": "captcha_0214.png",
+    "predicted_text": "lJ",
+    "verified_text": "",
+    "confidence_avg": 0.6723,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          35.0,
+          9.5,
+          47.3,
+          46.3
+        ],
+        "conf": 0.8742
+      },
+      {
+        "char": "J",
+        "box": [
+          140.0,
+          1.6,
+          164.0,
+          35.2
+        ],
+        "conf": 0.4703
+      }
+    ]
+  },
+  {
+    "image": "captcha_0215.png",
+    "predicted_text": "G",
+    "verified_text": "",
+    "confidence_avg": 0.733,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          142.7,
+          19.8,
+          176.6,
+          60.0
+        ],
+        "conf": 0.733
+      }
+    ]
+  },
+  {
+    "image": "captcha_0216.png",
+    "predicted_text": "GtI",
+    "verified_text": "",
+    "confidence_avg": 0.6183,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          39.1,
+          9.0,
+          71.4,
+          45.2
+        ],
+        "conf": 0.6177
+      },
+      {
+        "char": "t",
+        "box": [
+          91.0,
+          24.7,
+          107.4,
+          60.0
+        ],
+        "conf": 0.6467
+      },
+      {
+        "char": "I",
+        "box": [
+          141.1,
+          22.2,
+          155.9,
+          60.0
+        ],
+        "conf": 0.5904
+      }
+    ]
+  },
+  {
+    "image": "captcha_0217.png",
+    "predicted_text": "Qfj",
+    "verified_text": "",
+    "confidence_avg": 0.6162,
+    "boxes": [
+      {
+        "char": "Q",
+        "box": [
+          41.0,
+          6.2,
+          73.6,
+          42.5
+        ],
+        "conf": 0.5428
+      },
+      {
+        "char": "f",
+        "box": [
+          108.4,
+          9.4,
+          127.2,
+          42.2
+        ],
+        "conf": 0.7749
+      },
+      {
+        "char": "j",
+        "box": [
+          161.5,
+          3.5,
+          180.0,
+          47.7
+        ],
+        "conf": 0.5309
+      }
+    ]
+  },
+  {
+    "image": "captcha_0218.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0219.png",
+    "predicted_text": "6j",
+    "verified_text": "",
+    "confidence_avg": 0.6434,
+    "boxes": [
+      {
+        "char": "6",
+        "box": [
+          0.1,
+          23.2,
+          28.5,
+          60.0
+        ],
+        "conf": 0.5545
+      },
+      {
+        "char": "j",
+        "box": [
+          78.8,
+          11.4,
+          110.5,
+          56.0
+        ],
+        "conf": 0.7323
+      }
+    ]
+  },
+  {
+    "image": "captcha_0220.png",
+    "predicted_text": "lTllt3",
+    "verified_text": "",
+    "confidence_avg": 0.5997,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          4.6,
+          24.2,
+          18.5,
+          59.4
+        ],
+        "conf": 0.3405
+      },
+      {
+        "char": "T",
+        "box": [
+          0.0,
+          18.9,
+          26.7,
+          59.2
+        ],
+        "conf": 0.9518
+      },
+      {
+        "char": "l",
+        "box": [
+          33.0,
+          10.2,
+          46.4,
+          44.5
+        ],
+        "conf": 0.7196
+      },
+      {
+        "char": "l",
+        "box": [
+          54.5,
+          5.7,
+          69.9,
+          41.5
+        ],
+        "conf": 0.4045
+      },
+      {
+        "char": "t",
+        "box": [
+          83.0,
+          20.6,
+          102.9,
+          53.3
+        ],
+        "conf": 0.5386
+      },
+      {
+        "char": "3",
+        "box": [
+          109.8,
+          16.6,
+          140.2,
+          54.7
+        ],
+        "conf": 0.6429
+      }
+    ]
+  },
+  {
+    "image": "captcha_0221.png",
+    "predicted_text": "TG",
+    "verified_text": "",
+    "confidence_avg": 0.5383,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          43.4,
+          14.6,
+          74.4,
+          54.1
+        ],
+        "conf": 0.8159
+      },
+      {
+        "char": "G",
+        "box": [
+          110.7,
+          14.9,
+          139.0,
+          53.6
+        ],
+        "conf": 0.2607
+      }
+    ]
+  },
+  {
+    "image": "captcha_0222.png",
+    "predicted_text": "GG",
+    "verified_text": "",
+    "confidence_avg": 0.5775,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          104.5,
+          21.3,
+          142.7,
+          60.0
+        ],
+        "conf": 0.7573
+      },
+      {
+        "char": "G",
+        "box": [
+          150.8,
+          0.4,
+          176.1,
+          23.1
+        ],
+        "conf": 0.3976
+      }
+    ]
+  },
+  {
+    "image": "captcha_0223.png",
+    "predicted_text": "GEG",
+    "verified_text": "",
+    "confidence_avg": 0.6647,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          36.2,
+          22.5,
+          64.3,
+          60.0
+        ],
+        "conf": 0.5653
+      },
+      {
+        "char": "E",
+        "box": [
+          66.3,
+          15.5,
+          96.9,
+          55.8
+        ],
+        "conf": 0.7649
+      },
+      {
+        "char": "G",
+        "box": [
+          112.8,
+          20.2,
+          146.2,
+          60.0
+        ],
+        "conf": 0.664
+      }
+    ]
+  },
+  {
+    "image": "captcha_0224.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0225.png",
+    "predicted_text": "lh",
+    "verified_text": "",
+    "confidence_avg": 0.4873,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          0.0,
+          14.1,
+          11.7,
+          48.5
+        ],
+        "conf": 0.5601
+      },
+      {
+        "char": "h",
+        "box": [
+          0.0,
+          13.6,
+          22.6,
+          48.3
+        ],
+        "conf": 0.4145
+      }
+    ]
+  },
+  {
+    "image": "captcha_0226.png",
+    "predicted_text": "V",
+    "verified_text": "",
+    "confidence_avg": 0.6092,
+    "boxes": [
+      {
+        "char": "V",
+        "box": [
+          30.7,
+          0.0,
+          72.8,
+          34.7
+        ],
+        "conf": 0.6092
+      }
+    ]
+  },
+  {
+    "image": "captcha_0227.png",
+    "predicted_text": "t5",
+    "verified_text": "",
+    "confidence_avg": 0.6782,
+    "boxes": [
+      {
+        "char": "t",
+        "box": [
+          81.0,
+          7.5,
+          97.9,
+          37.4
+        ],
+        "conf": 0.4871
+      },
+      {
+        "char": "5",
+        "box": [
+          143.3,
+          21.5,
+          172.3,
+          60.0
+        ],
+        "conf": 0.8692
+      }
+    ]
+  },
+  {
+    "image": "captcha_0228.png",
+    "predicted_text": "Ytl",
+    "verified_text": "",
+    "confidence_avg": 0.4348,
+    "boxes": [
+      {
+        "char": "Y",
+        "box": [
+          0.0,
+          3.8,
+          34.2,
+          42.3
+        ],
+        "conf": 0.4111
+      },
+      {
+        "char": "t",
+        "box": [
+          33.7,
+          26.6,
+          51.7,
+          59.8
+        ],
+        "conf": 0.3684
+      },
+      {
+        "char": "l",
+        "box": [
+          107.1,
+          4.7,
+          118.2,
+          33.6
+        ],
+        "conf": 0.5248
+      }
+    ]
+  },
+  {
+    "image": "captcha_0229.png",
+    "predicted_text": "jjJEG",
+    "verified_text": "",
+    "confidence_avg": 0.492,
+    "boxes": [
+      {
+        "char": "j",
+        "box": [
+          0.0,
+          6.9,
+          5.4,
+          50.8
+        ],
+        "conf": 0.3811
+      },
+      {
+        "char": "j",
+        "box": [
+          0.0,
+          6.3,
+          19.0,
+          50.4
+        ],
+        "conf": 0.7443
+      },
+      {
+        "char": "J",
+        "box": [
+          31.8,
+          9.9,
+          60.6,
+          47.0
+        ],
+        "conf": 0.3533
+      },
+      {
+        "char": "E",
+        "box": [
+          69.1,
+          14.2,
+          107.4,
+          57.0
+        ],
+        "conf": 0.6698
+      },
+      {
+        "char": "G",
+        "box": [
+          141.9,
+          3.9,
+          177.3,
+          42.0
+        ],
+        "conf": 0.3117
+      }
+    ]
+  },
+  {
+    "image": "captcha_0230.png",
+    "predicted_text": "fTQ",
+    "verified_text": "",
+    "confidence_avg": 0.2589,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          0.0,
+          3.5,
+          15.7,
+          40.9
+        ],
+        "conf": 0.2734
+      },
+      {
+        "char": "T",
+        "box": [
+          36.1,
+          8.9,
+          68.1,
+          49.1
+        ],
+        "conf": 0.252
+      },
+      {
+        "char": "Q",
+        "box": [
+          144.7,
+          0.0,
+          179.9,
+          35.2
+        ],
+        "conf": 0.2513
+      }
+    ]
+  },
+  {
+    "image": "captcha_0231.png",
+    "predicted_text": "j3J",
+    "verified_text": "",
+    "confidence_avg": 0.4494,
+    "boxes": [
+      {
+        "char": "j",
+        "box": [
+          37.9,
+          7.3,
+          64.3,
+          51.7
+        ],
+        "conf": 0.7423
+      },
+      {
+        "char": "3",
+        "box": [
+          112.0,
+          0.0,
+          143.0,
+          38.6
+        ],
+        "conf": 0.3313
+      },
+      {
+        "char": "J",
+        "box": [
+          140.2,
+          3.5,
+          162.5,
+          37.0
+        ],
+        "conf": 0.2746
+      }
+    ]
+  },
+  {
+    "image": "captcha_0232.png",
+    "predicted_text": "i4i",
+    "verified_text": "",
+    "confidence_avg": 0.419,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          2.8,
+          24.7,
+          15.8,
+          58.2
+        ],
+        "conf": 0.5938
+      },
+      {
+        "char": "4",
+        "box": [
+          0.1,
+          18.8,
+          30.3,
+          59.8
+        ],
+        "conf": 0.3157
+      },
+      {
+        "char": "i",
+        "box": [
+          143.2,
+          14.5,
+          159.4,
+          51.5
+        ],
+        "conf": 0.3476
+      }
+    ]
+  },
+  {
+    "image": "captcha_0233.png",
+    "predicted_text": "lRfJ",
+    "verified_text": "",
+    "confidence_avg": 0.4106,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          31.1,
+          20.4,
+          44.4,
+          57.5
+        ],
+        "conf": 0.3348
+      },
+      {
+        "char": "R",
+        "box": [
+          28.1,
+          18.5,
+          62.1,
+          58.4
+        ],
+        "conf": 0.3018
+      },
+      {
+        "char": "f",
+        "box": [
+          122.6,
+          15.6,
+          140.8,
+          57.2
+        ],
+        "conf": 0.4118
+      },
+      {
+        "char": "J",
+        "box": [
+          147.5,
+          10.2,
+          159.9,
+          34.9
+        ],
+        "conf": 0.5942
+      }
+    ]
+  },
+  {
+    "image": "captcha_0234.png",
+    "predicted_text": "lTlT",
+    "verified_text": "",
+    "confidence_avg": 0.5968,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          35.1,
+          4.5,
+          46.5,
+          40.4
+        ],
+        "conf": 0.3719
+      },
+      {
+        "char": "T",
+        "box": [
+          69.7,
+          7.6,
+          93.7,
+          44.8
+        ],
+        "conf": 0.8528
+      },
+      {
+        "char": "l",
+        "box": [
+          76.7,
+          9.3,
+          87.9,
+          44.7
+        ],
+        "conf": 0.2684
+      },
+      {
+        "char": "T",
+        "box": [
+          80.3,
+          7.9,
+          113.4,
+          47.1
+        ],
+        "conf": 0.8943
+      }
+    ]
+  },
+  {
+    "image": "captcha_0235.png",
+    "predicted_text": "BQQ",
+    "verified_text": "",
+    "confidence_avg": 0.612,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          0.0,
+          13.0,
+          29.7,
+          52.2
+        ],
+        "conf": 0.7663
+      },
+      {
+        "char": "Q",
+        "box": [
+          72.4,
+          9.7,
+          104.4,
+          47.6
+        ],
+        "conf": 0.5143
+      },
+      {
+        "char": "Q",
+        "box": [
+          106.4,
+          19.3,
+          138.1,
+          58.1
+        ],
+        "conf": 0.5554
+      }
+    ]
+  },
+  {
+    "image": "captcha_0236.png",
+    "predicted_text": "TI",
+    "verified_text": "",
+    "confidence_avg": 0.4847,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          70.9,
+          0.0,
+          108.2,
+          42.4
+        ],
+        "conf": 0.6506
+      },
+      {
+        "char": "I",
+        "box": [
+          125.7,
+          12.2,
+          147.9,
+          55.4
+        ],
+        "conf": 0.3188
+      }
+    ]
+  },
+  {
+    "image": "captcha_0237.png",
+    "predicted_text": "Pll",
+    "verified_text": "",
+    "confidence_avg": 0.5979,
+    "boxes": [
+      {
+        "char": "P",
+        "box": [
+          32.5,
+          13.3,
+          63.1,
+          50.6
+        ],
+        "conf": 0.271
+      },
+      {
+        "char": "l",
+        "box": [
+          106.7,
+          4.2,
+          117.3,
+          42.1
+        ],
+        "conf": 0.588
+      },
+      {
+        "char": "l",
+        "box": [
+          122.9,
+          4.2,
+          134.4,
+          42.1
+        ],
+        "conf": 0.9348
+      }
+    ]
+  },
+  {
+    "image": "captcha_0238.png",
+    "predicted_text": "GIAI",
+    "verified_text": "",
+    "confidence_avg": 0.5615,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          37.2,
+          21.2,
+          72.5,
+          60.0
+        ],
+        "conf": 0.5698
+      },
+      {
+        "char": "I",
+        "box": [
+          142.3,
+          23.6,
+          154.7,
+          60.0
+        ],
+        "conf": 0.4965
+      },
+      {
+        "char": "A",
+        "box": [
+          140.0,
+          21.6,
+          171.5,
+          60.0
+        ],
+        "conf": 0.2841
+      },
+      {
+        "char": "I",
+        "box": [
+          159.5,
+          22.7,
+          173.5,
+          60.0
+        ],
+        "conf": 0.8958
+      }
+    ]
+  },
+  {
+    "image": "captcha_0239.png",
+    "predicted_text": "fl",
+    "verified_text": "",
+    "confidence_avg": 0.4928,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          33.0,
+          3.2,
+          53.9,
+          34.8
+        ],
+        "conf": 0.3091
+      },
+      {
+        "char": "l",
+        "box": [
+          141.7,
+          19.3,
+          159.4,
+          56.3
+        ],
+        "conf": 0.6764
+      }
+    ]
+  },
+  {
+    "image": "captcha_0240.png",
+    "predicted_text": "f5i",
+    "verified_text": "",
+    "confidence_avg": 0.7372,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          32.2,
+          19.2,
+          58.5,
+          60.0
+        ],
+        "conf": 0.7022
+      },
+      {
+        "char": "5",
+        "box": [
+          107.2,
+          8.1,
+          136.9,
+          46.7
+        ],
+        "conf": 0.7838
+      },
+      {
+        "char": "i",
+        "box": [
+          153.2,
+          7.5,
+          167.8,
+          43.1
+        ],
+        "conf": 0.7255
+      }
+    ]
+  },
+  {
+    "image": "captcha_0241.png",
+    "predicted_text": "ElI",
+    "verified_text": "",
+    "confidence_avg": 0.282,
+    "boxes": [
+      {
+        "char": "E",
+        "box": [
+          107.2,
+          5.8,
+          145.7,
+          45.5
+        ],
+        "conf": 0.2588
+      },
+      {
+        "char": "l",
+        "box": [
+          143.0,
+          27.5,
+          156.9,
+          60.0
+        ],
+        "conf": 0.3041
+      },
+      {
+        "char": "I",
+        "box": [
+          161.7,
+          23.9,
+          180.0,
+          60.0
+        ],
+        "conf": 0.2832
+      }
+    ]
+  },
+  {
+    "image": "captcha_0242.png",
+    "predicted_text": "IJflG",
+    "verified_text": "",
+    "confidence_avg": 0.4427,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          0.1,
+          9.2,
+          17.8,
+          43.7
+        ],
+        "conf": 0.3882
+      },
+      {
+        "char": "J",
+        "box": [
+          32.4,
+          24.0,
+          56.8,
+          60.0
+        ],
+        "conf": 0.325
+      },
+      {
+        "char": "f",
+        "box": [
+          51.3,
+          21.7,
+          71.5,
+          58.3
+        ],
+        "conf": 0.6383
+      },
+      {
+        "char": "l",
+        "box": [
+          116.0,
+          24.1,
+          127.5,
+          57.1
+        ],
+        "conf": 0.2698
+      },
+      {
+        "char": "G",
+        "box": [
+          139.8,
+          15.5,
+          175.0,
+          55.7
+        ],
+        "conf": 0.5922
+      }
+    ]
+  },
+  {
+    "image": "captcha_0243.png",
+    "predicted_text": "iii",
+    "verified_text": "",
+    "confidence_avg": 0.6448,
+    "boxes": [
+      {
+        "char": "i",
+        "box": [
+          13.7,
+          15.3,
+          23.7,
+          41.4
+        ],
+        "conf": 0.8041
+      },
+      {
+        "char": "i",
+        "box": [
+          69.4,
+          15.0,
+          80.4,
+          42.9
+        ],
+        "conf": 0.5642
+      },
+      {
+        "char": "i",
+        "box": [
+          78.2,
+          16.0,
+          91.9,
+          44.2
+        ],
+        "conf": 0.566
+      }
+    ]
+  },
+  {
+    "image": "captcha_0244.png",
+    "predicted_text": "llll5II",
+    "verified_text": "",
+    "confidence_avg": 0.6443,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          38.4,
+          9.4,
+          52.4,
+          45.3
+        ],
+        "conf": 0.7278
+      },
+      {
+        "char": "l",
+        "box": [
+          44.4,
+          10.2,
+          59.6,
+          45.4
+        ],
+        "conf": 0.6295
+      },
+      {
+        "char": "l",
+        "box": [
+          50.0,
+          9.3,
+          67.8,
+          44.2
+        ],
+        "conf": 0.4294
+      },
+      {
+        "char": "l",
+        "box": [
+          60.6,
+          6.8,
+          72.6,
+          44.7
+        ],
+        "conf": 0.8319
+      },
+      {
+        "char": "5",
+        "box": [
+          108.4,
+          10.8,
+          140.6,
+          44.1
+        ],
+        "conf": 0.3067
+      },
+      {
+        "char": "I",
+        "box": [
+          151.3,
+          12.0,
+          165.2,
+          49.3
+        ],
+        "conf": 0.754
+      },
+      {
+        "char": "I",
+        "box": [
+          168.1,
+          9.0,
+          179.9,
+          49.0
+        ],
+        "conf": 0.8307
+      }
+    ]
+  },
+  {
+    "image": "captcha_0245.png",
+    "predicted_text": "lj",
+    "verified_text": "",
+    "confidence_avg": 0.5386,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          51.5,
+          19.6,
+          66.2,
+          56.9
+        ],
+        "conf": 0.3986
+      },
+      {
+        "char": "j",
+        "box": [
+          76.5,
+          9.8,
+          97.6,
+          55.3
+        ],
+        "conf": 0.6786
+      }
+    ]
+  },
+  {
+    "image": "captcha_0246.png",
+    "predicted_text": "X",
+    "verified_text": "",
+    "confidence_avg": 0.9307,
+    "boxes": [
+      {
+        "char": "X",
+        "box": [
+          70.8,
+          20.7,
+          104.8,
+          60.0
+        ],
+        "conf": 0.9307
+      }
+    ]
+  },
+  {
+    "image": "captcha_0247.png",
+    "predicted_text": "GI",
+    "verified_text": "",
+    "confidence_avg": 0.377,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          40.8,
+          24.4,
+          67.0,
+          50.6
+        ],
+        "conf": 0.4903
+      },
+      {
+        "char": "I",
+        "box": [
+          104.5,
+          17.2,
+          121.6,
+          56.8
+        ],
+        "conf": 0.2636
+      }
+    ]
+  },
+  {
+    "image": "captcha_0248.png",
+    "predicted_text": "liG",
+    "verified_text": "",
+    "confidence_avg": 0.4547,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          2.9,
+          2.2,
+          15.0,
+          36.6
+        ],
+        "conf": 0.4371
+      },
+      {
+        "char": "i",
+        "box": [
+          14.0,
+          11.2,
+          26.2,
+          38.6
+        ],
+        "conf": 0.3727
+      },
+      {
+        "char": "G",
+        "box": [
+          83.7,
+          25.2,
+          111.0,
+          56.0
+        ],
+        "conf": 0.5543
+      }
+    ]
+  },
+  {
+    "image": "captcha_0249.png",
+    "predicted_text": "lfTr",
+    "verified_text": "",
+    "confidence_avg": 0.4442,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          17.6,
+          18.6,
+          32.3,
+          55.6
+        ],
+        "conf": 0.471
+      },
+      {
+        "char": "f",
+        "box": [
+          48.3,
+          17.3,
+          65.8,
+          57.8
+        ],
+        "conf": 0.732
+      },
+      {
+        "char": "T",
+        "box": [
+          120.9,
+          7.4,
+          141.8,
+          35.5
+        ],
+        "conf": 0.2645
+      },
+      {
+        "char": "r",
+        "box": [
+          140.4,
+          13.2,
+          169.8,
+          39.9
+        ],
+        "conf": 0.3094
+      }
+    ]
+  },
+  {
+    "image": "captcha_0250.png",
+    "predicted_text": "lIj",
+    "verified_text": "",
+    "confidence_avg": 0.3585,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          0.0,
+          0.7,
+          10.9,
+          36.8
+        ],
+        "conf": 0.3054
+      },
+      {
+        "char": "I",
+        "box": [
+          45.0,
+          23.1,
+          65.7,
+          57.9
+        ],
+        "conf": 0.2548
+      },
+      {
+        "char": "j",
+        "box": [
+          139.2,
+          18.2,
+          180.0,
+          60.0
+        ],
+        "conf": 0.5153
+      }
+    ]
+  },
+  {
+    "image": "captcha_0251.png",
+    "predicted_text": "G6",
+    "verified_text": "",
+    "confidence_avg": 0.5602,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          40.1,
+          3.1,
+          72.9,
+          41.2
+        ],
+        "conf": 0.4659
+      },
+      {
+        "char": "6",
+        "box": [
+          110.0,
+          6.5,
+          135.9,
+          40.8
+        ],
+        "conf": 0.6545
+      }
+    ]
+  },
+  {
+    "image": "captcha_0252.png",
+    "predicted_text": "2",
+    "verified_text": "",
+    "confidence_avg": 0.9134,
+    "boxes": [
+      {
+        "char": "2",
+        "box": [
+          73.3,
+          9.2,
+          104.8,
+          41.1
+        ],
+        "conf": 0.9134
+      }
+    ]
+  },
+  {
+    "image": "captcha_0253.png",
+    "predicted_text": "lJl",
+    "verified_text": "",
+    "confidence_avg": 0.469,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          33.8,
+          11.1,
+          44.4,
+          44.8
+        ],
+        "conf": 0.326
+      },
+      {
+        "char": "J",
+        "box": [
+          30.7,
+          11.3,
+          54.6,
+          45.2
+        ],
+        "conf": 0.5709
+      },
+      {
+        "char": "l",
+        "box": [
+          116.2,
+          4.3,
+          128.9,
+          39.0
+        ],
+        "conf": 0.51
+      }
+    ]
+  },
+  {
+    "image": "captcha_0254.png",
+    "predicted_text": "f",
+    "verified_text": "",
+    "confidence_avg": 0.4887,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          45.1,
+          3.1,
+          69.4,
+          38.0
+        ],
+        "conf": 0.4887
+      }
+    ]
+  },
+  {
+    "image": "captcha_0255.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0256.png",
+    "predicted_text": "3",
+    "verified_text": "",
+    "confidence_avg": 0.7584,
+    "boxes": [
+      {
+        "char": "3",
+        "box": [
+          43.2,
+          3.9,
+          70.5,
+          38.5
+        ],
+        "conf": 0.7584
+      }
+    ]
+  },
+  {
+    "image": "captcha_0257.png",
+    "predicted_text": "fr",
+    "verified_text": "",
+    "confidence_avg": 0.4199,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          64.9,
+          12.5,
+          86.4,
+          50.1
+        ],
+        "conf": 0.3093
+      },
+      {
+        "char": "r",
+        "box": [
+          142.6,
+          31.2,
+          165.5,
+          52.8
+        ],
+        "conf": 0.5304
+      }
+    ]
+  },
+  {
+    "image": "captcha_0258.png",
+    "predicted_text": "Ar",
+    "verified_text": "",
+    "confidence_avg": 0.6852,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          112.8,
+          22.3,
+          148.0,
+          60.0
+        ],
+        "conf": 0.836
+      },
+      {
+        "char": "r",
+        "box": [
+          154.5,
+          6.3,
+          177.8,
+          25.9
+        ],
+        "conf": 0.5345
+      }
+    ]
+  },
+  {
+    "image": "captcha_0259.png",
+    "predicted_text": "IIIlhT",
+    "verified_text": "",
+    "confidence_avg": 0.5827,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          0.7,
+          15.8,
+          13.2,
+          53.5
+        ],
+        "conf": 0.655
+      },
+      {
+        "char": "I",
+        "box": [
+          0.6,
+          14.4,
+          24.4,
+          54.4
+        ],
+        "conf": 0.653
+      },
+      {
+        "char": "I",
+        "box": [
+          21.2,
+          16.5,
+          37.1,
+          54.7
+        ],
+        "conf": 0.265
+      },
+      {
+        "char": "l",
+        "box": [
+          47.4,
+          2.9,
+          59.6,
+          34.1
+        ],
+        "conf": 0.5722
+      },
+      {
+        "char": "h",
+        "box": [
+          45.1,
+          0.9,
+          70.9,
+          34.3
+        ],
+        "conf": 0.4409
+      },
+      {
+        "char": "T",
+        "box": [
+          103.8,
+          13.9,
+          145.0,
+          57.7
+        ],
+        "conf": 0.9099
+      }
+    ]
+  },
+  {
+    "image": "captcha_0260.png",
+    "predicted_text": "ZJ",
+    "verified_text": "",
+    "confidence_avg": 0.5545,
+    "boxes": [
+      {
+        "char": "Z",
+        "box": [
+          75.9,
+          5.9,
+          104.8,
+          45.1
+        ],
+        "conf": 0.5479
+      },
+      {
+        "char": "J",
+        "box": [
+          104.1,
+          8.9,
+          128.3,
+          42.4
+        ],
+        "conf": 0.561
+      }
+    ]
+  },
+  {
+    "image": "captcha_0261.png",
+    "predicted_text": "TEfE",
+    "verified_text": "",
+    "confidence_avg": 0.4567,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.0,
+          0.0,
+          29.3,
+          35.2
+        ],
+        "conf": 0.3776
+      },
+      {
+        "char": "E",
+        "box": [
+          75.9,
+          2.3,
+          104.5,
+          34.7
+        ],
+        "conf": 0.2941
+      },
+      {
+        "char": "f",
+        "box": [
+          108.4,
+          13.2,
+          130.6,
+          55.4
+        ],
+        "conf": 0.4204
+      },
+      {
+        "char": "E",
+        "box": [
+          140.1,
+          16.4,
+          170.8,
+          56.5
+        ],
+        "conf": 0.7345
+      }
+    ]
+  },
+  {
+    "image": "captcha_0262.png",
+    "predicted_text": "TE",
+    "verified_text": "",
+    "confidence_avg": 0.3416,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          30.1,
+          0.0,
+          72.9,
+          39.1
+        ],
+        "conf": 0.2801
+      },
+      {
+        "char": "E",
+        "box": [
+          77.8,
+          2.1,
+          107.7,
+          34.1
+        ],
+        "conf": 0.4031
+      }
+    ]
+  },
+  {
+    "image": "captcha_0263.png",
+    "predicted_text": "2",
+    "verified_text": "",
+    "confidence_avg": 0.32,
+    "boxes": [
+      {
+        "char": "2",
+        "box": [
+          144.0,
+          3.2,
+          177.8,
+          42.6
+        ],
+        "conf": 0.32
+      }
+    ]
+  },
+  {
+    "image": "captcha_0264.png",
+    "predicted_text": "TlElI",
+    "verified_text": "",
+    "confidence_avg": 0.5131,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.0,
+          0.1,
+          20.0,
+          33.5
+        ],
+        "conf": 0.4204
+      },
+      {
+        "char": "l",
+        "box": [
+          21.8,
+          0.0,
+          35.0,
+          32.5
+        ],
+        "conf": 0.3261
+      },
+      {
+        "char": "E",
+        "box": [
+          34.9,
+          21.9,
+          65.2,
+          60.0
+        ],
+        "conf": 0.8934
+      },
+      {
+        "char": "l",
+        "box": [
+          140.9,
+          18.3,
+          155.4,
+          54.7
+        ],
+        "conf": 0.4551
+      },
+      {
+        "char": "I",
+        "box": [
+          162.4,
+          14.2,
+          178.8,
+          53.2
+        ],
+        "conf": 0.4704
+      }
+    ]
+  },
+  {
+    "image": "captcha_0265.png",
+    "predicted_text": "JRl",
+    "verified_text": "",
+    "confidence_avg": 0.392,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          33.0,
+          14.7,
+          55.4,
+          48.4
+        ],
+        "conf": 0.6336
+      },
+      {
+        "char": "R",
+        "box": [
+          39.2,
+          12.4,
+          72.1,
+          50.7
+        ],
+        "conf": 0.2539
+      },
+      {
+        "char": "l",
+        "box": [
+          131.5,
+          10.3,
+          143.6,
+          43.9
+        ],
+        "conf": 0.2886
+      }
+    ]
+  },
+  {
+    "image": "captcha_0266.png",
+    "predicted_text": "G",
+    "verified_text": "",
+    "confidence_avg": 0.5965,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          0.8,
+          18.5,
+          34.8,
+          58.6
+        ],
+        "conf": 0.5965
+      }
+    ]
+  },
+  {
+    "image": "captcha_0267.png",
+    "predicted_text": "lE",
+    "verified_text": "",
+    "confidence_avg": 0.4964,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          8.6,
+          12.9,
+          20.2,
+          43.8
+        ],
+        "conf": 0.3146
+      },
+      {
+        "char": "E",
+        "box": [
+          147.9,
+          0.0,
+          180.0,
+          34.5
+        ],
+        "conf": 0.6782
+      }
+    ]
+  },
+  {
+    "image": "captcha_0268.png",
+    "predicted_text": "lGXT",
+    "verified_text": "",
+    "confidence_avg": 0.4472,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          59.1,
+          8.6,
+          72.4,
+          44.0
+        ],
+        "conf": 0.3491
+      },
+      {
+        "char": "G",
+        "box": [
+          71.7,
+          0.9,
+          101.2,
+          39.1
+        ],
+        "conf": 0.3303
+      },
+      {
+        "char": "X",
+        "box": [
+          101.0,
+          5.4,
+          139.6,
+          47.1
+        ],
+        "conf": 0.6818
+      },
+      {
+        "char": "T",
+        "box": [
+          152.4,
+          5.0,
+          179.2,
+          33.8
+        ],
+        "conf": 0.4275
+      }
+    ]
+  },
+  {
+    "image": "captcha_0269.png",
+    "predicted_text": "Wc",
+    "verified_text": "",
+    "confidence_avg": 0.4567,
+    "boxes": [
+      {
+        "char": "W",
+        "box": [
+          0.0,
+          7.3,
+          44.9,
+          50.1
+        ],
+        "conf": 0.641
+      },
+      {
+        "char": "c",
+        "box": [
+          145.1,
+          24.7,
+          171.3,
+          47.3
+        ],
+        "conf": 0.2725
+      }
+    ]
+  },
+  {
+    "image": "captcha_0270.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0271.png",
+    "predicted_text": "Gl",
+    "verified_text": "",
+    "confidence_avg": 0.5064,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          2.0,
+          7.9,
+          34.6,
+          45.2
+        ],
+        "conf": 0.3226
+      },
+      {
+        "char": "l",
+        "box": [
+          140.3,
+          22.1,
+          153.0,
+          58.1
+        ],
+        "conf": 0.6901
+      }
+    ]
+  },
+  {
+    "image": "captcha_0272.png",
+    "predicted_text": "llj",
+    "verified_text": "",
+    "confidence_avg": 0.5419,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          40.2,
+          0.0,
+          54.7,
+          34.0
+        ],
+        "conf": 0.563
+      },
+      {
+        "char": "l",
+        "box": [
+          108.6,
+          19.0,
+          123.2,
+          53.4
+        ],
+        "conf": 0.7237
+      },
+      {
+        "char": "j",
+        "box": [
+          138.6,
+          8.3,
+          165.0,
+          48.5
+        ],
+        "conf": 0.3391
+      }
+    ]
+  },
+  {
+    "image": "captcha_0273.png",
+    "predicted_text": "IlIG",
+    "verified_text": "",
+    "confidence_avg": 0.3299,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          31.4,
+          8.2,
+          54.2,
+          46.2
+        ],
+        "conf": 0.2742
+      },
+      {
+        "char": "l",
+        "box": [
+          44.4,
+          8.8,
+          55.7,
+          44.4
+        ],
+        "conf": 0.2527
+      },
+      {
+        "char": "I",
+        "box": [
+          58.2,
+          4.7,
+          69.9,
+          43.3
+        ],
+        "conf": 0.3767
+      },
+      {
+        "char": "G",
+        "box": [
+          70.8,
+          3.3,
+          103.0,
+          40.0
+        ],
+        "conf": 0.4162
+      }
+    ]
+  },
+  {
+    "image": "captcha_0274.png",
+    "predicted_text": "A7B",
+    "verified_text": "",
+    "confidence_avg": 0.4618,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          0.0,
+          0.5,
+          33.5,
+          40.6
+        ],
+        "conf": 0.3017
+      },
+      {
+        "char": "7",
+        "box": [
+          66.6,
+          14.1,
+          105.7,
+          56.1
+        ],
+        "conf": 0.2774
+      },
+      {
+        "char": "B",
+        "box": [
+          140.5,
+          16.0,
+          177.4,
+          60.0
+        ],
+        "conf": 0.8063
+      }
+    ]
+  },
+  {
+    "image": "captcha_0275.png",
+    "predicted_text": "R3",
+    "verified_text": "",
+    "confidence_avg": 0.4101,
+    "boxes": [
+      {
+        "char": "R",
+        "box": [
+          34.0,
+          15.0,
+          71.4,
+          53.9
+        ],
+        "conf": 0.4692
+      },
+      {
+        "char": "3",
+        "box": [
+          74.4,
+          13.9,
+          105.1,
+          50.7
+        ],
+        "conf": 0.3509
+      }
+    ]
+  },
+  {
+    "image": "captcha_0276.png",
+    "predicted_text": "G",
+    "verified_text": "",
+    "confidence_avg": 0.2631,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          0.1,
+          25.5,
+          29.5,
+          57.9
+        ],
+        "conf": 0.2631
+      }
+    ]
+  },
+  {
+    "image": "captcha_0277.png",
+    "predicted_text": "J",
+    "verified_text": "",
+    "confidence_avg": 0.5466,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          105.9,
+          9.1,
+          124.3,
+          35.9
+        ],
+        "conf": 0.5466
+      }
+    ]
+  },
+  {
+    "image": "captcha_0278.png",
+    "predicted_text": "fSQ",
+    "verified_text": "",
+    "confidence_avg": 0.4634,
+    "boxes": [
+      {
+        "char": "f",
+        "box": [
+          47.1,
+          24.4,
+          70.8,
+          60.0
+        ],
+        "conf": 0.2585
+      },
+      {
+        "char": "S",
+        "box": [
+          74.6,
+          3.8,
+          103.0,
+          41.4
+        ],
+        "conf": 0.2717
+      },
+      {
+        "char": "Q",
+        "box": [
+          110.4,
+          20.8,
+          144.5,
+          60.0
+        ],
+        "conf": 0.8601
+      }
+    ]
+  },
+  {
+    "image": "captcha_0279.png",
+    "predicted_text": "5",
+    "verified_text": "",
+    "confidence_avg": 0.8482,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          108.5,
+          0.0,
+          137.8,
+          35.7
+        ],
+        "conf": 0.8482
+      }
+    ]
+  },
+  {
+    "image": "captcha_0280.png",
+    "predicted_text": "AE",
+    "verified_text": "",
+    "confidence_avg": 0.5891,
+    "boxes": [
+      {
+        "char": "A",
+        "box": [
+          0.0,
+          23.1,
+          34.1,
+          60.0
+        ],
+        "conf": 0.9221
+      },
+      {
+        "char": "E",
+        "box": [
+          106.3,
+          15.0,
+          146.7,
+          53.7
+        ],
+        "conf": 0.256
+      }
+    ]
+  },
+  {
+    "image": "captcha_0281.png",
+    "predicted_text": "lllB",
+    "verified_text": "",
+    "confidence_avg": 0.4506,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          45.9,
+          2.0,
+          58.8,
+          36.8
+        ],
+        "conf": 0.405
+      },
+      {
+        "char": "l",
+        "box": [
+          103.8,
+          14.6,
+          119.7,
+          52.8
+        ],
+        "conf": 0.4882
+      },
+      {
+        "char": "l",
+        "box": [
+          126.6,
+          16.4,
+          138.9,
+          53.4
+        ],
+        "conf": 0.542
+      },
+      {
+        "char": "B",
+        "box": [
+          142.6,
+          1.2,
+          179.8,
+          37.3
+        ],
+        "conf": 0.3672
+      }
+    ]
+  },
+  {
+    "image": "captcha_0282.png",
+    "predicted_text": "5B",
+    "verified_text": "",
+    "confidence_avg": 0.6724,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          37.2,
+          12.7,
+          65.0,
+          51.8
+        ],
+        "conf": 0.9122
+      },
+      {
+        "char": "B",
+        "box": [
+          140.4,
+          11.9,
+          170.8,
+          49.9
+        ],
+        "conf": 0.4326
+      }
+    ]
+  },
+  {
+    "image": "captcha_0283.png",
+    "predicted_text": "IP",
+    "verified_text": "",
+    "confidence_avg": 0.4603,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          110.4,
+          18.6,
+          125.4,
+          57.1
+        ],
+        "conf": 0.6033
+      },
+      {
+        "char": "P",
+        "box": [
+          145.7,
+          4.2,
+          173.4,
+          41.1
+        ],
+        "conf": 0.3174
+      }
+    ]
+  },
+  {
+    "image": "captcha_0284.png",
+    "predicted_text": "c",
+    "verified_text": "",
+    "confidence_avg": 0.3998,
+    "boxes": [
+      {
+        "char": "c",
+        "box": [
+          118.4,
+          24.4,
+          142.8,
+          47.7
+        ],
+        "conf": 0.3998
+      }
+    ]
+  },
+  {
+    "image": "captcha_0285.png",
+    "predicted_text": "GRG",
+    "verified_text": "",
+    "confidence_avg": 0.3508,
+    "boxes": [
+      {
+        "char": "G",
+        "box": [
+          35.9,
+          14.0,
+          66.3,
+          40.2
+        ],
+        "conf": 0.4212
+      },
+      {
+        "char": "R",
+        "box": [
+          74.6,
+          13.5,
+          104.0,
+          51.0
+        ],
+        "conf": 0.2792
+      },
+      {
+        "char": "G",
+        "box": [
+          148.3,
+          28.3,
+          172.6,
+          56.7
+        ],
+        "conf": 0.352
+      }
+    ]
+  },
+  {
+    "image": "captcha_0286.png",
+    "predicted_text": "IlQ",
+    "verified_text": "",
+    "confidence_avg": 0.5707,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          0.0,
+          22.8,
+          13.1,
+          58.9
+        ],
+        "conf": 0.4512
+      },
+      {
+        "char": "l",
+        "box": [
+          15.7,
+          18.4,
+          29.9,
+          54.2
+        ],
+        "conf": 0.6325
+      },
+      {
+        "char": "Q",
+        "box": [
+          74.4,
+          0.0,
+          108.6,
+          36.2
+        ],
+        "conf": 0.6283
+      }
+    ]
+  },
+  {
+    "image": "captcha_0287.png",
+    "predicted_text": "F",
+    "verified_text": "",
+    "confidence_avg": 0.3494,
+    "boxes": [
+      {
+        "char": "F",
+        "box": [
+          1.2,
+          18.3,
+          32.7,
+          57.9
+        ],
+        "conf": 0.3494
+      }
+    ]
+  },
+  {
+    "image": "captcha_0288.png",
+    "predicted_text": "",
+    "verified_text": "",
+    "confidence_avg": 0.0,
+    "boxes": []
+  },
+  {
+    "image": "captcha_0289.png",
+    "predicted_text": "qlT",
+    "verified_text": "",
+    "confidence_avg": 0.3887,
+    "boxes": [
+      {
+        "char": "q",
+        "box": [
+          0.0,
+          28.3,
+          24.8,
+          60.0
+        ],
+        "conf": 0.4955
+      },
+      {
+        "char": "l",
+        "box": [
+          114.1,
+          8.4,
+          127.8,
+          38.0
+        ],
+        "conf": 0.3997
+      },
+      {
+        "char": "T",
+        "box": [
+          108.9,
+          9.1,
+          134.6,
+          37.5
+        ],
+        "conf": 0.2709
+      }
+    ]
+  },
+  {
+    "image": "captcha_0290.png",
+    "predicted_text": "B9J2",
+    "verified_text": "",
+    "confidence_avg": 0.5864,
+    "boxes": [
+      {
+        "char": "B",
+        "box": [
+          0.5,
+          19.5,
+          28.6,
+          56.3
+        ],
+        "conf": 0.4328
+      },
+      {
+        "char": "9",
+        "box": [
+          34.7,
+          20.5,
+          62.0,
+          58.1
+        ],
+        "conf": 0.6455
+      },
+      {
+        "char": "J",
+        "box": [
+          76.6,
+          0.6,
+          102.3,
+          27.8
+        ],
+        "conf": 0.4267
+      },
+      {
+        "char": "2",
+        "box": [
+          102.1,
+          20.4,
+          133.1,
+          60.0
+        ],
+        "conf": 0.8407
+      }
+    ]
+  },
+  {
+    "image": "captcha_0291.png",
+    "predicted_text": "IAll",
+    "verified_text": "",
+    "confidence_avg": 0.6598,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          35.2,
+          20.0,
+          53.2,
+          58.9
+        ],
+        "conf": 0.5641
+      },
+      {
+        "char": "A",
+        "box": [
+          31.4,
+          17.0,
+          72.0,
+          59.9
+        ],
+        "conf": 0.6141
+      },
+      {
+        "char": "l",
+        "box": [
+          80.9,
+          0.7,
+          91.4,
+          35.4
+        ],
+        "conf": 0.8581
+      },
+      {
+        "char": "l",
+        "box": [
+          98.0,
+          0.0,
+          110.9,
+          35.2
+        ],
+        "conf": 0.6028
+      }
+    ]
+  },
+  {
+    "image": "captcha_0292.png",
+    "predicted_text": "RtjS",
+    "verified_text": "",
+    "confidence_avg": 0.5283,
+    "boxes": [
+      {
+        "char": "R",
+        "box": [
+          8.3,
+          20.4,
+          40.3,
+          60.0
+        ],
+        "conf": 0.2877
+      },
+      {
+        "char": "t",
+        "box": [
+          47.5,
+          17.0,
+          63.9,
+          50.5
+        ],
+        "conf": 0.3272
+      },
+      {
+        "char": "j",
+        "box": [
+          88.7,
+          17.7,
+          108.8,
+          60.0
+        ],
+        "conf": 0.6869
+      },
+      {
+        "char": "S",
+        "box": [
+          111.0,
+          21.8,
+          139.5,
+          58.6
+        ],
+        "conf": 0.8113
+      }
+    ]
+  },
+  {
+    "image": "captcha_0293.png",
+    "predicted_text": "Ji",
+    "verified_text": "",
+    "confidence_avg": 0.6733,
+    "boxes": [
+      {
+        "char": "J",
+        "box": [
+          0.0,
+          9.2,
+          23.4,
+          50.4
+        ],
+        "conf": 0.9081
+      },
+      {
+        "char": "i",
+        "box": [
+          141.6,
+          9.7,
+          154.1,
+          38.5
+        ],
+        "conf": 0.4384
+      }
+    ]
+  },
+  {
+    "image": "captcha_0294.png",
+    "predicted_text": "TTli",
+    "verified_text": "",
+    "confidence_avg": 0.4461,
+    "boxes": [
+      {
+        "char": "T",
+        "box": [
+          0.0,
+          8.0,
+          20.8,
+          45.7
+        ],
+        "conf": 0.7728
+      },
+      {
+        "char": "T",
+        "box": [
+          6.9,
+          8.6,
+          39.6,
+          47.3
+        ],
+        "conf": 0.2986
+      },
+      {
+        "char": "l",
+        "box": [
+          16.4,
+          12.8,
+          32.7,
+          48.0
+        ],
+        "conf": 0.2818
+      },
+      {
+        "char": "i",
+        "box": [
+          116.5,
+          14.8,
+          133.1,
+          46.1
+        ],
+        "conf": 0.4311
+      }
+    ]
+  },
+  {
+    "image": "captcha_0295.png",
+    "predicted_text": "5Il",
+    "verified_text": "",
+    "confidence_avg": 0.7247,
+    "boxes": [
+      {
+        "char": "5",
+        "box": [
+          3.4,
+          16.0,
+          32.2,
+          54.8
+        ],
+        "conf": 0.777
+      },
+      {
+        "char": "I",
+        "box": [
+          114.8,
+          8.6,
+          128.0,
+          48.4
+        ],
+        "conf": 0.7003
+      },
+      {
+        "char": "l",
+        "box": [
+          130.6,
+          9.3,
+          144.1,
+          47.4
+        ],
+        "conf": 0.6969
+      }
+    ]
+  },
+  {
+    "image": "captcha_0296.png",
+    "predicted_text": "lI",
+    "verified_text": "",
+    "confidence_avg": 0.3661,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          3.9,
+          0.7,
+          16.4,
+          36.7
+        ],
+        "conf": 0.355
+      },
+      {
+        "char": "I",
+        "box": [
+          164.2,
+          23.0,
+          179.9,
+          60.0
+        ],
+        "conf": 0.3773
+      }
+    ]
+  },
+  {
+    "image": "captcha_0297.png",
+    "predicted_text": "IlRG",
+    "verified_text": "",
+    "confidence_avg": 0.5271,
+    "boxes": [
+      {
+        "char": "I",
+        "box": [
+          0.0,
+          13.4,
+          14.4,
+          50.6
+        ],
+        "conf": 0.6272
+      },
+      {
+        "char": "l",
+        "box": [
+          24.4,
+          10.6,
+          37.6,
+          47.8
+        ],
+        "conf": 0.4525
+      },
+      {
+        "char": "R",
+        "box": [
+          30.0,
+          0.0,
+          67.4,
+          35.7
+        ],
+        "conf": 0.342
+      },
+      {
+        "char": "G",
+        "box": [
+          139.7,
+          16.0,
+          165.6,
+          40.8
+        ],
+        "conf": 0.6865
+      }
+    ]
+  },
+  {
+    "image": "captcha_0298.png",
+    "predicted_text": "l",
+    "verified_text": "",
+    "confidence_avg": 0.5065,
+    "boxes": [
+      {
+        "char": "l",
+        "box": [
+          44.5,
+          17.0,
+          59.1,
+          54.3
+        ],
+        "conf": 0.5065
+      }
+    ]
+  },
+  {
+    "image": "captcha_0299.png",
+    "predicted_text": "7",
+    "verified_text": "",
+    "confidence_avg": 0.5844,
+    "boxes": [
+      {
+        "char": "7",
+        "box": [
+          36.7,
+          18.3,
+          75.3,
+          60.0
+        ],
+        "conf": 0.5844
+      }
+    ]
+  },
+  {
+    "image": "captcha_0300.png",
+    "predicted_text": "CII",
+    "verified_text": "",
+    "confidence_avg": 0.7483,
+    "boxes": [
+      {
+        "char": "C",
+        "box": [
+          70.2,
+          0.0,
+          100.8,
+          33.4
+        ],
+        "conf": 0.9336
+      },
+      {
+        "char": "I",
+        "box": [
+          141.8,
+          15.7,
+          156.7,
+          53.5
+        ],
+        "conf": 0.5829
+      },
+      {
+        "char": "I",
+        "box": [
+          164.3,
+          14.0,
+          179.1,
+          53.8
+        ],
+        "conf": 0.7284
+      }
+    ]
+  }
+]

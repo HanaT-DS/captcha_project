@@ -13,6 +13,12 @@ dependencies = [
   "python-dotenv>=1.0",
   "tenacity>=8.2",
   "easyocr>=1.7.2",
+  "ultralytics>=8.4.8",
+  "pyyaml>=6.0.3",
+  "python-multipart>=0.0.22",
+  "tqdm>=4.67.1",
+  "google-genai>=1.61.0",
+  "httpx>=0.28.1",
 ]
 
 [dependency-groups]

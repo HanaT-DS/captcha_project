@@ -1,3 +1,12 @@
+"""
+extract.py – Extraction de l'image CAPTCHA depuis la page
+
+A partir du resultat de detect_captcha(), extrait l'image du CAPTCHA
+via 3 methodes (base64, telechargement URL, screenshot Playwright)
+et localise le champ de saisie associe (CSS selector + XPath).
+Retourne un ExtractResult.
+"""
+
 from __future__ import annotations
 
 import base64

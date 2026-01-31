@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "method": "download",
+  "image_path": "runs\\20260129_095327\\captcha.png",
+  "input_selector": "[class*='captcha' i] input[type='text']",
+  "input_xpath": "//*[@id=\"edit-captcha-response\"]",
+  "error": null
+}

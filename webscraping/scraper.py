@@ -1,3 +1,11 @@
+"""
+scraper.py – Pipeline de scraping : detection de CAPTCHAs sur une liste d'URLs
+
+Ouvre un navigateur, visite chaque URL, lance detect_captcha(),
+sauvegarde les screenshots/HTML et genere un results.json
+avec le statut de chaque page (ok, detected, error).
+"""
+
 from __future__ import annotations
 
 import json

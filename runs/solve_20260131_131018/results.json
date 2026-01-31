@@ -1,0 +1,28 @@
+{
+  "url": "https://www.metropolegrandparis.fr/fr/formulaire-de-contact",
+  "solver": "cascade",
+  "api_url": "http://localhost:8000",
+  "success": true,
+  "total_attempts": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "success": true,
+      "text": "YE8Nt",
+      "method": "yolo+gemini",
+      "error": null,
+      "filename": "attempt_1_captcha.png",
+      "content_type": "image/png",
+      "yolo_model": "finetuned_v1",
+      "cascade_threshold": 0.7,
+      "yolo_elapsed_ms": 521.06,
+      "yolo_text": "YE8Mt",
+      "yolo_avg_conf": 0.6284,
+      "gemini_model": "gemini-2.5-pro",
+      "fallback": true,
+      "fallback_reason": "low_confidence",
+      "gemini_elapsed_ms": 6745.71,
+      "total_elapsed_ms": 7266.77
+    }
+  ]
+}

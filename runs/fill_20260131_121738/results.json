@@ -1,0 +1,103 @@
+{
+  "url": "https://www.metropolegrandparis.fr/fr/formulaire-de-contact",
+  "strategy": "yolo",
+  "detection": {
+    "detected": true,
+    "category": "captcha_widget",
+    "provider": "unknown",
+    "score": 2,
+    "widget_location": null,
+    "iframe_location": null,
+    "captcha_image_location": {
+      "role": "captcha_image",
+      "css_selector": "img[src*='captcha' i]",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[2]/article[1]/section[1]/div[1]/div[1]/div[1]/form[1]/fieldset[1]/div[1]/div[1]/img[1]",
+      "bbox": {
+        "x": 272.3333435058594,
+        "y": 343.22918701171875,
+        "width": 180,
+        "height": 60
+      }
+    },
+    "captcha_input_location": {
+      "role": "captcha_input",
+      "css_selector": "[class*='captcha' i] input[type='text']",
+      "xpath": "//*[@id=\"edit-captcha-response\"]",
+      "bbox": {
+        "x": 272.3333435058594,
+        "y": 448.8958435058594,
+        "width": 720.0000305175781,
+        "height": 45.666656494140625
+      }
+    },
+    "challenge": null,
+    "evidences": [
+      {
+        "kind": "dom",
+        "value": ".captcha img[src^='data:image'], img[src^='data:image'] (count=1)",
+        "provider_guess": null
+      },
+      {
+        "kind": "dom",
+        "value": "img[src*='captcha' i] (count=1)",
+        "provider_guess": null
+      },
+      {
+        "kind": "dom",
+        "value": "img[alt*='captcha' i] (count=1)",
+        "provider_guess": null
+      },
+      {
+        "kind": "dom",
+        "value": "[class*='captcha' i] input[type='text'] (count=1)",
+        "provider_guess": null
+      },
+      {
+        "kind": "dom",
+        "value": "[class*='captcha' i] input:not([type='hidden']):not([type='submit']):not([type='button']) (count=1)",
+        "provider_guess": null
+      },
+      {
+        "kind": "dom",
+        "value": "input[name*='captcha' i] (count=3)",
+        "provider_guess": null
+      },
+      {
+        "kind": "dom",
+        "value": "input[id*='captcha' i] (count=1)",
+        "provider_guess": null
+      },
+      {
+        "kind": "dom",
+        "value": ".captcha input[type='text'], .captcha input:not([type='hidden']) (count=1)",
+        "provider_guess": null
+      },
+      {
+        "kind": "keyword",
+        "value": "captcha",
+        "provider_guess": null
+      }
+    ]
+  },
+  "extraction": {
+    "ok": true,
+    "method": "download",
+    "image_path": "runs\\fill_20260131_121738\\captcha.png",
+    "input_selector": "[class*='captcha' i] input[type='text']",
+    "input_xpath": "//*[@id=\"edit-captcha-response\"]",
+    "error": null
+  },
+  "solve": {
+    "text": "N9FL7",
+    "method": "yolo",
+    "yolo_text": "N9FL7",
+    "yolo_avg_conf": 0.8492,
+    "fallback": false
+  },
+  "fill": {
+    "ok": true,
+    "text_typed": "N9FL7",
+    "submit_clicked": true,
+    "error": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.metropolegrandparis.fr/fr/formulaire-de-contact",
+  "solver": "yolo",
+  "success": true,
+  "total_attempts": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "success": true,
+      "text": "LW7bN",
+      "method": "yolo",
+      "error": null,
+      "yolo_avg_conf": 0.7202
+    }
+  ]
+}

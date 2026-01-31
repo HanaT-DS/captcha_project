@@ -1,3 +1,11 @@
+"""
+browser.py – Configuration et gestion du navigateur Playwright
+
+Fournit BrowserConfig (headless, viewport, locale, timeouts) et
+les fonctions create_browser_and_context() / close_browser() pour
+ouvrir et fermer proprement un navigateur Chromium/Firefox/WebKit.
+"""
+
 from __future__ import annotations
 
 from dataclasses import dataclass

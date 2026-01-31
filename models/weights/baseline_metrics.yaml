@@ -1,0 +1,55 @@
+augmentations:
+  degrees: 15
+  mixup: 0.0
+  mosaic: 0.0
+  perspective: 0.0005
+  scale: 0.4
+  shear: 5
+best_conf: 0.15
+best_imgsz: 640
+epochs: 120
+final_split: test
+model: yolov8s.pt
+normalization_gain: 16
+patience: 20
+results:
+  with_normalization:
+    cer_mean: 0.017254901960784316
+    cer_median: 0.0
+    exact_match_accuracy: 0.9117647058823529
+  without_normalization:
+    cer_mean: 0.02676470588235294
+    cer_median: 0.0
+    exact_match_accuracy: 0.8647058823529412
+top_confusions:
+- !!python/tuple
+  - l->I
+  - 10
+- !!python/tuple
+  - I->l
+  - 9
+- !!python/tuple
+  - z->9
+  - 1
+- !!python/tuple
+  - I->i
+  - 1
+- !!python/tuple
+  - G->l
+  - 1
+- !!python/tuple
+  - 1->G
+  - 1
+- !!python/tuple
+  - g->1
+  - 1
+- !!python/tuple
+  - U->g
+  - 1
+- !!python/tuple
+  - H->U
+  - 1
+- !!python/tuple
+  - 8->l
+  - 1
+tuning_split: valid

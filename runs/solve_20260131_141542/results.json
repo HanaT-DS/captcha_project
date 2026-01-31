@@ -1,0 +1,28 @@
+{
+  "url": "https://www.w3schools.in/demo/phptextcaptcha/demo.php",
+  "solver": "cascade",
+  "api_url": "http://localhost:8000",
+  "success": true,
+  "total_attempts": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "success": true,
+      "text": "tf8qr7",
+      "method": "yolo+gemini",
+      "error": null,
+      "filename": "attempt_1_captcha.png",
+      "content_type": "image/png",
+      "yolo_model": "finetuned_v1",
+      "cascade_threshold": 0.7,
+      "yolo_elapsed_ms": 660.54,
+      "yolo_text": "W",
+      "yolo_avg_conf": 0.3111,
+      "gemini_model": "gemini-2.5-pro",
+      "fallback": true,
+      "fallback_reason": "too_few_chars",
+      "gemini_elapsed_ms": 8406.72,
+      "total_elapsed_ms": 9067.26
+    }
+  ]
+}
