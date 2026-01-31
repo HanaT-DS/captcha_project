@@ -4,33 +4,40 @@ Webscraping robuste aux CAPTCHAs : detection multi-types, extraction et resoluti
 
 Le module de detection identifie plusieurs types de CAPTCHAs (reCAPTCHA, hCaptcha, Turnstile, CAPTCHAs texte, pages de challenge), mais la resolution automatique cible les **CAPTCHAs texte** (image + champ de saisie). Elle combine un modele YOLO (detection de caracteres) entraine sur des CAPTCHAs synthetiques puis fine-tune sur des CAPTCHAs reels, avec un fallback Gemini (vision LLM), le tout expose via une API FastAPI et orchestre par Playwright.
 
+## Demo
+
+<p align="center">
+  <img src="docs/assets/solve_site2.gif" alt="CAPTCHA solver demo" width="600">
+</p>
+
+Site web du projet avec documentation detaillee, resultats et exemples : **[captcha-solver](https://hanat-ds.github.io/captcha_project/)**
+
 ## Architecture
 
+```mermaid
+graph TB
+    %% Définition des styles
+    classDef box fill:#f9f9f9,stroke:#333,stroke-width:2px,rx:5,ry:5,text-align:left;
+    classDef script fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,rx:5,ry:5;
+
+    %% Nœud principal
+    MainScript["<b>run_captcha_solver.py</b><br><i>Script de production</i>"]:::script
+
+    %% Nœuds de niveau 2
+    Webscraping["<b>webscraping/</b><br>browser.py<br>detect.py<br>extract.py<br>fill.py"]:::box
+
+    API["<b>API FastAPI (api/)</b><br>⠶ /solve (YOLO)<br>⠶ /solve-llm (LLM)<br>⠶ /solve-auto"]:::box
+
+    %% Nœud de niveau 3
+    Models["<b>models/</b><br>yolo_ocr.py<br>llm_ocr.py<br>weights/"]:::box
+
+    %% Connexions
+    MainScript --> Webscraping
+    MainScript --> API
+    Webscraping -- "HTTP" --> API
+    API --> Models
 ```
-                    +-------------------+
-                    |   run_captcha     |
-                    |   _solver.py      |   Script de production
-                    +--------+----------+
-                             |
-              +--------------+--------------+
-              |                             |
-     +--------v--------+          +--------v--------+
-     |   webscraping/  |          |    API FastAPI   |
-     |                 |          |    (api/)        |
-     | browser.py      |  HTTP   |                  |
-     | detect.py       +-------->+ /solve      YOLO |
-     | extract.py      |         | /solve-llm  LLM  |
-     | fill.py         |         | /solve-auto      |
-     +-----------------+         +--------+---------+
-                                          |
-                                 +--------v--------+
-                                 |    models/       |
-                                 |                  |
-                                 | yolo_ocr.py      |
-                                 | llm_ocr.py       |
-                                 | weights/         |
-                                 +-----------------+
-```
+
 
 **L'API sert de pont** entre le webscraping et les modeles : le script envoie l'image extraite a l'API via HTTP, qui gere l'inference et retourne le texte resolu.
 
@@ -85,8 +92,8 @@ Le module `detect.py` identifie automatiquement :
 
 - **Site cible** : metropolegrandparis.fr (formulaire de contact)
 - **Collecte** : 305 CAPTCHAs scrapes automatiquement (`scripts/data_prep/01_scrape_captchas.py`)
-- **Annotation** : 150 images annotees manuellement sur Roboflow, puis un modele YOLO intermediaire entraine sur ces 150 a aide a pre-annoter le reste
-- **Dataset final** : exporte via l'API Roboflow — 230 train / 50 valid / 25 test
+- **Annotation** : 155 images annotees manuellement sur Roboflow, puis un modele YOLO intermediaire entraine sur ces 150 a aide a pre-annoter le reste
+- **Dataset final** : exporte via l'API Roboflow — 235 train / 50 valid / 25 test
 - **Transfer learning** : a partir du modele baseline, lr0=0.001 (10x plus petit), freeze=10 couches, 100 epochs, patience=15
 - **Notebook** : `notebooks/yolo_finetuning.ipynb`
 
@@ -148,6 +155,9 @@ captcha-project/
 # Cloner le projet
 git clone <repo-url>
 cd captcha-project
+
+# Create virtual environment
+uv venv
 
 # Installer les dependances (Python >= 3.12)
 uv sync
@@ -211,7 +221,7 @@ uv run python -m scripts.run_captcha_solver --url "..." --solver gemini
 ```bash
 # Scraper 300 CAPTCHAs depuis un site
 uv run python -m scripts.data_prep.01_scrape_captchas \
-    --url "https://2captcha.com/fr/demo/normal" --count 300
+    --url "https://www.metropolegrandparis.fr/fr/formulaire-de-contact" --count 300
 
 # Pre-annoter avec le modele baseline
 uv run python -m scripts.data_prep.02_auto_annotate
@@ -226,3 +236,5 @@ uv run python -m scripts.data_prep.02_auto_annotate
 - **Playwright** — automatisation navigateur
 - **Roboflow** — annotation et gestion de datasets
 - **Google Colab** (NVIDIA L4) — entrainement GPU
+
+

@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import random
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Callable, Optional
 
 from playwright.sync_api import Page, Locator
 
@@ -92,6 +92,7 @@ def fill_and_submit(
     min_delay_ms: int = 50,
     max_delay_ms: int = 250,
     submit: bool = True,
+    on_frame: Optional[Callable[[Page, int], None]] = None,
 ) -> FillResult:
     """
     Tape le texte résolu dans le champ input comme un humain, puis soumet le formulaire.
@@ -104,6 +105,8 @@ def fill_and_submit(
         min_delay_ms: Délai minimum entre chaque frappe (ms)
         max_delay_ms: Délai maximum entre chaque frappe (ms)
         submit: Si True, cherche et clique le bouton submit après la saisie
+        on_frame: Callback optionnel (page, duration_ms) appele apres chaque etape
+                  pour capturer des frames (ex: enregistrement GIF)
 
     Returns:
         FillResult avec le statut de l'opération
@@ -147,9 +150,14 @@ def fill_and_submit(
             input_loc.type(char)
             delay = random.randint(min_delay_ms, max_delay_ms)
             page.wait_for_timeout(delay)
+            if on_frame:
+                on_frame(page, delay)
 
         # 5) Pause après saisie (humain qui relit)
-        page.wait_for_timeout(random.randint(300, 800))
+        pause = random.randint(300, 800)
+        page.wait_for_timeout(pause)
+        if on_frame:
+            on_frame(page, pause)
 
         # 6) Soumettre le formulaire
         submit_clicked = False
@@ -163,6 +171,8 @@ def fill_and_submit(
                 # Fallback : appuyer sur Entrée
                 input_loc.press("Enter")
                 submit_clicked = True
+            if on_frame:
+                on_frame(page, 400)
 
         return FillResult(
             ok=True,

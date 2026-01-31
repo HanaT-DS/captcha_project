@@ -29,15 +29,13 @@ TEST_URLS = [
     # "https://auth.service-public.gouv.fr/realms/service-public/protocol/openid-connect/auth?response_type=code&client_id=spclient&scope=address%20phone%20openid%20profile%20email&state=HnhIBPkkcHP9ziujfuW5246imfXV1GXn3Y9BkPX_kMg%3D&redirect_uri=https://www.service-public.gouv.fr/openid_connect_login&nonce=7cDp9OgCi7MAxvLQcJUstub2IEXvxwCzdh7btnRpVuo", # CAPTCHA text
     # "https://connect.france-visas.gouv.fr/realms/usager/login-actions/registration?client_id=fv-fo-keycloak-web&tab_id=XdV6Tt5F8-w&client_data=eyJydSI6Imh0dHBzOi8vYXBwbGljYXRpb24tZm9ybS5mcmFuY2UtdmlzYXMuZ291di5mci9mdi1mby1kZGUvbG9naW4vb2F1dGgyL2NvZGUva2V5Y2xvYWsiLCJydCI6ImNvZGUiLCJzdCI6Iml4ajk0aTltSno0cXpMS0gtYnpNazRjZHYxNkdNR2tmZ1FPeUhNVEdybkU9In0", # CAPTCHA text *
      # veut pas marcher car pas de cookies
-    # "https://www.w3schools.in/demo/phptextcaptcha/demo.php",
-    # "https://captcha.com/demos/features/captcha-demo.aspx",
+    # "https://www.w3schools.in/demo/phptextcaptcha/demo.php", # CAPTCHA text
+    # "https://captcha.com/demos/features/captcha-demo.aspx", # CAPTCHA text 
     # "https://metropole.toulouse.fr/nous-contacter", # reCAPTCHA
     # "https://www.google.com/recaptcha/api2/demo", # reCAPTCHA
     # "https://demo.turnstile.workers.dev/", # turnstile
     # "https://2captcha.com/demo/cloudflare-turnstile", # turnstil
     # "https://www.reddit.com",
-
-
 
     # "https://accounts.hcaptcha.com/demo",
     # "https://friendlycaptcha.com/demo",

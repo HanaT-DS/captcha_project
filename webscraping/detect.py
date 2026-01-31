@@ -159,10 +159,10 @@ GENERIC_CAPTCHA_INPUT_SELECTORS: List[str] = [
     "[id*='captcha' i] input:not([type='hidden']):not([type='submit']):not([type='button'])",
     "[class*='captcha' i] input[type='text']",
     "[class*='captcha' i] input:not([type='hidden']):not([type='submit']):not([type='button'])",
-    # Inputs avec attributs contenant "captcha"
-    "input[name*='captcha' i]",
-    "input[id*='captcha' i]",
-    "input[class*='captcha' i]",
+    # Inputs avec attributs contenant "captcha" (exclure hidden)
+    "input[name*='captcha' i]:not([type='hidden'])",
+    "input[id*='captcha' i]:not([type='hidden'])",
+    "input[class*='captcha' i]:not([type='hidden'])",
     "input[placeholder*='captcha' i]",
     # Inputs avec placeholder contenant des mots-clés
     "input[placeholder*='code' i][placeholder*='sécurité' i]",
@@ -431,28 +431,30 @@ def _pick_best_generic_image(page: Page, scope: Optional[Locator] = None) -> Opt
 def _pick_best_generic_input(page: Page, scope: Optional[Locator] = None) -> Optional[Tuple[str, Locator]]:
     """
     Choisit un input CAPTCHA "maison" (dans scope si fourni).
+    Ne retourne jamais un input hidden.
     """
     base = scope if scope is not None else page
 
     for sel in GENERIC_CAPTCHA_INPUT_SELECTORS:
         loc = base.locator(sel)
-        if loc.count() > 0:
-            # On évite les inputs hidden si possible
-            # (si le selector attrape quand même un hidden, on laisse, mais on préfère visible)
-            candidate = loc.first
+        count = loc.count()
+        if count == 0:
+            continue
+
+        # Parcourir les candidats et prendre le premier visible (non-hidden)
+        for i in range(count):
+            candidate = loc.nth(i)
             try:
-                t = candidate.get_attribute("type") or ""
-                if t.lower() == "hidden" and loc.count() > 1:
-                    # chercher un non-hidden
-                    for i in range(loc.count()):
-                        c = loc.nth(i)
-                        tt = (c.get_attribute("type") or "").lower()
-                        if tt != "hidden":
-                            candidate = c
-                            break
+                t = (candidate.get_attribute("type") or "").lower()
+                if t == "hidden":
+                    continue
+                # Verifier que l'element est visible
+                if not candidate.is_visible():
+                    continue
+                return sel, candidate
             except Exception:
-                pass
-            return sel, candidate
+                continue
+
     return None
 
 

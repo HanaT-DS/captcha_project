@@ -15,6 +15,7 @@ Usage:
     uv run python -m scripts.run_captcha_solver --url "https://example.com/contact"
     uv run python -m scripts.run_captcha_solver --url "..." --no-headless --no-submit
     uv run python -m scripts.run_captcha_solver --url "..." --solver yolo --max-retries 3
+    uv run python -m scripts.run_captcha_solver --url "..." --record  # enregistre un GIF du solve
 """
 
 from __future__ import annotations
@@ -24,7 +25,7 @@ import json
 import random
 from pathlib import Path
 from datetime import datetime
-from typing import Callable
+from typing import Callable, Optional
 
 import httpx
 
@@ -34,6 +35,7 @@ from webscraping.browser import BrowserConfig, create_browser_and_context, close
 from webscraping.detect import detect_captcha
 from webscraping.extract import extract_captcha_image
 from webscraping.fill import fill_and_submit
+from webscraping.gif_recorder import GifRecorder
 
 
 # ============================================================
@@ -229,6 +231,7 @@ def run_pipeline(
     attempt: int,
     wait_ms: int,
     submit: bool = True,
+    recorder: Optional[GifRecorder] = None,
 ) -> dict:
     """
     Exécute une tentative complète : detect → extract → solve (via API) → fill.
@@ -244,6 +247,10 @@ def run_pipeline(
 
     # 1b) Fermer les bandeaux de cookies (tarteaucitron, etc.)
     dismiss_cookie_banners(page)
+
+    # Frame : page chargee (CAPTCHA visible)
+    if recorder:
+        recorder.capture(page, duration_ms=1000)
 
     # 2) Détection
     det = detect_captcha(page)
@@ -270,6 +277,10 @@ def run_pipeline(
 
     print(f"    Image extraite ({ext.method})")
 
+    # Frame : CAPTCHA visible avant saisie
+    if recorder:
+        recorder.capture(page, duration_ms=800)
+
     # 4) Solve via API
     solved_text, solve_meta = solver_fn(ext.image_path)
     if not solved_text:
@@ -279,12 +290,14 @@ def run_pipeline(
     print(f"    Résolu: '{solved_text}' (méthode: {solve_meta.get('method', '?')})")
 
     # 5) Fill (+ Submit si demandé)
+    on_frame = (lambda p, d: recorder.capture(p, d)) if recorder else None
     fill_result = fill_and_submit(
         page=page,
         input_selector=ext.input_selector or "",
         text=solved_text,
         input_xpath=ext.input_xpath,
         submit=submit,
+        on_frame=on_frame,
     )
     if not fill_result.ok:
         return {"success": False, "text": solved_text, "method": solve_meta.get("method"),
@@ -306,6 +319,10 @@ def run_pipeline(
 
     # 6) Vérifier le résultat (attendre puis analyser la page)
     page.wait_for_timeout(random.randint(2000, 3500))
+
+    # Frame : etat final apres submit
+    if recorder:
+        recorder.capture(page, duration_ms=2000)
 
     # Screenshot post-submit
     try:
@@ -362,6 +379,14 @@ def main():
         "--api-url", default="http://localhost:8000",
         help="URL de l'API de résolution (défaut: http://localhost:8000)",
     )
+    parser.add_argument(
+        "--record", action="store_true",
+        help="Enregistrer un GIF du solve (sauvegardé dans successful_solves/ si succès)",
+    )
+    parser.add_argument(
+        "--gif-scale", type=float, default=0.5,
+        help="Facteur d'échelle des frames GIF (défaut: 0.5 = 640x360)",
+    )
     args = parser.parse_args()
 
     # Dossier de sortie
@@ -394,6 +419,7 @@ def main():
     print(f"Submit       : {do_submit}")
     print(f"Max retries  : {max_retries}")
     print(f"Headless     : {not args.no_headless}")
+    print(f"Record GIF   : {args.record}")
     print(f"Output       : {out_dir}")
     print("=" * 60)
 
@@ -402,12 +428,19 @@ def main():
     pw, browser, context = create_browser_and_context(cfg)
     page = context.new_page()
 
+    # Recorder GIF (optionnel)
+    recorder = GifRecorder(scale=args.gif_scale) if args.record else None
+
     results_log = []
     final_result = None
 
     try:
         for attempt in range(1, max_retries + 1):
             print(f"\n[Tentative {attempt}/{max_retries}]")
+
+            # Vider les frames de la tentative précédente
+            if recorder:
+                recorder.discard()
 
             try:
                 result = run_pipeline(
@@ -418,11 +451,27 @@ def main():
                     attempt=attempt,
                     wait_ms=args.wait_ms,
                     submit=do_submit,
+                    recorder=recorder,
                 )
                 results_log.append({"attempt": attempt, **result})
 
                 if result["success"]:
                     final_result = result
+
+                    # Sauvegarder le GIF si succès avec texte résolu
+                    if recorder and result.get("text"):
+                        solves_dir = Path("successful_solves")
+                        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                        gif_name = f"solve_{timestamp}_{result['text']}.gif"
+                        gif_name = "".join(
+                            c if c.isalnum() or c in "._-" else "_"
+                            for c in gif_name
+                        )
+                        gif_path = recorder.save(solves_dir / gif_name)
+                        if gif_path:
+                            print(f"    🎬 GIF enregistré: {gif_path}")
+                            result["gif_path"] = gif_path
+
                     break
 
                 print(f"    ❌ {result['error']}")

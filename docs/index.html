@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAPTCHA Solver — Automated Text CAPTCHA Resolution with YOLO &amp; Gemini</title>
+  <meta name="description" content="Multi-type CAPTCHA detection and automated text CAPTCHA solving using YOLOv8 character detection and Gemini vision LLM, orchestrated by Playwright.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Highlight.js for code blocks -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+</head>
+<body>
+
+  <!-- ==================== NAV ==================== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">Captcha Solver</a>
+      <ul class="nav-links">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#dataset">Dataset</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#demos">Demos</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+        <li><a href="#tech">Tech</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <header class="hero">
+    <h1>Automated Text CAPTCHA Solver</h1>
+    <p class="subtitle">
+      Multi-type CAPTCHA detection and automated text CAPTCHA resolution combining
+      YOLOv8 character detection with Gemini vision LLM, orchestrated by Playwright.
+    </p>
+    <div class="hero-meta">
+      <span>Academic Project</span>
+      <span>Python 3.12</span>
+      <a href="https://github.com/HanaT-DS/captcha_project" target="_blank">GitHub Repository</a>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- ==================== INTRODUCTION ==================== -->
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        Web scraping often hits a wall when websites deploy CAPTCHAs to block automated access.
+        This project builds a <strong>robust web scraping pipeline</strong> that can detect multiple types of
+        CAPTCHAs and automatically solve text-based ones (image + text input field).
+      </p>
+      <p>
+        The detection module identifies several CAPTCHA providers (reCAPTCHA, hCaptcha, Cloudflare Turnstile,
+        text CAPTCHAs, challenge pages), but <strong>automated resolution targets text CAPTCHAs only</strong>.
+        It combines a YOLOv8 model (character detection) trained on synthetic CAPTCHAs then fine-tuned on
+        real-world CAPTCHAs, with a Gemini vision LLM fallback &mdash; all exposed through a FastAPI API
+        and orchestrated by Playwright browser automation.
+      </p>
+      <h3 id="captcha-types">Supported CAPTCHA Types</h3>
+      <p>
+        The <code>detect.py</code> module automatically identifies CAPTCHA presence by analyzing the DOM
+        (iframes, selectors, keywords, URLs). Detection is broad, resolution is targeted:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Example</th>
+            <th>Detection</th>
+            <th>Resolution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Text CAPTCHA</strong> (image + input)</td>
+            <td>
+              <a href="https://2captcha.com/fr/demo/normal" target="_blank" title="Click to view example site">
+                <img class="captcha-example" src="assets/type_text.png" alt="Text CAPTCHA example">
+              </a>
+            </td>
+            <td>Yes</td>
+            <td><strong>Yes</strong> (YOLO + Gemini)</td>
+          </tr>
+          <tr>
+            <td>reCAPTCHA (v2, v3)</td>
+            <td>
+              <a href="https://www.google.com/recaptcha/api2/demo" target="_blank" title="Click to view example site">
+                <img class="captcha-example" src="assets/type_recaptcha.gif" alt="reCAPTCHA example">
+              </a>
+            </td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>hCaptcha</td>
+            <td>
+              <a href="https://accounts.hcaptcha.com/demo" target="_blank" title="Click to view example site">
+                <img class="captcha-example" src="assets/type_hcaptcha.png" alt="hCaptcha example">
+              </a>
+            </td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>Cloudflare Turnstile</td>
+            <td>
+              <a href="https://2captcha.com/fr/demo/cloudflare-turnstile" target="_blank" title="Click to view example site">
+                <img class="captcha-example" src="assets/type_turnstile.gif" alt="Turnstile example">
+              </a>
+            </td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>Challenge pages</td>
+            <td>
+              <a href="https://2captcha.com/demo/cloudflare-turnstile-challenge" target="_blank" title="Click to view example site">
+                <img class="captcha-example" src="assets/type_challenge.png" alt="Challenge page example">
+              </a>
+            </td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="color: var(--text-muted); font-style: italic; text-align: center;">
+        Click to view example websites
+      </p>
+    </section>
+
+    <!-- ==================== ARCHITECTURE & PIPELINE ==================== -->
+    <section id="architecture">
+      <h2>Architecture &amp; Pipeline</h2>
+      <p>
+        The <strong>API serves as a bridge</strong> between the browser automation layer and the ML models.
+        The solver script sends the extracted CAPTCHA image to the API via HTTP, which handles inference
+        and returns the solved text.
+      </p>
+      <div class="mermaid-diagram">
+        <pre class="mermaid">
+graph TB
+    classDef script fill:#1f6feb,stroke:#58a6ff,stroke-width:2px,color:#fff,rx:8,ry:8
+    classDef box fill:#161b22,stroke:#30363d,stroke-width:2px,color:#e6edf3,rx:8,ry:8
+
+    MainScript["⠶ run_captcha_solver.py\nProduction script"]:::script
+
+    Webscraping["webscraping/\n ⠶ browser.py\n ⠶ detect.py\n ⠶ extract.py\n ⠶ fill.py"]:::box
+
+    API["API FastAPI (api/)\n ⠶ /solve — YOLO\n ⠶ /solve-llm — LLM\n ⠶ /solve-auto"]:::box
+
+    Models["models/\n ⠶ yolo_ocr.py\n ⠶ llm_ocr.py\n ⠶ weights/"]:::box
+
+    MainScript --> Webscraping
+    MainScript --> API
+    Webscraping -- "HTTP" --> API
+    API --> Models
+
+        </pre>
+      </div>
+
+      <h3>End-to-end Pipeline</h3>
+      <p>The full pipeline for solving a text CAPTCHA:</p>
+      <ol class="pipeline-steps">
+        <li>Navigate to the target URL (Playwright headless browser)</li>
+        <li>Dismiss cookie banners (tarteaucitron, Ezoic, generic CMP)</li>
+        <li>Detect the CAPTCHA (DOM analysis: iframes, selectors, keywords, URLs)</li>
+        <li>Extract the CAPTCHA image (base64 / download / Playwright screenshot)</li>
+        <li>Solve via the API &mdash; Cascade mode: YOLO finetuned &rarr; Gemini fallback </li>
+        <li>Type the text character by character (human-like simulation with random delays)</li>
+        <li>Submit the form</li>
+        <li>Verify the result (success message / redirect / re-detection)</li>
+        <li>If failed &rarr; retry (up to max-retries with a fresh CAPTCHA)</li>
+      </ol>
+    </section>
+
+    <!-- ==================== DATASET & ROBOFLOW ==================== -->
+    <section id="dataset">
+      <h2>Dataset &amp; Roboflow</h2>
+      <p>
+        Building a reliable character-detection model required curating two distinct datasets:
+        one synthetic (publicly available) and one real (scraped and annotated manually).
+      </p>
+
+      <h3>Synthetic Dataset (Baseline)</h3>
+      <p>
+        The baseline model was trained on the
+        <a href="https://universe.roboflow.com/testing-a8gzs/yolo-captcha-test" target="_blank">Yolo-Captcha-Test</a>
+        dataset from Roboflow Universe &mdash; 2,415 training / 674 validation / 340 test images
+        covering 62 classes (0-9, a-z, A-Z).
+      </p>
+      <div class="media-block">
+        <img src="assets/dataset_synthetic.png" alt="Synthetic dataset samples on Roboflow">
+        <span class="caption">Synthetic CAPTCHA sample from Roboflow Universe</span>
+      </div>
+
+      <h3>Real CAPTCHA Collection</h3>
+      <p>
+        305 CAPTCHAs were scraped automatically from the target site using
+        <code>scripts/data_prep/01_scrape_captchas.py</code>.
+        The script navigates to the form, extracts the CAPTCHA image, and saves it locally.
+      </p>
+      <div class="media-block">
+        <img src="assets/dataset_scraped.png" alt="Scraped real CAPTCHAs">
+        <span class="caption">Examples of real CAPTCHAs scraped from the target site</span>
+      </div>
+
+      <h3>Annotation Workflow</h3>
+      <p>
+        The annotation process was iterative, targeting the same 62 classes (0-9, a-z, A-Z):
+      </p>
+      <ol>
+        <li>155 images annotated manually on Roboflow (bounding boxes around each character)</li>
+        <li>An intermediate YOLO model trained on these 155 images</li>
+        <li>The intermediate model pre-annotated the remaining 150 images (<code>scripts/data_prep/02_auto_annotate.py</code>)</li>
+        <li>Manual correction of the pre-annotations on Roboflow</li>
+        <li>Final dataset exported via Roboflow API: 235 train / 50 valid / 25 test</li>
+      </ol>
+      <div class="media-block">
+        <img src="assets/roboflow_annotation.png" alt="Roboflow annotation interface">
+        <span class="caption">Annotation workflow on Roboflow</span>
+      </div>
+
+      <div class="media-block">
+        <img src="assets/roboflow_dataset.png" alt="Final dataset overview on Roboflow">
+        <span class="caption">Final dataset split on Roboflow &mdash;
+          <a href="https://universe.roboflow.com/hana-zkkrt/captcha-target-v1" target="_blank">view project</a>
+        </span>
+      </div>
+    </section>
+
+    <!-- ==================== TRAINING & RESULTS ==================== -->
+    <section id="training">
+      <h2>Model Training &amp; Results</h2>
+
+      <h3>What is YOLO?</h3>
+      <p>
+        <strong>YOLO</strong> (You Only Look Once) is a real-time object detection model.
+        Unlike image classifiers that output a single label per image, YOLO divides the image into a grid
+        and predicts bounding boxes with class probabilities in a single forward pass.
+        We use <strong>YOLOv8s</strong> (small variant from <a href="https://docs.ultralytics.com/" target="_blank">Ultralytics</a>)
+        to detect individual characters in the CAPTCHA image &mdash; each character is an "object" with its
+        bounding box and class (one of 62: 0-9, a-z, A-Z). Characters are then sorted left-to-right
+        to reconstruct the text.
+      </p>
+
+      <h3>What is Gemini?</h3>
+      <p>
+        <strong>Google Gemini</strong> is a multimodal large language model capable of understanding images.
+        We use it as a <strong>fallback</strong>: when YOLO is not confident enough, the CAPTCHA image
+        is sent to Gemini with a prompt asking it to read the text. Gemini can generalize to CAPTCHA styles
+        it has never seen, but is slower and requires an API call. The cascade strategy
+        (YOLO first &rarr; Gemini if needed) balances speed and accuracy.
+      </p>
+
+      <h3>Phase 1: Baseline (Synthetic CAPTCHAs)</h3>
+      <ul>
+        <li><strong>Dataset:</strong> <a href="https://universe.roboflow.com/testing-a8gzs/yolo-captcha-test" target="_blank">Yolo-Captcha-Test</a> on Roboflow &mdash; 2,415 train / 674 valid / 340 test images</li>
+        <li><strong>Classes:</strong> 62 (0-9, a-z, A-Z)</li>
+        <li><strong>Model:</strong> YOLOv8s (small) trained for 120 epochs on Google Colab (NVIDIA L4)</li>
+        <li><strong>Augmentations:</strong> rotation 15&deg;, scale 0.4, shear 5, perspective &mdash; mosaic/mixup disabled (they mix characters across images)</li>
+        <li><strong>Grid search:</strong> best config <code>imgsz=640, conf=0.15, iou=0.6</code></li>
+      </ul>
+
+      <h3>Baseline Results</h3>
+      <div class="metrics">
+        <div class="metric-card">
+          <div class="metric-value">86.5%</div>
+          <div class="metric-label">Exact Match (test)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">91.2%</div>
+          <div class="metric-label">With I/l, O/0 normalization</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">2.7%</div>
+          <div class="metric-label">CER (Character Error Rate)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">1.7%</div>
+          <div class="metric-label">CER (normalized)</div>
+        </div>
+      </div>
+
+      <h3>Phase 2: Fine-tuning (Real CAPTCHAs)</h3>
+      <ul>
+        <li><strong>Target site:</strong> metropolegrandparis.fr (contact form)</li>
+        <li><strong>Collection:</strong> 305 CAPTCHAs scraped automatically</li>
+        <li><strong>Annotation:</strong> 155 images annotated manually on Roboflow, then an intermediate YOLO model helped pre-annotate the rest</li>
+        <li><strong>Final dataset:</strong> exported via Roboflow API &mdash; 235 train / 50 valid / 25 test (<a href="https://universe.roboflow.com/hana-zkkrt/captcha-target-v1" target="_blank">view project</a>)</li>
+        <li><strong>Transfer learning:</strong> from baseline model, lr0=0.001 (10x smaller), freeze=10 layers, 100 epochs, patience=15</li>
+      </ul>
+
+      <h3>Fine-tuned Results</h3>
+      <div class="metrics">
+        <div class="metric-card">
+          <div class="metric-value">84.0%</div>
+          <div class="metric-label">Exact Match (21/25)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value">3.2%</div>
+          <div class="metric-label">CER (Character Error Rate)</div>
+        </div>
+      </div>
+      <blockquote>
+        Datasets are different (synthetic vs real), so comparison is indicative. The fine-tuned model
+        performs well on the target site's CAPTCHAs despite a small test set (25 images).
+      </blockquote>
+
+      <h3>Phase 3: Gemini Fallback (Vision LLM)</h3>
+      <p>When YOLO is not confident enough, the API automatically falls back to Gemini:</p>
+      <ul>
+        <li>Empty YOLO text</li>
+        <li>Fewer than 4 characters detected</li>
+        <li>Average confidence &lt; 0.70</li>
+      </ul>
+      <blockquote>
+        The cascade strategy (YOLO &rarr; Gemini) combines the speed of a specialized model with the
+        generalization ability of a vision LLM.
+      </blockquote>
+    </section>
+
+    <!-- ==================== DEMOS ==================== -->
+    <section id="demos">
+      <h2>Success Examples</h2>
+      <p>
+        GIFs of successful CAPTCHA solves recorded with the <code>--record</code> flag,
+        showing the full pipeline: detection &rarr; extraction &rarr; typing &rarr; submission.
+      </p>
+
+      <div class="gif-grid">
+        <div class="gif-card">
+          <div class="gif-crop"><img src="assets/solve_site1.gif" alt="CAPTCHA solve — Site 1"></div>
+          <div class="gif-info">
+            <div class="site-name">Site 1</div>
+            <div class="method">Solved with <span class="badge badge-yolo">YOLO</span></div>
+          </div>
+        </div>
+        <div class="gif-card">
+          <div class="gif-crop"><img src="assets/solve_site2.gif" alt="CAPTCHA solve — Site 2"></div>
+          <div class="gif-info">
+            <div class="site-name">Site 2</div>
+            <div class="method">Solved with <span class="badge badge-cascade">CASCADE</span></div>
+          </div>
+        </div>
+        <div class="gif-card">
+          <div class="gif-crop"><img src="assets/solve_site3.gif" alt="CAPTCHA solve — Site 3"></div>
+          <div class="gif-info">
+            <div class="site-name">Site 3</div>
+            <div class="method">Solved with <span class="badge badge-cascade">CASCADE</span></div>
+          </div>
+        </div>
+        <div class="gif-card">
+          <div class="gif-crop"><img src="assets/solve_site4.gif" alt="CAPTCHA solve — Site 4"></div>
+          <div class="gif-info">
+            <div class="site-name">Site 4</div>
+            <div class="method">Solved with <span class="badge badge-gemini">GEMINI</span></div>
+          </div>
+        </div>
+      </div>
+
+      <p style="color: var(--text-muted); font-style: italic; text-align: center;">
+        Record your own: <code>uv run python -m scripts.run_captcha_solver --url "..." --record</code>
+      </p>
+    </section>
+
+    <!-- ==================== USAGE ==================== -->
+    <section id="usage">
+      <h2>Installation &amp; Usage</h2>
+
+      <h3>Installation</h3>
+      <pre><code class="language-bash"># Clone the project
+git clone https://github.com/HanaT-DS/captcha_project.git
+cd captcha-project
+
+# Create virtual environment
+uv venv
+
+# Install dependencies (Python >= 3.12)
+uv sync
+
+# Install Playwright browser
+uv run playwright install chromium</code></pre>
+
+      <h3>Configuration</h3>
+      <p>Create a <code>.env</code> file at the project root:</p>
+      <pre><code class="language-bash">GOOGLE_API_KEY=...          # Google API key (for Gemini vision)
+ROBOFLOW_API_KEY=...        # Roboflow API key (for dataset export)</code></pre>
+
+      <h3>Start the API</h3>
+      <pre><code class="language-bash">uv run python -m scripts.run_api</code></pre>
+      <p>The API is available at <code>http://localhost:8000</code> (Swagger docs at <code>/docs</code>).</p>
+
+      <h3>Run the Solver</h3>
+      <pre><code class="language-bash"># Cascade mode (default) — YOLO finetuned + Gemini fallback
+uv run python -m scripts.run_captcha_solver \
+    --url "https://www.metropolegrandparis.fr/fr/formulaire-de-contact"
+
+# Visible mode (debug)
+uv run python -m scripts.run_captcha_solver \
+    --url "..." --no-headless
+
+# Record a GIF of the solve
+uv run python -m scripts.run_captcha_solver \
+    --url "..." --record
+
+# Type the text without submitting the form 
+uv run python -m scripts.run_captcha_solver \
+    --url "..." --no-headless --no-submit
+
+# Force a specific solver
+uv run python -m scripts.run_captcha_solver --url "..." --solver yolo
+uv run python -m scripts.run_captcha_solver --url "..." --solver gemini</code></pre>
+
+      <h3>Run Tests</h3>
+      <pre><code class="language-bash"># Test CAPTCHA detection on real URLs
+uv run python -m tests.test_detect
+
+# Test image extraction
+uv run python -m tests.test_extract
+
+# Test full pipeline (detect → extract → solve → fill)
+uv run python -m tests.test_fill
+
+# Test YOLO OCR on a single image
+uv run python -m tests.test_run_ocr --model finetuned_v1 --image "path/to/captcha.png"
+
+# Test Gemini OCR on a single image
+uv run python -m tests.test_run_llm --image "path/to/captcha.png"</code></pre>
+
+      <h3>API Endpoints</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Method</th>
+            <th>Endpoint</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>POST</td><td><code>/solve</code></td><td>YOLO resolution (specific model)</td></tr>
+          <tr><td>POST</td><td><code>/solve-llm</code></td><td>Gemini resolution (vision)</td></tr>
+          <tr><td>POST</td><td><code>/solve-auto</code></td><td>Cascade YOLO &rarr; Gemini (recommended)</td></tr>
+          <tr><td>GET</td><td><code>/models</code></td><td>List available models</td></tr>
+          <tr><td>GET</td><td><code>/health</code></td><td>Health check</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ==================== PROJECT STRUCTURE ==================== -->
+    <section id="structure">
+      <h2>Project Structure</h2>
+      <div class="file-tree">
+<span class="dir">captcha-project/</span>
+|-- <span class="dir">api/</span>                              <span class="comment"># FastAPI API (bridge between models &amp; scraping)</span>
+|   |-- main.py                       <span class="comment"># Endpoints /solve, /solve-llm, /solve-auto</span>
+|   +-- schemas.py                    <span class="comment"># Pydantic models</span>
+|
+|-- <span class="dir">models/</span>                           <span class="comment"># Inference engines</span>
+|   |-- yolo_ocr.py                   <span class="comment"># YoloOcrEngine + MODEL_REGISTRY</span>
+|   |-- llm_ocr.py                    <span class="comment"># LlmOcrEngine (Gemini vision)</span>
+|   +-- <span class="dir">weights/</span>                      <span class="comment"># Model weights (.pt)</span>
+|
+|-- <span class="dir">webscraping/</span>                      <span class="comment"># Browser automation (Playwright)</span>
+|   |-- browser.py                    <span class="comment"># BrowserConfig, create/close browser</span>
+|   |-- detect.py                     <span class="comment"># detect_captcha() — DOM analysis</span>
+|   |-- extract.py                    <span class="comment"># extract_captcha_image() — base64/download/screenshot</span>
+|   +-- fill.py                       <span class="comment"># fill_and_submit() — human-like typing + submit</span>
+|
+|-- <span class="dir">scripts/</span>                          <span class="comment"># Production scripts</span>
+|   |-- <span class="dir">data_prep/</span>                    <span class="comment"># YOLO data preparation</span>
+|   |   |-- 01_scrape_captchas.py     <span class="comment"># Automated CAPTCHA collection</span>
+|   |   +-- 02_auto_annotate.py       <span class="comment"># Pre-annotation with baseline model</span>
+|   |-- run_api.py                    <span class="comment"># Start the FastAPI server</span>
+|   +-- run_captcha_solver.py         <span class="comment"># Full end-to-end pipeline</span>
+|
+|-- <span class="dir">notebooks/</span>                        <span class="comment"># Training notebooks (Google Colab)</span>
+|   |-- yolo_baseline.ipynb           <span class="comment"># Baseline training on Roboflow data</span>
+|   +-- yolo_finetuning.ipynb         <span class="comment"># Fine-tuning on real CAPTCHAs</span>
+|
++-- <span class="dir">docs/</span>                             <span class="comment"># This website</span>
+      </div>
+    </section>
+
+    <!-- ==================== CONCLUSION & FUTURE WORK ==================== -->
+    <section id="conclusion">
+      <h2>Conclusion &amp; Future Work</h2>
+
+      <h3>Conclusion</h3>
+      <p>
+        This project demonstrates a complete pipeline for automated text CAPTCHA solving,
+        from browser-based detection and extraction to character-level recognition using YOLO
+        and a Gemini vision LLM fallback. The cascade strategy balances speed and generalization,
+        achieving reliable results on both synthetic and real-world CAPTCHAs.
+      </p>
+
+      <h3>Future Work</h3>
+      <ul>
+        <li>
+          <strong>Advanced detection methods</strong> &mdash; Currently, detection relies on DOM analysis
+          (iframes, CSS classes, keywords). Future improvements include:
+          <ul>
+            <li><strong>Network traffic interception:</strong> Listen for requests to known security domains
+              (<code>api.google.com</code>, <code>challenges.cloudflare.com</code>,
+              <code>cdn.arkoselabs.com</code>) using Playwright's native request interception</li>
+            <li><strong>Server response analysis:</strong> Detect blocking pages via HTTP status codes
+              (403, 429) and page content ("Just a moment...", "Verify you are human", "Access Denied")</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Generalize resolution to other CAPTCHA types</strong> &mdash; Extend the solver beyond
+          text CAPTCHAs to handle image-based challenges (reCAPTCHA v2, hCaptcha, FunCaptcha)
+        </li>
+        <li>
+          <strong>Retrain YOLO on more real-world CAPTCHAs</strong> &mdash; Expand the fine-tuning dataset
+          with a larger variety of real CAPTCHA styles, fonts, and distortion levels to improve robustness
+        </li>
+        <li>
+          <strong>Stealth mode</strong> &mdash; Implement browser fingerprint evasion techniques
+          (WebDriver flag masking, navigator property spoofing, human-like mouse movements) to reduce
+          detection by anti-bot systems
+        </li>
+      </ul>
+    </section>
+
+    <!-- ==================== TECH STACK ==================== -->
+    <section id="tech">
+      <h2>Technologies</h2>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <img class="tech-logo" src="assets/logos/Python.png" alt="Python">
+          <div class="tech-name">Python 3.12</div>
+          <div class="tech-desc">Core language</div>
+        </div>
+        <div class="tech-item">
+          <img class="tech-logo" src="assets/logos/yolo.png" alt="YOLOv8">
+          <div class="tech-name">YOLOv8</div>
+          <div class="tech-desc">Character detection (Ultralytics)</div>
+        </div>
+        <div class="tech-item">
+          <img class="tech-logo" src="assets/logos/Gemini-logo.png" alt="Gemini">
+          <div class="tech-name">Google Gemini</div>
+          <div class="tech-desc">Vision LLM fallback</div>
+        </div>
+        <div class="tech-item">
+          <img class="tech-logo" src="assets/logos/FastAPI_logo.svg.png" alt="FastAPI">
+          <div class="tech-name">FastAPI</div>
+          <div class="tech-desc">REST API + Uvicorn</div>
+        </div>
+        <div class="tech-item">
+          <img class="tech-logo" src="assets/logos/Playwright_Logo.svg.png" alt="Playwright">
+          <div class="tech-name">Playwright</div>
+          <div class="tech-desc">Browser automation</div>
+        </div>
+        <div class="tech-item">
+          <img class="tech-logo" src="assets/logos/roboflow.png" alt="Roboflow">
+          <div class="tech-name">Roboflow</div>
+          <div class="tech-desc">Annotation &amp; dataset management</div>
+        </div>
+        <div class="tech-item">
+          <img class="tech-logo" src="assets/logos/Google_Colab.png" alt="Google Colab">
+          <div class="tech-name">Google Colab</div>
+          <div class="tech-desc">GPU training (NVIDIA L4)</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer-authors">
+      <div class="footer-author">
+        <strong>Hanaa Talbi</strong>
+        <div class="footer-links">
+          <a href="https://github.com/HanaT-DS" target="_blank" title="GitHub">
+            <svg class="footer-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/hanaa-talbi-704bbb207/" target="_blank" title="LinkedIn">
+            <svg class="footer-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-author">
+        <strong>Aymen Elghoul</strong>
+        <div class="footer-links">
+          <a href="https://github.com/aymen9ghoul" target="_blank" title="GitHub">
+            <svg class="footer-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/hanaa-talbi-704bbb207/" target="_blank" title="LinkedIn">
+            <svg class="footer-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-copyright">&copy; 2025 Hanaa Talbi. All rights reserved.</p>
+    <p>
+      <a href="https://github.com/HanaT-DS/captcha_project" target="_blank">View project on GitHub</a>
+    </p>
+  </footer>
+
+  <!-- Highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <!-- Mermaid.js for architecture diagram -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'dark',
+      themeVariables: {
+        darkMode: true,
+        background: '#0d1117',
+        primaryColor: '#161b22',
+        primaryTextColor: '#e6edf3',
+        primaryBorderColor: '#30363d',
+        lineColor: '#58a6ff',
+        secondaryColor: '#21262d',
+        tertiaryColor: '#161b22'
+      }
+    });
+  </script>
+
+</body>
+</html>

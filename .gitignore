@@ -11,3 +11,11 @@ wheels/
 
 # Environment variables (clés API)
 .env
+
+# Datasets et poids de modèles
+datasets/
+models/weights/
+
+# Runs et résultats
+runs/
+
